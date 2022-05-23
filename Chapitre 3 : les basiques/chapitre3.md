@@ -120,7 +120,7 @@ L'ensemble des commandes vues jusqu'ici peuvent être résumées par le schéma 
 
 ## Autres commandes aidant à la modification ou au contrôle de la modification
 
-### Ignorer des fichiers
+### Ignorer des fichiers
 	
 Il peut être très pratique d'ignorer des fichiers dans le git. Il s'agit par exemple de fichiers de configuration locaux, comme des set up d'environnement de développement, ou bien des logs etc.
 	
@@ -132,5 +132,5 @@ Nous allons ensuite ouvrir ce fichier et tapper `helloworldbis.html` à l'intér
 
 Puis ensuite relancer un `git status`.
 
-
+![retour4](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git4.png)
   
