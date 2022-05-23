@@ -138,6 +138,8 @@ Ce retour nous montre donc que nous n'avons pas poussé le .gitignore, mais néa
 
 Il est à noter que dans notre cas nous avons directement viser un fichier, mais que le fichier gitignore support les syntaxes suivantes :
 - Les lignes vides ou commençant par \# sont ignorées.
-- Les patterns "globs"^[1] fonctionnent et sont appliqués récursivement.
+- Les patterns "globs"[^1] fonctionnent et sont appliqués récursivement.
 - On peut commencer un pattern par / pour éviter la récursité.
 - On peut terminer un pattern pour 
+
+[^1] Glob patterns are like simplified regular expressions that shells use. An asterisk (*) matches zero or more characters; [abc] matches any character inside the brackets (in this case a, b, or c); a question mark (?) matches a single character; and brackets enclosing characters separated by a hyphen ([0-9]) matches any character between them (in this case 0 through 9). You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on. Source : https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
