@@ -75,6 +75,21 @@ La confection de ce logiciel doit répondre aux besoins rencontrés lors de l'ut
 
 L'évolution de git est donc continue et suit ces principes depuis 2005. 
 
+## Définition de git
+
+### Le rapport de git à la data 
+
+La différence majeure de git est la façon dont git conçoit de la data. 
+
+* Les systèmes classiques de versioning pensent la data comme un listing de changements de fichiers individuels, et enregistre à chaque version le fichier qu'il soit modifié ou non, selon le schéma suivant (on appelle cette méthode la méthode "delta-based". 
+
+![image](https://git-scm.com/book/en/v2/images/deltas.png)
+
+* Git ne réfléchit pas de la même façon, il voit plutot les versions enregistrées successivement comme un instantané (snapshot) de l'état de l'ensemble du système de fichier. Ainsi à chaque fois que l'on enregistre l'état d'un dépôt git prend une photo de l'état actuel et de l'état à sauvegarder. Un fichier non modifié ne sera pas alors réenregistré, au lieu de cela il sera linké à l'état précédent. 
+
+![image](https://git-scm.com/book/en/v2/images/snapshots.png)
+
+
 [^1]: Source : https://git-scm.com/book/en/v2
 [^2]: Source : https://fr.wikipedia.org/wiki/Logiciel_de_gestion_de_versions
 [^3]: Source : https://en.wikipedia.org/wiki/Repository_(version_control)
