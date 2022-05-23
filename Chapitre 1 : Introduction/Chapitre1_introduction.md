@@ -28,6 +28,15 @@ Ces systèmes contiennent un serveur centralisé qui contient tous les fichiers 
 
 ![image](https://git-scm.com/book/en/v2/images/centralized.png)
 
+Comparativement aux LVCS ce système offre des avantages certains : 
+
+* Le partage des évolutions de chaque fichier suivi est rendu possible pour de multiples utilisateurs.
+* Il est plus facile pour les administrateurs de suivre ce que chacun produit, et des droits de chacun pour la modification.
+* Il est beaucoup plus facile d'administrer une seule base de données centralisées, que des dizaines sur des postes locaux. 
+
+Néanmoins ce type de système a aussi des défauts majeurs : 
+
+* La présence de l'historique de modifications sur un serveur unique entraîne un grand risque de perte de données en cas de défaillance ou d'indisponibilité du serveur. 
 
 [^1]: Source : https://git-scm.com/book/en/v2
 [^2]: Source : https://fr.wikipedia.org/wiki/Logiciel_de_gestion_de_versions
