@@ -7,11 +7,6 @@ Source pour le cours de git et déploiement.
 
 1) Versioning (utilités, raisons d'utilisation, contexte)
 2) Histoire et définition de git
-  - Historique
-  - But
-- Définition
-- Notions de base : dépôt etc.
-
 
 ### Chapitre 2 : Set up 
 
