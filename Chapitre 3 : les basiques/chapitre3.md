@@ -75,5 +75,9 @@ Chacune de ces trois méthodes d'appel ayant le même résultat.
   
 Le but d'un dépôt git est bien entendu d'être évolutif, pour cela il faut se rappeler les points capitaux des 3 états vus précédemment ainsi que la notion de tracking ou non tracking des différents fichiers.
 
+Nous allons maintenant effectuer les étapes suivantes :
+  
+* Créer un fichier helloworldbis.html
+* Modifier le fichier helloworld.css en rajoutant les éléments suivants `H1 : color=red`
 
   
