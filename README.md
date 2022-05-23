@@ -71,3 +71,46 @@ Révision, staging ...
 2) Attribus de git
 3) La notion de hooks
 4) Intégration de git dans les outils de développement (notamment visual studio code)
+
+# Section 2 : Déploiement (avec jenkins)
+
+### Introduction
+
+1) Notion de déploiement utilité et contexte
+2) Notion de développement continu
+
+### Chapitre 1 : Installation de jenkins 
+
+1) Review des différentes possibilités d'installation
+2) Sélection d'une méthode d'installation
+
+### Chapitre 2 : Utilisation de jenkins
+
+1) Définition des builds
+2) Actions sur les builds (creation, arrêt etc.)
+
+### Chapitre 3 : Les pipelines Jenkins
+
+1) Définition des pipelines
+2) Définition et utilisation du jenkinsfile
+3) Syntaxe et meilleurs pratiques
+
+### Chapitre 4 : Gestion de jenkins
+
+Configuration et gestion de jenkins
+
+### Chapitre 5 : Sécurisation de jenkins
+
+1) Contrôle des accès 
+2) Gestion de la sécurité aspects généraux
+
+### Chapitre 6 : Administration système de jenkins
+
+1) Back up 
+2) Monitoring
+
+### Jenkins et architectures nécessitant du scaling
+
+1) Architecture pour le scaling
+2) Architecture pour le management
+
