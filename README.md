@@ -5,8 +5,9 @@ Source pour le cours de git et déploiement.
 
 ### Chapitre 1 : Introduction
 
-1) Versioning (utilités, raisons d'utilisation, contexte)
-2) Histoire et définition de git
+1) Définition d'un système de contrôle de versions
+2) Local Version Control Systems vs Centralized Version Control Systems vs Distributed Version Control Systems
+3) Historique de git
 
 ### Chapitre 2 : Set up 
 
