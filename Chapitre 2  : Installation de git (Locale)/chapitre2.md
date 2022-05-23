@@ -84,4 +84,14 @@ Vous pourrez voir plusieurs fois la même clé en fonction de l'origine de celle
 
 Configurez puis vérifiez votre installation de git. 
 
+# Les commandes d'aide de git
 
+Git fournit une aide très compréhensible via la commande : 
+
+`git help <verb>`
+
+<verb> sera a remplacer par la section sur laquelle vous désirez de l'aide.
+ 
+Par exemple :
+ 
+`git help config`
