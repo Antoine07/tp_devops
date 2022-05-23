@@ -144,7 +144,7 @@ Il est à noter que dans notre cas nous avons directement viser un fichier, mais
 
 Voici quelques exemples de fichier .gitignore : 
 >	ignore all .a files
->	*.a
+>	`*.a`
 >
 >	but do track lib.a, even though you're ignoring .a files above
 >	!lib.a
