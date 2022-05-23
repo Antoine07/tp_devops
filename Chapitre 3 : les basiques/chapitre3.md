@@ -44,9 +44,15 @@ Nous verrons plus avant que pour totalement finaliser la création du repository
   
 Si vous souhaitez copier un dépôt git existant la commande `git clone` va vous permettre de réaliser cette action. 
 
-Ce que va faire cette commande c'est copier localement l'ensemble d'un dépôt git, incluant les fichiers eux-mêmes mais aussi l'ensemble de l'historique de modification comme déjà vu précédemment. 
+Ce que va faire cette commande c'est copier localement l'ensemble d'un dépôt git, incluant les fichiers eux-mêmes mais aussi l'ensemble de l'historique de modification comme déjà vu précédemment. Pour décomposer cette commande, elle va donc créer un dossier ayant pour nom celui du projet git que vous clonez. Elle va ensuite créer et initialiser un répertoire `.git`, va récupérer toute la data pour ce dépôt, puis va finalement récupérer l'image de la derniere version de ce dépôt. 
 
 La composition exacte de la commande git clone est la suivante :
 
 > git clone \<url\>
 
+\<url\> peut prendre trois types de valeur : 
+* Une url sous protocole https:// par exemple https://github.com/testdepot
+* `git://` qui permettra de récupérer également un dépôt git
+* ou encore `user@server:path/to/repo.git`
+  
+Chacune de ces trois méthodes d'appel ayant le même résultat.
