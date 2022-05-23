@@ -78,6 +78,9 @@ Le but d'un dépôt git est bien entendu d'être évolutif, pour cela il faut se
 Nous allons maintenant effectuer les étapes suivantes :
   
 * Créer un fichier helloworldbis.html
-* Modifier le fichier helloworld.css en rajoutant les éléments suivants `H1 : color=red`
+* Modifier le fichier helloworld.css en rajoutant les éléments suivants `h1 {
+	color:red;
+}
+`
 
   
