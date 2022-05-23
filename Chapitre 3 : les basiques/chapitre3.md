@@ -72,6 +72,8 @@ La composition exacte de la commande git clone est la suivante :
 Chacune de ces trois méthodes d'appel ayant le même résultat.
 
 # Effectuer des changements sur un dépôt git
+	
+## Flow basique
   
 Le but d'un dépôt git est bien entendu d'être évolutif, pour cela il faut se rappeler les points capitaux des 3 états vus précédemment ainsi que la notion de tracking ou non tracking des différents fichiers.
 
@@ -115,5 +117,20 @@ Nous pouvons maintenant committer nos changements en étant sûrs que nous ne co
 L'ensemble des commandes vues jusqu'ici peuvent être résumées par le schéma de cycle de vie suivant :
 	
 ![retour2](https://git-scm.com/book/en/v2/images/lifecycle.png "ceci est un titre")
+
+## Autres commandes aidant à la modification ou au contrôle de la modification
+
+### Ignorer des fichiers
+	
+Il peut être très pratique d'ignorer des fichiers dans le git. Il s'agit par exemple de fichiers de configuration locaux, comme des set up d'environnement de développement, ou bien des logs etc.
+	
+La gestion des fichiers ignorés par git est dans un fichier nommé ".gitignore". 
+	
+Nous allons dans un premier temps créer ce fichier à la racine de notre dossier gitTp. `touch .gitignore`
+
+Nous allons ensuite ouvrir ce fichier et tapper `helloworldbis.html` à l'intérrieur puis le refermer.
+
+Puis ensuite relancer un `git status`.
+
 
   
