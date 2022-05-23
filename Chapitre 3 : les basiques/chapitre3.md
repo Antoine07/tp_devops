@@ -32,6 +32,9 @@ Arrêtons nous sur cette commande quelques instants. Elle a permis d'enclencher 
 
 Nous allons maintenant réeffectuer la commande `git status`. Les deux fichiers apparaissent cette fois en vert avec la mention 
   >Modifications qui seront validées :
+  >
   >(utilisez "git rm --cached <fichier>..." pour désindexer)
-	>nouveau fichier : helloworld.css
-	>nouveau fichier : helloworld.html
+	>
+	> nouveau fichier : helloworld.css
+	>
+	> nouveau fichier : helloworld.html
