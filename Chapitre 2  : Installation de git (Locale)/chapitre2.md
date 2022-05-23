@@ -22,9 +22,9 @@ L'installation sur linux se fait via les gestionnaires de packets :
 Il est possible d'installer git depuis la source elle-même pour avoir la version la plus récente. Cette installation n'est pas couverte dans ce cours, car non nécessaire à son bon suivi et plus chronophage. 
 Si néanmoins vous en avez besoin pour un projet, l'installation est expliquée en détail ici : [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
+# TP 1 : Installer Git
 
-> **TP 1 : Installer Git **.
-
+Réalisez l'installation de git selon votre système d'exploitation.
 
 # Ligne de commande et interface GUI
 
@@ -80,6 +80,8 @@ La commande `git config --list` vous permet de lister l'ensemble des réglages s
 
 Vous pourrez voir plusieurs fois la même clé en fonction de l'origine de celle-ci, chacun des 3 documents étant parsé pendant cette commande.
 
-> TP2 : Configurez correctement votre git et vérifiez vos réglages.  
+# TP 1 : Configuration de git
+
+Configurez puis vérifiez votre installation de git. 
 
 
