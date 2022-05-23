@@ -83,4 +83,23 @@ Nous allons maintenant effectuer les étapes suivantes :
 }
 `
 
+Après avoir réalisé ces étapes, refaisons un git status, voici la sortie que vous devriez avoir :
+
+INSERER IMAGE
+
+La commande nous indique donc l'état des différents fichiers. 
+	
+* Il nous signifie que des modifications ont été faites au niveau du fichier helloworld.css, mais que celles ci n'ont pas été commit.
+* Il nous indique également qu'un fichier n'est pas tracké pour l'instant. 
+
+Nous n'avons pour l'instant pas l'intention de pousser helloworld.bis. Nous voulons cependant pousser la modification de notre css vers le commit.
+	
+Nous allons donc utiliser la commande `git add helloworld.css`.
+	
+Après l'utilisation de cette commande le retour de `git status` sera le suivant :
+
+INSERER IMAGE
+
+Nous pouvons maintenant committer nos changements en étant sûr que nous ne committons que ce que nous souhaitons vraiment ! Utilisons la commande `git commit -m 'modification de la css'`
+
   
