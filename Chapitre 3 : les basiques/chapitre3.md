@@ -48,5 +48,5 @@ Ce que va faire cette commande c'est copier localement l'ensemble d'un dépôt g
 
 La composition exacte de la commande git clone est la suivante :
 
-> git clone <url>
+> git clone \<url\>
 
