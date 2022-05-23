@@ -23,7 +23,7 @@ Il est possible d'installer git depuis la source elle-même pour avoir la versio
 Si néanmoins vous en avez besoin pour un projet, l'installation est expliquée en détail ici : [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 
-# TP 1 : Installer Git.
+> **TP 1 : Installer Git **.
 
 
 # Ligne de commande et interface GUI
