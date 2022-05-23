@@ -24,11 +24,37 @@ Si néanmoins vous en avez besoin pour un projet, l'installation est expliquée 
 
 > TP 1 : Installer Git. 
 
+# Ligne de commande et interface GUI
+
+Lors de ce cours nous allons utiliser uniquement la ligne de commande qui permet de gérer git entièrement. Néanmoins il est capital que vous sachiez que certains systèmes GUI vous permettent de gérer git. Néanmoins nous n'en sélectionnerons pas un dans ce cours afin d'avoir une connaissance maximale de git. 
+
 # Git Config
 
-Lors de la première utilisation de git, un tool spécifique de git va nous permettre de le configurer plus finement. Cette étape n'est pas absolument nécessaire, elle peut être réalisée et ou modifiée à tout moment, néanmoins elle permet de maîtriser une configuration de base. 
+Lors de la première utilisation de git, un tool spécifique de git va nous permettre de le configurer plus finement. Cette configuration peut-être revue à tout moment. 
 
 La commande est la suivante : `git config`.
+
+Git config va stocker les éléments de configuration sur 3 niveaux : 
+
+1) `[path]/etc/gitconfig` => définit les valeurs communes à tous les utilisateurs et tous les repositories.
+2) `~/.gitconfig` ou `~/.config/git/config` => valeur spécifique à un utilisateur donné, agit sur tous les repositories que vous allez utiliser en tant qu'utilisateur. Il est possible de les lire ou écrire en passant l'option `--global`
+3) `config` dans `.git/config` à l'intérieur du repository dans lequel vous travaillez. 
+
+Chaque fichier d'un niveau inférieur est écrasé par celui d'un niveau supérieur. La commande `git config --list --show-origin` permet de voir chaque réglage et son origine.
+
+## Les réglages d'identité
+
+Lors d'une nouvelle installation de git la première chose à faire est de définir votre identité. Cette dernière sera utilisée dans les commits afin d'en savoir l'auteur. Si vous passez l'option `--global` vous n'aurez à le faire qu'une fois. 
+
+Vous devez régler votre username et votre email : 
+
+> `git config --global user.name "John Doe"`
+> `git config --global user.email johndoe@example.com`
+
+Si vous devez utiliser une autre identité pour un projet specifique il suffira de faire appel à cette commande dans le repository de ce projet sans l'option `--global`
+
+
+
 
 
 
