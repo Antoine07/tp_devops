@@ -16,10 +16,11 @@ Source pour le cours de git et déploiement.
 1) Installation de git *TP1 : Installation de Git*
 2) Ligne de commande vs GUI 
 3) Configuration initiale de git *TP2 : Configuration et vérification de la configuration*
+4) Les commandes d'aide de git
 
 ### Chapitre 3 : Les basiques de git
 
-1) Réceptionner un dépôt git
+1) Créer ou Réceptionner un dépôt git
 2) Comprendre le flot de modifications / Enregistrement d'un dépôt git. 
 3) Notion de remote et actions sur les remotes
 4) Visualisation de l'historique de modification
