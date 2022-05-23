@@ -1,13 +1,11 @@
-# Les basiques de git
-
-## Initialisation ou récupération d'un repository
+# Initialisation ou récupération d'un repository
 
 Il existe deux façons de débuter avec git : 
 
 * Initialiser un repository git dans un dossier déjà existant localement
 * Cloner un dépôt distant. 
 
-### Initialisation d'un repository.
+## Initialisation d'un repository.
 
 Dans le cadre de cet exercice nous allons initialiser un dépôt git à partir d'un dossier existant. 
 
@@ -40,7 +38,7 @@ Nous allons maintenant réeffectuer la commande `git status`. Les deux fichiers 
   
 Nous verrons plus avant que pour totalement finaliser la création du repository il faudra faire un commit initial
   
-### Clonage d'un repository
+## Clonage d'un repository
   
 Si vous souhaitez copier un dépôt git existant la commande `git clone` va vous permettre de réaliser cette action. 
 
