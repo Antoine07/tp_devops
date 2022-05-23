@@ -84,8 +84,8 @@ Nous allons maintenant effectuer les étapes suivantes :
 `
 
 Après avoir réalisé ces étapes, refaisons un git status, voici la sortie que vous devriez avoir :
-
-INSERER IMAGE
+	
+![retour1](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git1.png)
 
 La commande nous indique donc l'état des différents fichiers. 
 	
@@ -98,7 +98,7 @@ Nous allons donc utiliser la commande `git add helloworld.css`. Il est donc à n
 	
 Après l'utilisation de cette commande le retour de `git status` sera le suivant :
 	
-![test](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/Courses_git1.png)
+![retour2](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git2.png)
 
 Nous pouvons maintenant committer nos changements en étant sûr que nous ne committons que ce que nous souhaitons vraiment ! Utilisons la commande `git commit -m "modification de la css"`
 
