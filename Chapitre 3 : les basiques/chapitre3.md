@@ -34,8 +34,8 @@ Nous allons maintenant réeffectuer la commande `git status`. Les deux fichiers 
 
 >Modifications qui seront validées :
 >
->(utilisez "git rm --cached <fichier>..." pour désindexer)
+>   (utilisez "git rm --cached <fichier>..." pour désindexer)
 >
->nouveau fichier : helloworld.css
+>       nouveau fichier : helloworld.css
 >
->nouveau fichier : helloworld.html
+>       nouveau fichier : helloworld.html
