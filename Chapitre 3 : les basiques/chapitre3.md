@@ -102,4 +102,7 @@ Après l'utilisation de cette commande le retour de `git status` sera le suivant
 
 Nous pouvons maintenant committer nos changements en étant sûr que nous ne committons que ce que nous souhaitons vraiment ! Utilisons la commande `git commit -m "modification de la css"`
 
+L'ensemble des commandes vues jusqu'ici peuvent être résumées par le schéma de cycle de vie suivant :
+![retour2](https://git-scm.com/book/en/v2/images/lifecycle.png)
+
   
