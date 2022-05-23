@@ -106,7 +106,11 @@ Attention cependant si vous remodifiez le fichier avant de commit, il sera pouss
 
 ![retour3](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git3.png)
 
-Nous pouvons maintenant committer nos changements en étant sûr que nous ne committons que ce que nous souhaitons vraiment ! Utilisons la commande `git commit -m "modification de la css"`
+Stageons à nouveau le fichier.
+
+Puis revérifions notre statut. Nous voulons simplement nous assurer que tout est désormais ok, nous allons donc faire un check rapide en rajoutant le -s à la commande `git status`, ce qui donnera `git status -s`. Cette commande est une version compressée de git status, nous n'entrerons pas dans les détails qui doivent être transparents pour vous maintenant. 
+
+Nous pouvons maintenant committer nos changements en étant sûrs que nous ne committons que ce que nous souhaitons vraiment ! Utilisons la commande `git commit -m "modification de la css"` .
 
 L'ensemble des commandes vues jusqu'ici peuvent être résumées par le schéma de cycle de vie suivant :
 	
