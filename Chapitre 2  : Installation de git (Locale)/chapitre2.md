@@ -30,6 +30,8 @@ Lors de ce cours nous allons utiliser uniquement la ligne de commande qui permet
 
 # Git Config
 
+## Hiérarchie des fichiers de configuration
+
 Lors de la première utilisation de git, un tool spécifique de git va nous permettre de le configurer plus finement. Cette configuration peut-être revue à tout moment. 
 
 La commande est la suivante : `git config`.
@@ -54,7 +56,21 @@ Vous devez régler votre username et votre email :
 
 Si vous devez utiliser une autre identité pour un projet specifique il suffira de faire appel à cette commande dans le repository de ce projet sans l'option `--global`
 
+## L'éditeur de texte
 
+Dans certains cas git vous demandera de saisir un message, vous pouvez définir l'éditeur de texte par défaut. 
+
+Par exemple pour emacs : `git config --global core.editor emacs`
+
+Des éditeurs avancées comme notepad ++ ou autre peuvent également être configurés. 
+
+## Nom de la branche par défaut
+
+Nous verrons plus avant la notion de branche néanmoins sachez qu'il est possible de la configurer de la manière suivante : 
+
+> `git config --global init.defaultBranch main`
+
+Le nom de la branche par défaut est 'master'
 
 
 
