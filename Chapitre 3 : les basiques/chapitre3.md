@@ -49,7 +49,7 @@ La composition exacte de la commande git clone est la suivante :
 > git clone \<url\>
 
 \<url\> peut prendre trois types de valeur : 
-* Une url sous protocole https:// par exemple https://github.com/testdepot
+* Une url sous protocole `https://` par exemple https://github.com/testdepot
 * `git://` qui permettra de récupérer également un dépôt git
 * ou encore `user@server:path/to/repo.git`
   
