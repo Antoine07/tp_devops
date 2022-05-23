@@ -75,7 +75,7 @@ La confection de ce logiciel doit répondre aux besoins rencontrés lors de l'ut
 
 L'évolution de git est donc continue et suit ces principes depuis 2005. 
 
-## Définition de git
+## Différence de conception de git vs les autres CVS
 
 ### Le rapport de git à la data 
 
@@ -109,7 +109,7 @@ A chaque instantané que fait git de la data est ajoutée au dépôt git, ce qui
 
 Par extension cela permet aussi d'expérimenter beaucoup dans son code sans craindre de pertes, et crée dans la foulée un système de recovery de data efficace. 
 
-### Le fonctionnement en 3 états de git (modified, staged, committed)
+## Le fonctionnement en 3 états de git (modified, staged, committed)
 
 Ce concept de fonctionnement est véritablement fondamental pour comprendre la logique de git. Il faut absolument le retenir. 
 
