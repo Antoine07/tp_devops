@@ -80,7 +80,7 @@ La commande `git config --list` vous permet de lister l'ensemble des réglages s
 
 Vous pourrez voir plusieurs fois la même clé en fonction de l'origine de celle-ci, chacun des 3 documents étant parsé pendant cette commande.
 
-# TP 1 : Configuration de git
+# TP 2 : Configuration de git
 
 Configurez puis vérifiez votre installation de git. 
 
