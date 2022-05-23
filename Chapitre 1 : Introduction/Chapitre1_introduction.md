@@ -58,6 +58,22 @@ Les avantages liés à cette méthode sont les suivants :
 
 Les CVCS les plus connus sont : Git, Mercurial, Bazaar ou Darcs
 
+## Historique de git
+
+L'histoire de git est étroitement liée à celle de la communauté linux :
+* Entre 1991 et 2002 la maintenance du kernel linux utilisait un système maison qui stockait les modifications sous forme de patchs et fichiers archivés 
+* En 2002 les responsables de la maintenance décident d'utiliser un logiciel propriétaire appelé BitKeeper.
+* En 2005 les relations avec BitKeeper sont dégradés et la société éditant BitKeeper, elle décide alors de rendre BitKeeper payant. 
+* La décision sera prise du côté linux de créer son propre logiciel (git !).
+
+La confection de ce logiciel doit répondre aux besoins rencontrés lors de l'utilisation de BitKeeper :
+* Vitesse.
+* Simplicité du design.
+* Possibilité de supporter des développements parallèles, aussi appelés "non linéaires". (Nous verrons plus en avant le système dit de branching qui soutient ce paradigme).
+* Gestion distribuée des dépôts.
+* Capable de gérer des projets d'ampleur (en terme de vitesse et de taille de la data)
+
+L'évolution de git est donc continue et suit ces principes depuis 2005. 
 
 [^1]: Source : https://git-scm.com/book/en/v2
 [^2]: Source : https://fr.wikipedia.org/wiki/Logiciel_de_gestion_de_versions
