@@ -125,7 +125,11 @@ Ces trois états mènent directement aux 3 sections principales de git résumée
 
 ![image](https://git-scm.com/book/en/v2/images/areas.png)
 
+> Le "working directory" : Il s'agit d'une version décompressée des fichiers stockées sur votre disque dur local afin de travailler dessus. 
 
+> La "staging area" : Il s'agit d'un fichier (généralement contenu dans le dossier git) qui permet d'indiquer ce qui va être poussé dans votre prochain "commit".
+
+> Le "git directory" : C'est l'endroit ou git stocke vos métadatas ainsi que la base de données des objets git, c'est donc la partie la plus importante de git.  
 
 [^1]: Source : https://git-scm.com/book/en/v2
 [^2]: Source : https://fr.wikipedia.org/wiki/Logiciel_de_gestion_de_versions
