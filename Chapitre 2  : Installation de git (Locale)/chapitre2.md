@@ -72,7 +72,12 @@ Nous verrons plus avant la notion de branche néanmoins sachez qu'il est possibl
 
 Le nom de la branche par défaut est 'master'
 
+## Vérification des réglages 
 
+La commande `git config --list` vous permet de lister l'ensemble des réglages sous une forme de type clé / valeur. 
 
+Vous pourrez voir plusieurs fois la même clé en fonction de l'origine de celle-ci, chacun des 3 documents étant parsé pendant cette commande.
+
+> TP2 : Configurez correctement votre git et vérifiez vos réglages.  
 
 
