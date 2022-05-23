@@ -91,6 +91,41 @@ Git se définit donc lui-même comme un "stream de snapshot", ou en français un
 
 ![image](https://git-scm.com/book/en/v2/images/snapshots.png)
 
+### Git n'est pas entièrement dépendant de dépôts distants
+
+Puisque git stocke tout localement, quasiment toutes les opérations de git ne requièrent pas de dépôts distants pour fonctionner, ce qui par extension le rend extrêmement rapide. 
+
+L'autre avantage est que cela rend git fonctionnel même sans connection. Vous pouvez changer votre dépôt local et ensuite le synchroniser avec le dépôt distant une fois que vous aurez de nouveau accès à une connection.
+
+### Git porte une attention particulière à l'intégrité du système de fichiers qu'il suit. 
+
+Chaque modification est "checksumée" par un hash SHA1, ce qui signifie qu'aucune modification ne peut être fait sans que git ne soit au courant. 
+
+Toute l'architecture de git suit ce principe, et donc les checksum sont présents à de multiples niveaux pour garantir l'intégrité. 
+
+### Git ajoute généralement de la data. 
+
+A chaque instantané que fait git de la data est ajoutée au dépôt git, ce qui fait que si les sauvegardes de l'état de git sont fréquentes le risque de perte de data est très limité. 
+
+Par extension cela permet aussi d'expérimenter beaucoup dans son code sans craindre de pertes, et crée dans la foulée un système de recovery de data efficace. 
+
+### Le fonctionnement en 3 états de git (modified, staged, committed)
+
+Ce concept de fonctionnement est véritablement fondamental pour comprendre la logique de git. Il faut absolument le retenir. 
+
+Pour chaque modification 3 états existent ils ont chacun une fonction bien définie :
+
+> Modified : Le fichier est modifié (vous le changez dans un éditeur de code par exemple) mais cette modification n'est pas encore enregistrée dans le systême de versions.
+
+> Staged : Cela désigne le fait d'avoir marqué un fichier pour être poussé vers le système de version. Il sera donc inclu dans le prochain instantané que vous allez réaliser. 
+
+> Commited : Signifie que la data est stockée de manière sécurisée dans notre database locale (et qu'elle est prête à être envoyée dans le dépot global).
+
+Ces trois états mènent directement aux 3 sections principales de git résumées dans le schéma suivant : 
+
+![image](https://git-scm.com/book/en/v2/images/areas.png)
+
+
 
 [^1]: Source : https://git-scm.com/book/en/v2
 [^2]: Source : https://fr.wikipedia.org/wiki/Logiciel_de_gestion_de_versions
