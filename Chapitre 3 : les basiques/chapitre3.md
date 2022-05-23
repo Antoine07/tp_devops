@@ -20,6 +20,7 @@ Vous devriez alors avoir un retour de ce type :
 Ce retour signifie que git a créé un sous dossier .git contenant tous les éléments d'un squelette vide de git. 
 
 A ce stade nous allons utiliser la commande `git status`. Cette dernière nous donne un suivi des différents états des dossiers et fichiers suivis. Dans notre cas nos deux fichiers ne sont pas suivis et apparaissent donc en rouge et précédés de la mention suivante:
+
 >Fichiers non suivis: (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
 
 Ainsi dans le workflow nous devons maintenant ajouter les fichiers au suivi.
@@ -36,7 +37,7 @@ Nous allons maintenant réeffectuer la commande `git status`. Les deux fichiers 
 >
 > nouveau fichier : helloworld.html
   
-Nous verrons plus avant que pour totalement finaliser la création du repository il faudra faire un commit initial
+Nous verrons plus avant que pour totalement finaliser la création du repository il faudra faire un commit initial. On notera également que la commande git status nous donne la branche actuelle utilisée. 
   
 ## Clonage d'un repository
   
@@ -55,4 +56,7 @@ La composition exacte de la commande git clone est la suivante :
   
 Chacune de ces trois méthodes d'appel ayant le même résultat.
 
-# Effectuer des changements sur un dépôt git.
+# Effectuer des changements sur un dépôt git
+  
+Le but d'un dépôt git est bien entendu d'être évolutif, pour cela il faut se rappeler les points capitaux des 3 états vus précédemment ainsi que la notion de tracking ou non tracking des différents fichiers.
+  
