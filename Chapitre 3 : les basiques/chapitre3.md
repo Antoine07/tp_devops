@@ -36,9 +36,24 @@ Nous allons maintenant réeffectuer la commande `git status`. Les deux fichiers 
 > nouveau fichier : helloworld.css
 >
 > nouveau fichier : helloworld.html
+
+
+
+Dernier point pour créer un nouvel instantané (snapshot) localement nous allons exécuter la commande `git commit`. 
+
+Lors de l'exécution de `git commit` l'éditeur de texte définit précédemment va se lancer, il faudra alors enregistré une description du commit. Il est possible d'enregistrer directement un message en utilisant le modificateur `git commit -m 'ceci est un message de commit d'exemple'`.
+
+Le commit initial va alors créer une première image instantanée ou snapshot, à partir de celle ci toute modification des éléments trackés sera prise en considération comme nous le verrons plus tard. 
+
+Une dernière exécution de la commande `git status` vous donnera la sortie suivante :
+>Sur la branche master
+>
+>rien à valider, la copie de travail est propre
+
+On voit donc maintenant que tous nos fichiers sont exactement tels qu'ils étaient à la version précédente. 
   
-Nous verrons plus avant que pour totalement finaliser la création du repository il faudra faire un commit initial. On notera également que la commande git status nous donne la branche actuelle utilisée. 
-  
+On notera également que la commande git status nous donne la branche actuelle utilisée. 
+ 
 ## Clonage d'un repository
   
 Si vous souhaitez copier un dépôt git existant la commande `git clone` va vous permettre de réaliser cette action. 
@@ -59,4 +74,6 @@ Chacune de ces trois méthodes d'appel ayant le même résultat.
 # Effectuer des changements sur un dépôt git
   
 Le but d'un dépôt git est bien entendu d'être évolutif, pour cela il faut se rappeler les points capitaux des 3 états vus précédemment ainsi que la notion de tracking ou non tracking des différents fichiers.
+
+
   
