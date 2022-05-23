@@ -8,6 +8,8 @@ Source pour le cours de git et déploiement.
 1) Définition d'un système de contrôle de versions
 2) Local Version Control Systems vs Centralized Version Control Systems vs Distributed Version Control Systems
 3) Historique de git
+4) Différence de conception de git vs les autres CVS
+5) Le fonctionnement en 3 états de git (modified, staged, committed)
 
 ### Chapitre 2 : Set up 
 
