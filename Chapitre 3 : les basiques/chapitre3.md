@@ -133,4 +133,8 @@ Nous allons ensuite ouvrir ce fichier et tapper `helloworldbis.html` à l'intér
 Puis ensuite relancer un `git status`.
 
 ![retour4](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git4.png)
+
+Ce retour nous montre donc que nous n'avons pas poussé le .gitignore, mais néanmoins le fichier helloworldbis.html est quant à lui bien ignoré par git. Il ne nous reste donc plus qu'a faire `git add .gitignore` puis un `git commit -m "ajout du .gitignore"` .
+
+
   
