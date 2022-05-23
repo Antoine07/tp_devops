@@ -37,3 +37,16 @@ Nous allons maintenant réeffectuer la commande `git status`. Les deux fichiers 
 > nouveau fichier : helloworld.css
 >
 > nouveau fichier : helloworld.html
+  
+Nous verrons plus avant que pour totalement finaliser la création du repository il faudra faire un commit initial
+  
+### Clonage d'un repository
+  
+Si vous souhaitez copier un dépôt git existant la commande `git clone` va vous permettre de réaliser cette action. 
+
+Ce que va faire cette commande c'est copier localement l'ensemble d'un dépôt git, incluant les fichiers eux-mêmes mais aussi l'ensemble de l'historique de modification comme déjà vu précédemment. 
+
+La composition exacte de la commande git clone est la suivante :
+
+> git clone <url>
+
