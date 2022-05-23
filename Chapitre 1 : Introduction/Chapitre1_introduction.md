@@ -47,7 +47,7 @@ Pour répondre à cet inconvénient majeur, le DVCS va apporter une évolution s
 
 Chaque utilisateur récupère donc un miroir complet du dépôt, de ses modifications successives, et de l'état de chaque fichier dans le temps. On peut donc assimiler ce que récupère un utilisateur à un clône du dépot.
 
-> Zoom sur la notion de dépot : Le but principal d'un dépôt est de stocker un ensemble de fichiers ainsi que l'historiques des modifications apportés aux fichiers.[^2]
+> Zoom sur la notion de dépot : Le but principal d'un dépôt est de stocker un ensemble de fichiers ainsi que l'historiques des modifications apportés aux fichiers.[^3]
 
 ![image](https://git-scm.com/book/en/v2/images/distributed.png)
 
