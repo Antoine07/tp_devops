@@ -54,3 +54,5 @@ La composition exacte de la commande git clone est la suivante :
 * ou encore `user@server:path/to/repo.git`
   
 Chacune de ces trois méthodes d'appel ayant le même résultat.
+
+# Effectuer des changements sur un dépôt git.
