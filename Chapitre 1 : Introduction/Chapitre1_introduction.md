@@ -18,13 +18,15 @@ Pour éviter ce genre d'erreurs, il y a très longtemps un premier système de g
 
 Le système le plus populaire de ce type était appelé "RCS".
 
-![image](https://user-images.githubusercontent.com/98811386/169887864-efc66478-2594-4894-9e22-7fa843c30ca1.png))
+![image](https://user-images.githubusercontent.com/98811386/169887864-efc66478-2594-4894-9e22-7fa843c30ca1.png)
 
 ### Centralized Versions Control Systems (CVCS).
 
 Le problème majeur d'un système LVCS est l'absence de possibilité de collaboration. Etant donné que le système de versions est stocké localement il n'est pas facilement partageable. Pour contrer cette problématique, des systèmes dits de CVCS sont apparus. 
 
-Ces systèmes contiennent un serveur centralisé qui contient tous les fichiers 
+Ces systèmes contiennent un serveur centralisé qui contient tous les fichiers et un certain nombre de clients qui vont récupérer les sources depuis ce système centralisé. 
+
+![image](https://git-scm.com/book/en/v2/images/centralized.png)
 
 
 [^1]: Source : https://git-scm.com/book/en/v2
