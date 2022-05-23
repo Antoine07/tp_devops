@@ -85,7 +85,9 @@ La différence majeure de git est la façon dont git conçoit de la data.
 
 ![image](https://git-scm.com/book/en/v2/images/deltas.png)
 
-> Git ne réfléchit pas de la même façon, il voit plutot les versions enregistrées successivement comme un instantané (snapshot) de l'état de l'ensemble du système de fichier. Ainsi à chaque fois que l'on enregistre l'état d'un dépôt git prend une photo de l'état actuel et de l'état à sauvegarder. Un fichier non modifié ne sera pas alors réenregistré, au lieu de cela il sera linké à l'état précédent. Git se définit donc lui-même comme un "stream de snapshot", ou en français une succession d'instantanés.
+> Git ne réfléchit pas de la même façon, il voit plutot les versions enregistrées successivement comme un instantané (snapshot) de l'état de l'ensemble du système de fichier. 
+> Ainsi à chaque fois que l'on enregistre l'état d'un dépôt git prend une photo de l'état actuel et de l'état à sauvegarder. Un fichier non modifié ne sera pas alors réenregistré, au lieu de cela il sera linké à l'état précédent. 
+> Git se définit donc lui-même comme un "stream de snapshot", ou en français une succession d'instantanés.
 
 ![image](https://git-scm.com/book/en/v2/images/snapshots.png)
 
