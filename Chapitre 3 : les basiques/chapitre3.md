@@ -138,5 +138,6 @@ Ce retour nous montre donc que nous n'avons pas poussé le .gitignore, mais néa
 
 Il est à noter que dans notre cas nous avons directement viser un fichier, mais que le fichier gitignore support les syntaxes suivantes :
 - Les lignes vides ou commençant par \# sont ignorées.
-- Les patterns standards fonctionnent et sont appliqués récursivement.
-- On peut commencer un pattern par / pour éviter la récursité
+- Les patterns "globs"^[1] fonctionnent et sont appliqués récursivement.
+- On peut commencer un pattern par / pour éviter la récursité.
+- On peut terminer un pattern pour 
