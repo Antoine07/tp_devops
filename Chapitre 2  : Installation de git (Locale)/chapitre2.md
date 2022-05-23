@@ -22,7 +22,7 @@ L'installation sur linux se fait via les gestionnaires de packets :
 Il est possible d'installer git depuis la source elle-même pour avoir la version la plus récente. Cette installation n'est pas couverte dans ce cours, car non nécessaire à son bon suivi et plus chronophage. 
 Si néanmoins vous en avez besoin pour un projet, l'installation est expliquée en détail ici : [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-# TP 1 : Installer Git
+# TP 1 : Installation de Git
 
 Réalisez l'installation de git selon votre système d'exploitation.
 
