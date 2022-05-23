@@ -100,6 +100,6 @@ Après l'utilisation de cette commande le retour de `git status` sera le suivant
 
 INSERER IMAGE
 
-Nous pouvons maintenant committer nos changements en étant sûr que nous ne committons que ce que nous souhaitons vraiment ! Utilisons la commande `git commit -m 'modification de la css'`
+Nous pouvons maintenant committer nos changements en étant sûr que nous ne committons que ce que nous souhaitons vraiment ! Utilisons la commande `git commit -m "modification de la css"`
 
   
