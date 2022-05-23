@@ -94,7 +94,7 @@ La commande nous indique donc l'état des différents fichiers.
 
 Nous n'avons pour l'instant pas l'intention de pousser helloworld.bis. Nous voulons cependant pousser la modification de notre css vers le commit.
 	
-Nous allons donc utiliser la commande `git add helloworld.css`.
+Nous allons donc utiliser la commande `git add helloworld.css`. Il est donc à noter que la commande `git add` sert non seulement à ajouter un nouveau fichier au suivi, mais aussi à ajouter les modifications que nous souhaitons avant tous nos commits, nous pouvons donc sélectionner juste avant ce que nous souhaitons vraiment pousser. La bonne pratique reste de commiter aussi souvent que nécessaire, la nécessité s'exprimant par la finalisation d'une entité logique.
 	
 Après l'utilisation de cette commande le retour de `git status` sera le suivant :
 
