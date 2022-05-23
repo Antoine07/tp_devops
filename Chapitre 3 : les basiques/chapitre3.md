@@ -136,5 +136,7 @@ Puis ensuite relancer un `git status`.
 
 Ce retour nous montre donc que nous n'avons pas poussé le .gitignore, mais néanmoins le fichier helloworldbis.html est quant à lui bien ignoré par git. Il ne nous reste donc plus qu'a faire `git add .gitignore` puis un `git commit -m "ajout du .gitignore"` .
 
-
-  
+Il est à noter que dans notre cas nous avons directement viser un fichier, mais que le fichier gitignore support les syntaxes suivantes :
+- Les lignes vides ou commençant par \# sont ignorées.
+- Les patterns standards fonctionnent et sont appliqués récursivement.
+- On peut commencer un pattern par / pour éviter la récursité
