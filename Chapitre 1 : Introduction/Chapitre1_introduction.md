@@ -43,7 +43,11 @@ Les CVCS les plus célèbres sont : CVS, Subversion, and Perforce
 
 ### Distributed Version Control System (DVCS)
 
-Pour répondre à cet inconvénient majeur, le DVCS va apporter une évolution supplémentaire. Au lieu de télécharger uniquement la dernière version, les utilisateurs d'un DVCS téléchargent non seulement l'état du code actuel mais également l'enregistrement de toutes les versions successives. 
+Pour répondre à cet inconvénient majeur, le DVCS va apporter une évolution supplémentaire. Au lieu de télécharger uniquement la dernière version, les utilisateurs d'un DVCS téléchargent non seulement l'état du code actuel mais également l'état de toutes les versions successives. 
+
+Chaque utilisateur récupère donc un miroir complet du dépôt, de ses modifications successives, et de l'état de chaque fichier dans le temps. 
+
+![image](https://git-scm.com/book/en/v2/images/distributed.png)
 
 
 [^1]: Source : https://git-scm.com/book/en/v2
