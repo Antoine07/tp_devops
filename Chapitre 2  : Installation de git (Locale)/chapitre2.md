@@ -49,6 +49,7 @@ Lors d'une nouvelle installation de git la première chose à faire est de défi
 Vous devez régler votre username et votre email : 
 
 > `git config --global user.name "John Doe"`
+ 
 > `git config --global user.email johndoe@example.com`
 
 Si vous devez utiliser une autre identité pour un projet specifique il suffira de faire appel à cette commande dans le repository de ce projet sans l'option `--global`
