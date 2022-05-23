@@ -131,6 +131,16 @@ Ces trois états mènent directement aux 3 sections principales de git résumée
 
 > Le "git directory" : C'est l'endroit ou git stocke vos métadatas ainsi que la base de données des objets git, c'est donc la partie la plus importante de git.  
 
+### Workflow basique de git
+
+Selon ce que nous venons de voir, un workflow basique de git contient les étapes suivantes : 
+
+1) Modification des fichiers dans le working directory
+2) On va "stager" de manière sélective les modifications que nous voulons pousser vers git. 
+3) On va faire un "commit". Ce commit va donc choisir tous les fichiers qui ont été marqués (en les stageant) afin de prendre un instantané des modifications à pousser. 
+
+Nous verrons les implications de ces étapes en détail plus avant.
+
 [^1]: Source : https://git-scm.com/book/en/v2
 [^2]: Source : https://fr.wikipedia.org/wiki/Logiciel_de_gestion_de_versions
 [^3]: Source : https://en.wikipedia.org/wiki/Repository_(version_control)
