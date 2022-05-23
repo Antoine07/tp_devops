@@ -20,7 +20,7 @@ Source pour le cours de git et déploiement.
 
 ### Chapitre 3 : Les basiques de git
 
-1) Réceptionner un dépôt git
+1) Créer ou Réceptionner un dépôt git
 2) Comprendre le flot de modifications / Enregistrement d'un dépôt git. 
 3) Notion de remote et actions sur les remotes
 4) Visualisation de l'historique de modification
