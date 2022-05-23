@@ -47,8 +47,7 @@ Pour répondre à cet inconvénient majeur, le DVCS va apporter une évolution s
 
 Chaque utilisateur récupère donc un miroir complet du dépôt, de ses modifications successives, et de l'état de chaque fichier dans le temps. On peut donc assimiler ce que récupère un utilisateur à un clône du dépot.
 
-> Zoom sur la notion de dépot :
-> 	The main purpose of a repository is to store a set of files, as well as the history of changes made to those files.
+> Zoom sur la notion de dépot : Le but principal d'un dépôt est de stocker un ensemble de fichiers ainsi que l'historiques des modifications apportés aux fichiers.[^2]
 
 ![image](https://git-scm.com/book/en/v2/images/distributed.png)
 
@@ -60,3 +59,4 @@ Les avantages liés à cette méthode sont les suivants :
 
 [^1]: Source : https://git-scm.com/book/en/v2
 [^2]: Source : https://fr.wikipedia.org/wiki/Logiciel_de_gestion_de_versions
+[^3]: Source : https://en.wikipedia.org/wiki/Repository_(version_control)
