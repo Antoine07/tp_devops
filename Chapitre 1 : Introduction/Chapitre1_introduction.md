@@ -8,7 +8,7 @@ Dans cette introduction nous avons particulièrement suivi les élements introdu
 
 ## Local Version Control Systems vs Centralized Version Control Systems vs Distributed Version Control Systems
 
-### Local Versions Control Systems (LVCS):
+### Local Version Control Systems (LVCS):
 
 C'est le système de versioning le plus primitif et que nous avons tous fait intuitivement. Il consiste à copier un fichier ou un dossier puis d'enregistrer chaque version du fichier dans un dossier différent ou avec un nom différent. 
 
@@ -20,7 +20,7 @@ Le système le plus populaire de ce type était appelé "RCS".
 
 ![image](https://user-images.githubusercontent.com/98811386/169887864-efc66478-2594-4894-9e22-7fa843c30ca1.png)
 
-### Centralized Versions Control Systems (CVCS).
+### Centralized Version Control Systems (CVCS).
 
 Le problème majeur d'un système LVCS est l'absence de possibilité de collaboration. Etant donné que le système de versions est stocké localement il n'est pas facilement partageable. Pour contrer cette problématique, des systèmes dits de CVCS sont apparus. 
 
@@ -37,6 +37,14 @@ Comparativement aux LVCS ce système offre des avantages certains :
 Néanmoins ce type de système a aussi des défauts majeurs : 
 
 * La présence de l'historique de modifications sur un serveur unique entraîne un grand risque de perte de données en cas de défaillance ou d'indisponibilité du serveur. 
+* L'utilisateur ne télécharge que la dernière version qui est une sorte de canon et écrase toutes les versions précédentes.
+
+Les CVCS les plus célèbres sont : CVS, Subversion, and Perforce
+
+### Distributed Version Control System (DVCS)
+
+Pour répondre à cet inconvénient majeur, le DVCS va apporter une évolution supplémentaire. Au lieu de télécharger uniquement la dernière version, les utilisateurs d'un DVCS téléchargent non seulement l'état du code actuel mais également l'enregistrement de toutes les versions successives. 
+
 
 [^1]: Source : https://git-scm.com/book/en/v2
 [^2]: Source : https://fr.wikipedia.org/wiki/Logiciel_de_gestion_de_versions
