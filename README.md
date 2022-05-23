@@ -1,9 +1,9 @@
 # Courses_git_deployment
 Source pour le cours de git et déploiement.
 
-# Git
+# Section 1 : Git
 
-### Introduction
+### Chapitre 1 : Introduction
 
 1) Versioning (utilités, raisons d'utilisation, contexte)
 2) Histoire et définition de git
@@ -13,12 +13,12 @@ Source pour le cours de git et déploiement.
 - Notions de base : dépôt etc.
 
 
-### Set up 
+### Chapitre 2 : Set up 
 
 1) Installation et première mise en place (locale)
 2) Ligne de commande
 
-### Les basiques de git
+### Chapitre 3 : Les basiques de git
 
 1) Réceptionner un dépôt git
 2) Comprendre le flot de modifications / Enregistrement d'un dépôt git. 
@@ -26,7 +26,7 @@ Source pour le cours de git et déploiement.
 4) Visualisation de l'historique de modification
 5) Effacer des modifications
 
-### Le système de branches de git 
+### Chapitre 4 : Le système de branches de git 
 
 1) Définition des branches et de la notion de merging
 2) Commandes de base sur le branching et le merging
@@ -34,7 +34,11 @@ Source pour le cours de git et déploiement.
 4) Branches distantes
 5) La notion de rebasing
 
-### Git côté serveur
+
+
+### Chapitre 5 : La notion de git distribué (collaboration sur git) et relation avec github
+
+#### Git côté serveur
 
 1) Avoir git sur un serveur
 2) Notions de clés et génération des clés
@@ -42,24 +46,28 @@ Source pour le cours de git et déploiement.
 
 (ici possible ajout de plus de notions comme le git daemon etc)
 
-## La notion de git distribué (collaboration sur git) et relation avec github
+#### Collaboration dans git
 
-### Collaboration dans git
 1) Décomposition d'un système collaboratif 
 2) Etude d'un système collaboratif réel
 3) Contribution (fork, pull requests)
 4) Maintien d'un projet (notion d'administration)
 
-### Collaboration avec github
+#### Collaboration avec github
 
 1) Contribution à un projet
 2) Maintien d'un projet 
 3) Gérer un projet
 4) Introduction au scripting de github (optionnel)
 
-### Panorama des autres outils de github
+### Chapitre 7 : Panorama des autres outils de github
 
 Révision, staging ...
 (cette partie sera adaptée en fonction du temps jusqu'ici). 
 
-##
+### Chapitre 8 : Personnalisation de git 
+
+1) Configuration
+2) Attribus de git
+3) La notion de hooks
+4) Intégration de git dans les outils de développement (notamment visual studio code)
