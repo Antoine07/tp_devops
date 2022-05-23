@@ -47,12 +47,15 @@ Pour répondre à cet inconvénient majeur, le DVCS va apporter une évolution s
 
 Chaque utilisateur récupère donc un miroir complet du dépôt, de ses modifications successives, et de l'état de chaque fichier dans le temps. On peut donc assimiler ce que récupère un utilisateur à un clône du dépot.
 
+> Zoom sur la notion de dépot :
+> 	The main purpose of a repository is to store a set of files, as well as the history of changes made to those files.
+
 ![image](https://git-scm.com/book/en/v2/images/distributed.png)
 
 Les avantages liés à cette méthode sont les suivants : 
 
 * Chaque utilisateur possède une copie complète du serveur qui contient le dépôt. Il peut donc devenir la source de la restauration de ce serveur même en cas de défaillance de ce dernier. 
-* 
+* Autre avantage : Il est possible de collaborer avec différents groupes de personnes et à différents endroits du projet simultanément. Cela permet de créer des modèles de collaboration impossibles avec des systèmes centralisés, comme les modèles hiérarchiques. 
 
 
 [^1]: Source : https://git-scm.com/book/en/v2
