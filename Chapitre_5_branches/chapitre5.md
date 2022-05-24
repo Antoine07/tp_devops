@@ -26,7 +26,7 @@ Cette nouvelle branche pointe donc vers le commit précédent la divergence (f30
 
 *Source : https://git-scm.com/book/en/v2/images/advance-testing.png*
 
-# Commandes de base sur le branching et le merging
+# Commandes de base sur le branching, le merging et leur gestion
 
 ## Création d'une nouvelle branche 
 
@@ -155,5 +155,11 @@ Si nous souhaitons conserver ce qui est dans le master on remplacera le bloc par
 ```
 
 Il est également à noter que git fournit un outil visuel pour la résolutiond de conflit appelable par la commande `git mergetool`, enfin il est possible de configurer les outils de résolution de conflits visuels. La liste des outils accessibles est disponible lors de l'appel de la commande. 
+
+## Gestion des branches
+
+La commande `git branch` va vous permettre de gérer plus largement les branches.
+
+
 
 [^1]: Se reporter au chapitre 1 partie 4
