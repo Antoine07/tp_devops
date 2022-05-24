@@ -220,7 +220,13 @@ La commande git log par défaut a les caractéristiques suivantes :
 * La date du commit est également présente
 * Le message du commit est également présent (d'où l'importance d'un message explicite et de commits réguliers !)
 	
+La commande git log accepte un grand nombre de specifier et d'options vous permettant de préciser ce que vous recherchez dans l'historique. Cet aspect est particulièrement pratique pour la compréhension d'un nouveau projet et à des fins d'administration. 
+	
+Nous n'allons pas les passer toutes en revue ici en détail, mais nous allons cependant les rappeler avec leurs fonctions dans les deux tableaux suivants[^2] :
+
+
 
 
 
 [^1]: Glob patterns are like simplified regular expressions that shells use. An asterisk (*) matches zero or more characters; [abc] matches any character inside the brackets (in this case a, b, or c); a question mark (?) matches a single character; and brackets enclosing characters separated by a hyphen ([0-9]) matches any character between them (in this case 0 through 9). You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on. Source : https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
+[^2]: Ces tableaux et les suivants sont tirés de la source suivante : https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
