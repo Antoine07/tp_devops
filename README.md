@@ -27,6 +27,11 @@ Source pour le cours de git et déploiement.
 
 ### Chapitre 4 : Les remotes
 
+1) Définition et utilité des dépôts "remotes"
+2) Lister les remotes
+3) Ajouter un remote
+4) Récupérer de la data depuis un remote
+
 ### Chapitre 4 : Le système de branches de git 
 
 1) Définition des branches et de la notion de merging
