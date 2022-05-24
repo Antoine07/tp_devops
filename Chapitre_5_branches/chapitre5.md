@@ -62,5 +62,7 @@ Vous exécutez donc la commande `git checkout master`.
 
 Vous travaillez sur votre hotfix puis vous le commitez `git commit -a -m "correction bug article < 100 charactères"` 
 
+Enfin vous pushez ce nouveau hotfix vers le dépôt distant avec la commande `git pull`, votre branche master étant programmée pour le suivi de la branche master distante. 
+
 
 [^1]: Se reporter au chapitre 1 partie 4
