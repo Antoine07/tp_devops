@@ -56,7 +56,7 @@ Les avantages liés à cette méthode sont les suivants :
 * Chaque utilisateur possède une copie complète du serveur qui contient le dépôt. Il peut donc devenir la source de la restauration de ce serveur même en cas de défaillance de ce dernier. 
 * Autre avantage : Il est possible de collaborer avec différents groupes de personnes et à différents endroits du projet simultanément. Cela permet de créer des modèles de collaboration impossibles avec des systèmes centralisés, comme les modèles hiérarchiques. 
 
-Les CVCS les plus connus sont : Git, Mercurial, Bazaar ou Darcs
+Les DVCS les plus connus sont : Git, Mercurial, Bazaar ou Darcs
 
 ## Historique de git
 
