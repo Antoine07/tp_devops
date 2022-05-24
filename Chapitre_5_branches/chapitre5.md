@@ -170,7 +170,9 @@ L'option `--move` vous permet de renommer une branche localement avec la syntaxe
 
 Il est néanmoins conseiller de ne pas renommer la branche principale d'un projet pour des raisons de sécurité et cohérence.
 
+# Logiques de gestion des branches
 
+Maintenant que nous avons vu les éléments techniques de gestion des branches nous devons comprendre les logiques qui président à la création, le merge, et l'effacement des branches dans une logique projet. 
 
 
 
