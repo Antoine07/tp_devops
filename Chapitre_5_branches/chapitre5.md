@@ -117,8 +117,11 @@ Git va alors marquer automatiquement dans ces fichiers les passages qui sont pro
 <div id="footer">
  please contact us at support@github.com
 </div>
->>>>>>> iss53:index.html
+>>>>>>> image:index.html
 ```
 
+Si l'on se rappelle de ce que nous avons vu précédemment HEAD fait référence à la branche dans laquelle nous nous situons, à savoir celle dans laquelle nous voulions merger la branche image (donc le master).
+
+La syntaxe permet de savoir le contenu du head. il est contenu entre <<<<<<< HEAD:NOM DU FICHIER et les premiers =======.
 
 [^1]: Se reporter au chapitre 1 partie 4
