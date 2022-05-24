@@ -86,6 +86,10 @@ Vous continuez ensuite le travail, puis vous finissez cette feature d'image. Lor
 
 La branche image vous étant désormais inutile vous pouvez maintenant l'effacer avec la commande `git branch -d <SHORTNAME>` soit dans notre cas `git branch -d image`.
 
+## Gestion des conflits autour du merge
 
+Dans notre cas d'exemple nous avons travaillé directement sur la branche master pour la résolution du bug. Dans la pratique nous aurions créé une branche spécifique à la résolution du bug puis nous l'aurions mergé à la branche master. 
+
+Il y a de fortes probabilités que notre branche de résolution de bug et la branche image ait modifié les mêmes parties d'un ou plusieurs fichiers. Lorsque cela se produit, git n'est pas capable de merger automatiquement les branches. 
 
 [^1]: Se reporter au chapitre 1 partie 4
