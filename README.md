@@ -20,10 +20,10 @@ Source pour le cours de git et déploiement.
 
 ### Chapitre 3 : Les basiques de git
 
-1) Initialisation ou récupération d'un repository.
-2) Comprendre le flot de modifications / Enregistrement d'un dépôt git. 
-3) Notion de remote et actions sur les remotes
-4) Visualisation de l'historique de modification
+1) Initialisation ou récupération d'un repository
+2) Effectuer des changements dans un dépôt git
+3) Comprendre l'historique des commits
+4) Gérer le retour en arrière dans git
 5) Effacer des modifications
 
 ### Chapitre 4 : Le système de branches de git 
