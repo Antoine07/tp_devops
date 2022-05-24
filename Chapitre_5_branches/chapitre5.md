@@ -84,6 +84,8 @@ Vous continuez ensuite le travail, puis vous finissez cette feature d'image. Lor
 
 `git merge image`
 
+La branche image vous étant désormais inutile vous pouvez maintenant l'effacer avec la commande `git branch -d <SHORTNAME>` soit dans notre cas `git branch -d image`.
+
 
 
 [^1]: Se reporter au chapitre 1 partie 4
