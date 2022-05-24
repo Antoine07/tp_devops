@@ -37,11 +37,12 @@ Source pour le cours de git et déploiement.
 
 ### Chapitre 5 : Le système de branches de git 
 
-1) Définition des branches et de la notion de merging
-2) Commandes de base sur le branching et le merging
-3) Gestion des branches
-4) Branches distantes
-5) La notion de rebasing
+1) Introduction à la notion de branches
+2) Conception de git et impact sur les branches dans git
+3) Commandes de base sur le branching et le merging
+4) Gestion des branches
+5) Branches distantes
+6) La notion de rebasing
 
 ### Chapitre 5 : La notion de git distribué (collaboration sur git) et relation avec github
 
