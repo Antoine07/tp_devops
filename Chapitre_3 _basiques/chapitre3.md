@@ -226,7 +226,7 @@ Nous n'allons pas les passer toutes en revue ici en détail, mais nous allons ce
 
 
 ![retour5](../images/courses_git6.png)
-![retour5](../images/courses_git7.png)
+![retour5](../images/courses_git8.png)
 
 
 
