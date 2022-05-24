@@ -24,7 +24,8 @@ Source pour le cours de git et déploiement.
 2) Effectuer des changements dans un dépôt git
 3) Comprendre l'historique des commits
 4) Gérer le retour en arrière dans git
-5) Effacer des modifications
+
+### Chapitre 4 : Les remotes
 
 ### Chapitre 4 : Le système de branches de git 
 
