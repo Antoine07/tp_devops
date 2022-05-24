@@ -118,6 +118,6 @@ Git va alors marquer automatiquement dans ces fichiers les passages qui sont pro
  please contact us at support@github.com
 </div>
 >>>>>>> iss53:index.html
-```
+```html
 
 [^1]: Se reporter au chapitre 1 partie 4
