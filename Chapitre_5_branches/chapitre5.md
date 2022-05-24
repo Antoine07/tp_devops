@@ -90,6 +90,13 @@ La branche image vous étant désormais inutile vous pouvez maintenant l'effacer
 
 Dans notre cas d'exemple nous avons travaillé directement sur la branche master pour la résolution du bug. Dans la pratique nous aurions créé une branche spécifique à la résolution du bug puis nous l'aurions mergé à la branche master. 
 
-Il y a de fortes probabilités que notre branche de résolution de bug et la branche image ait modifié les mêmes parties d'un ou plusieurs fichiers. Lorsque cela se produit, git n'est pas capable de merger automatiquement les branches. 
+Il y a de fortes probabilités que notre branche de résolution de bug et la branche image aient modifié les mêmes parties d'un ou plusieurs fichiers. Lorsque cela se produit, git n'est pas capable de merger automatiquement les branches. 
+
+Etudions donc ce qui se passe dans ce cas. 
+
+>git merge image
+>Auto-merging index.html
+>CONFLICT (content): Merge conflict in index.html
+>Automatic merge failed; fix conflicts and then commit the result.
 
 [^1]: Se reporter au chapitre 1 partie 4
