@@ -58,11 +58,24 @@ Alors que vous travaillez sur cette feature planifiée, un bug vous est remonté
 
 Etant donné que vous avez créé une nouvelle branche pour votre feature d'image, votre premier reflexe est de revenir à l'état précédant les modifications de cette branche. 
 
-Vous exécutez donc la commande `git checkout master`. 
+Avant de switcher vers la branche master, une bonne pratique pour limiter le risque est de procéder à un commit de l'état actuel de vos modifications sur la branche images afin de limiter le risque de conflit ou de pertes de données : `git commit -a -m "enregistrement de l'état actuel des modifications"`
+
+Vous exécutez ensuite la commande `git checkout master`. 
 
 Vous travaillez sur votre hotfix puis vous le commitez `git commit -a -m "correction bug article < 100 charactères"` 
 
 Enfin vous pushez ce nouveau hotfix vers le dépôt distant avec la commande `git pull`, votre branche master étant programmée pour le suivi de la branche master distante. 
+
+Puis vous retournez sur votre branche image `git checkout image`. 
+
+Vous retrouvez donc l'état de votre branche avant le hotfix. La problématique étant que cette branche a divergé avant le hotfix, du coup vous êtes sur une branche qui n'intègre pas encore les modifications du hotfix. Si vous la mergez dans la branche principale le bug se reproduira à nouveau !
+
+Il vous faut donc merger votre branche master dans la branche images pour que vous bénéficiez des dernières modifications poussées dans la master !
+
+Pour cela il faut se rendre dans la branche à l'intérieure de laquelle vous souhaitez effectuer ce merge. En l'occurrence nous sommes déjà sur la branche images. 
+
+Pour réaliser ce merge nous allons devoir utiliser la commande `git merge master`, ce qui va intégrer les modifications de la branche master dans votre branche locale. 
+
 
 
 [^1]: Se reporter au chapitre 1 partie 4
