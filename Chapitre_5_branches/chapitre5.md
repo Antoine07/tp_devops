@@ -156,7 +156,7 @@ Si nous souhaitons conserver ce qui est dans le master on remplacera le bloc par
 
 Il est également à noter que git fournit un outil visuel pour la résolutiond de conflit appelable par la commande `git mergetool`, enfin il est possible de configurer les outils de résolution de conflits visuels. La liste des outils accessibles est disponible lors de l'appel de la commande. 
 
-## Gestion des branches
+## Les commandes de gestion des branches
 
 La commande `git branch` va vous permettre de gérer plus largement les branches.
 
