@@ -26,7 +26,7 @@ Cette nouvelle branche pointe donc vers le commit précédent la divergence (f30
 
 *Source : https://git-scm.com/book/en/v2/images/advance-testing.png*
 
-# Commandes de base sur les branches
+# Commandes de base sur le branching et le merging
 
 ## Création d'une nouvelle branche 
 
