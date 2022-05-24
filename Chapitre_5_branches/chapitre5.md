@@ -122,6 +122,36 @@ Git va alors marquer automatiquement dans ces fichiers les passages qui sont pro
 
 Si l'on se rappelle de ce que nous avons vu précédemment HEAD fait référence à la branche dans laquelle nous nous situons, à savoir celle dans laquelle nous voulions merger la branche image (donc le master).
 
-La syntaxe permet de savoir le contenu du head. il est contenu entre <<<<<<< HEAD:NOM DU FICHIER et les premiers =======.
+La syntaxe permet de savoir le contenu du head. il est contenu entre <<<<<<< HEAD:NOM DU FICHIER et les =======. En dessous de ces signes "égal" se situent les modifications de la branche image. 
+
+Pour résoudre le conflit il faudra alors supprimer tous les éléments jusqu'a conserver la partie de code que nous considérons comme bonne. 
+
+Ainsi le bloc : 
+
+```html
+<<<<<<< HEAD:index.html
+<div id="footer">contact : email.support@github.com</div>
+=======
+<div id="footer">
+ please contact us at support@github.com
+</div>
+>>>>>>> image:index.html
+```
+
+Devra être remplacé entièrement par : 
+
+```html
+<div id="footer">
+ please contact us at email.support@github.com
+</div>
+```
+
+En partant du principe que nous voulons conservé ce qui est dans image. 
+
+Si nous souhaitons conserver ce qui est dans le master on remplacera le bloc par : 
+
+```html
+<div id="footer">contact : email.support@github.com</div>
+```
 
 [^1]: Se reporter au chapitre 1 partie 4
