@@ -232,6 +232,41 @@ Enfin vous pouvez également limiter l'output de votre commande `git log` grâce
 	
 ![retour5](../images/courses_git7.png)
 
+# Gérer le retour en arrière dans git
+
+## Modifier un commit 
+	
+Vous pouvez avoir commis une erreur dans votre commit, et voulez le modifier avant de le pousser. 
+	
+Il existe deux types de modification possibles d'un commit :
+* Ajout de modifications et / ou de fichiers
+* Modification du message de commit
+	
+Dans les deux cas le workflow est le suivant : 
+1) Vous avez créé un premier commit
+2) Vous vous rendez compte d'une erreur et stagez les modifications 
+3) Vous utilisez la commande `git commit --amend` 
+
+La commande `git commit --amend` va vous permettre de réappliquer l'état actuel de votre staging à votre dernier commit. Elle permet également de modifier le message de commit si aucune modification n'a été réalisée. Le résultat d'amend va "écraser celui du dernier commit".
+	
+## Supprimer des fichiers du staging
+	
+Lorsque vous utilisez `git add *` il est fréquent que vous stagiez un fichier par erreur. 
+
+La commande `git reset HEAD <NOM DU FICHIER>` vous permettra d'exclure du staging le fichier visé. Ainsi le fichier sera toujours modifié mais non plus stagé et ne passera donc pas dans le prochain commit.
+	
+## Supprimer les modifications d'un fichier non stagé
+	
+Si vous voulez retrouver le fichier dans l'état ou il était lors du dernier commit vous pouvez utiliser la commande `git checkout <NOM DU FICHIER>`
+
+Nous verrons des éléments de gestion des modifications plus en détail dans la section sur le stashing et le branching.
+
+## La commande `git restore` (pour git > 2.23.0) 
+
+Cette commande a été introduite dans la version 2.23.0. Elle tend à remplacer la commande `git reset` depuis cette version pour tous les retours sur les modifications. Git status vous indique l'utliisation de cette commande.
+	
+* Par exemple pour unstager un fichier il suffit d'utiliser `git restore` accompagné du modifieur `--staged` de cette façon `git restore --staged <NOM DU FICHIER>`
+* Autre exemple revert les modifications d'un fichier de votre working directory (donc non stagé) : `git restore <NOM DU FICHIER>` donc sans modifieurs cette fois-ci. 
 
 [^1]: Glob patterns are like simplified regular expressions that shells use. An asterisk (*) matches zero or more characters; [abc] matches any character inside the brackets (in this case a, b, or c); a question mark (?) matches a single character; and brackets enclosing characters separated by a hyphen ([0-9]) matches any character between them (in this case 0 through 9). You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on. Source : https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
 [^2]: Ces tableaux et le suivant sont tirés de la source suivante : https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
