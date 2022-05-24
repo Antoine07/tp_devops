@@ -224,10 +224,9 @@ La commande git log accepte un grand nombre de specifier et d'options vous perme
 	
 Nous n'allons pas les passer toutes en revue ici en détail, mais nous allons cependant les rappeler avec leurs fonctions dans les deux tableaux suivants[^2] :
 
-![image](../images/courses_git7.png)
 
-![options](../images/courses_git8.png)
-
+![retour5](../images/courses_git6.png)
+![retour5](../images/courses_git7.png)
 
 
 
