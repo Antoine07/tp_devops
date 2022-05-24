@@ -160,6 +160,7 @@ Il est également à noter que git fournit un outil visuel pour la résolutiond 
 
 La commande `git branch` va vous permettre de gérer plus largement les branches.
 
+Tout d'abord utilisée sans arguments elle permet de lister les branches disponibles. Lors de ce listing la branche où vous vous situez sera précédée d'un *
 
 
 [^1]: Se reporter au chapitre 1 partie 4
