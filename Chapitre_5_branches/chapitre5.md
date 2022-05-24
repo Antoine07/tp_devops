@@ -50,4 +50,17 @@ Vous trouverez une illustration de ce changement ci-après :
 
 *Source : https://git-scm.com/book/en/v2/images/advance-master.png*
 
+## Merging et cas d'utilisation avancée
+
+Si jusqu'ici nous avons vu un cas simple : vous travaillez sur une nouvelle feature (la gestion d'image de votre CMS), voyons maintenant un cas plus avancé. 
+
+Alors que vous travaillez sur cette feature planifiée, un bug vous est remonté sur le coeur de votre application, disons pour l'exemple il n'est pas possible d'enregistrer un article ayant moins de 100 caractères. Ce bug étant critique pour votre application vous devez absolument travaillé tout de suite dessus !
+
+Etant donné que vous avez créé une nouvelle branche pour votre feature d'image, votre premier reflexe est de revenir à l'état précédant les modifications de cette branche. 
+
+Vous exécutez donc la commande `git checkout master`. 
+
+Vous travaillez sur votre hotfix puis vous le commitez `git commit -a -m "correction bug article < 100 charactères"` 
+
+
 [^1]: Se reporter au chapitre 1 partie 4
