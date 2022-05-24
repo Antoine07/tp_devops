@@ -187,9 +187,17 @@ Pour supprimer un fichier il existe deux méthodes.
 	
 La première consiste à supprimer physiquement de votre dossier le fichier, puis a ajouter via la commande `git add` la suppression de ce fichier.
 
-La deuxième consiste à utiliser la commande `git rm` avec le nom du fichier afin de ne plus voir le fichier dans votre working directory. Il ne sera plus non plus visible dans vos prochains commits. 
+La deuxième consiste à utiliser la commande `git rm` avec le nom du fichier afin d'effacer le fichier dans votre working directory. Il ne sera plus non plus visible dans vos prochains commits. 
 
 Si vous avez déjà modifié le fichier ou qu'il était déjà dans la zone de staging vous devrez forcer le remove avec le modificateur `-f` . C'est une mesure de sécurité pour éviter les suppressions accidentelles. 
+
+Une autre possibilité est de conserver le fichier sur votre disque dur mais de l'effacer de git uniquement pour cela on utilisera la commande `git rm --cached` puis le nom du fichier. Cela est utile pour conserver des logs mais qui auraient été oubliés dans le .gitignore.
+	
+Dernier point la commande git rm supporte les globs patterns.
+	
+### Déplacement de fichier.
+	
+Git gérera le déplacement de fichier via la commande `git mv`, mais vous pouvez également déplacer les fichiers manuellement puis les réajouter dans git après, en supprimant l'ancienne référence. 
 	
 
 
