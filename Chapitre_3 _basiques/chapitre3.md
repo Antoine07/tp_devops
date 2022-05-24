@@ -212,6 +212,15 @@ Une première approche de `git log` consiste à simplement l'éxécuter sans auc
 Dans notre dépôt de test nous avons le rendu suivant : 
 
 ![retour5](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git5.png)
+	
+La commande git log par défaut a les caractéristiques suivantes : 
+* Elle liste les commits par ordre chronologique inversé
+* Chaque commit et listé avec son checksum
+* Le nom de l'auteur et son email est présent
+* La date du commit est également présente
+* Le message du commit est également présent (d'où l'importance d'un message explicite et de commits réguliers !)
+	
+
 
 
 [^1]: Glob patterns are like simplified regular expressions that shells use. An asterisk (*) matches zero or more characters; [abc] matches any character inside the brackets (in this case a, b, or c); a question mark (?) matches a single character; and brackets enclosing characters separated by a hyphen ([0-9]) matches any character between them (in this case 0 through 9). You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on. Source : https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
