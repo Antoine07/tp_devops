@@ -47,6 +47,7 @@ Si l'on reprend l'exemple de la nouvelle branche la commande `git checkout nouve
 Vous trouverez une illustration de ce changement ci-après : 
 
 ![image](https://git-scm.com/book/en/v2/images/advance-master.png)
+
 *Source : https://git-scm.com/book/en/v2/images/advance-master.png*
 
 [^1]: Se reporter au chapitre 1 partie 4
