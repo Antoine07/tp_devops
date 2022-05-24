@@ -42,4 +42,6 @@ Puisque la création d'une branche n'engage pas le changement automatiquement, i
 
 Si l'on reprend l'exemple de la nouvelle branche la commande `git checkout nouvellebranche` vous fera aller directement sur cette branche. Inversement si l'on se situe sur la branche nouvellebranche et que nous voulons retourner sur la branche master : `git checkout master`.
 
+> Il est à noter qu'un changement de branche modifie les fichiers dans votre working directory qui reprendront alors les modifications et l'état de l'une ou l'autre branche !
+
 [^1]: Se reporter au chapitre 1 partie 4
