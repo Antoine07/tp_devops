@@ -45,4 +45,33 @@ Pour récupérer de la data depuis un remote il faut utiliser la commande `git f
 
 La commande git fetch va vous permettre de récupérer la donnée de toutes les branches du dépôt distant[^1]. 
 
+Nous avons vu au chapitre précédemment que lors d'un clone, git crée automatiquement un remote "origin" donc `git fetch origin` récupérera toute la data de ce remote. 
+
+Enfin si votre branche locale est configurée pour suivre une branche remote spécifique, vous pourrez utiliser la commande `git pull` afin de récupérer et merger cette branche distante vers votre branche locale[^1]. Une fois de plus dans le cadre d'un `git clone` votre branche master (ou tout autre nom de la branche de base) sera configurée automatiquement pour suivre la branche master du remote. 
+
+# Pousser de la data (push)
+
+Lorsque vous êtes satisfait de l'instantané sur lequel vous travaillez, vous pourrez pousser cet instantané vers le remote. Cette action est appelée "push" et se reflète dans la commande `git push <remote> <branch>`. Ainsi par exemple pour pousser vers "formateur" sur la branche "master" vous utiliserez la commande `git push formateur master`.
+
+Attention cependant cette commande a plusieurs prérequis pour fonctionner : 
+
+* Tout d'abord vous devez disposer des droits d'écritures sur le remote. En effet, un remote peut être en read only, ou en read / write. 
+* Aucun autre instantané ne doit avoir été poussé sans que vous l'ayez fetché, pour éviter les conflits potentiels. 
+
+# Inspecter un remote 
+
+La commande `git remote show <remote>` vous permet d'obtenir des informations supplémentaires sur le remote que vous souhaitez inspecter. 
+
+Cette commande est particulièrement utile lors d'utilisations complexes de git avec de multiples intervenants et des trackings multiples de branches. Nous ne la verrons pas en détail ici, puisqu'elle reprend majoritairement toutes les informations concernant les éléments vus précédemment. 
+
+# Renommer et supprimer des remotes
+
+La commande `git remote rename <SHORTNAME> <NEW SHORTNAME>` vous permet de modifier le raccourci local d'un remote. Par exemple vous pouvez renommer le remote "formateur" en "etudiant" via la commande `git remote rename formateur etudiant`
+
+La commande `git remote remove <SHORTNAME>` permet d'effacer un remote, ainsi on pourra effacer le remote "etudiant" avec `git remote remove etudiant`. Un raccourci de la commande est `git remote rm <SHORTNAME>`.
+
 [^1]: Nous verrons la notion de branches au chapitre suivant. 
+
+# Tagging et Alias
+
+Git supporte le tagging et les alias, ces notions n'étant pas essentiels à ce cours introductif, elles ne seront pas couvertes. 
