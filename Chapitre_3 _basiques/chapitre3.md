@@ -71,7 +71,7 @@ La composition exacte de la commande git clone est la suivante :
   
 Chacune de ces trois méthodes d'appel ayant le même résultat.
 
-# Effectuer des changements sur un dépôt git
+# Effectuer des changements dans un dépôt git
 	
 ## Flow basique
   
