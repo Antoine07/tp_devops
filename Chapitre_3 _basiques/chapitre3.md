@@ -199,7 +199,7 @@ Dernier point la commande git rm supporte les globs patterns.
 	
 Git gérera le déplacement de fichier via la commande `git mv`, mais vous pouvez également déplacer les fichiers manuellement puis les réajouter dans git après, en supprimant l'ancienne référence. 
 	
-# Comprendre l'historique des commits. 
+# Comprendre l'historique des commits 
 	
 ## Afficher l'historique des commits avec la commande `git log`
 
