@@ -228,8 +228,9 @@ Nous n'allons pas les passer toutes en revue ici en détail, mais nous allons ce
 ![retour5](../images/courses_git6.png)
 ![retour5](../images/courses_git8.png)
 
-
+Enfin vous pouvez également limiter l'output de votre fonction git log grâce aux éléments suivants : 
+![retour5](../images/courses_git7.png)
 
 
 [^1]: Glob patterns are like simplified regular expressions that shells use. An asterisk (*) matches zero or more characters; [abc] matches any character inside the brackets (in this case a, b, or c); a question mark (?) matches a single character; and brackets enclosing characters separated by a hyphen ([0-9]) matches any character between them (in this case 0 through 9). You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on. Source : https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
-[^2]: Ces tableaux et les suivants sont tirés de la source suivante : https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
+[^2]: Ces tableaux et le suivant sont tirés de la source suivante : https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
