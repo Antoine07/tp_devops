@@ -183,7 +183,9 @@ Selon ce principe il peut exister plusieurs branches parallèles chacune allant 
 *Source https://git-scm.com/book/en/v2/images/lr-branches-2.png *
 
 Dans cet exemple l'organisation est la suivante : 
-  * la branche master est celle qui fait preuve de la plus grande stabilité elle ne contient que des éléments prêts à être déployés ou déjà déployés. 
+  * la branche master est celle qui fait preuve de la plus grande stabilité elle ne contient que des éléments prêts à être déployés ou déjà déployés. Tous les éléments qui sont mergés dans cette branche ont été rigoureusement testés auparavant. 
+  * la branche développement comprend des éléments qui peuvent parfois être non stables et le développement de long terme. Elle sert de branche de test avant la validation de ces changements avant le merging vers la branche master. 
+  * la branche topic comprend les éléments de développement ponctuels (comme notre hotfix précédemment). Elles sont donc des branches à la durée de vie beaucoup plus courtes uniquement destinées à accomplir la fonction pour laquelle elles ont été créées. 
 
 
 [^1]: Se reporter au chapitre 1 partie 4
