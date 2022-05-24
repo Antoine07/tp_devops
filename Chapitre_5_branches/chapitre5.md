@@ -162,5 +162,17 @@ La commande `git branch` va vous permettre de gérer plus largement les branches
 
 Tout d'abord utilisée sans arguments elle permet de lister les branches disponibles. Lors de ce listing la branche où vous vous situez sera précédée d'un *
 
+La commande `git branch -v` permet de voir le dernier commit sur chaque branche. 
+
+La commande `git branch --merged` liste les branches qui ont été mergées dans la branche actuelle (l'option --no-merged fait l'inverse). Cette commande permet de voir les branches qui sont sujettes à être effacées. Vous pouvez également appliquer cette commande à d'autres branches dans lesquelles vous ne vous situez pas en rajoutant le nom de cette branche `git branch --merged <NOM BRANCHE>`.
+
+L'option `--move` vous permet de renommer une branche localement avec la syntaxe suivante `git branch --move <NOM ACTUEL> <NOUVEAU NOM>`. Cette modification n'est toutefois que local, il faudra la rendre disponible à tous avec la commande suivante : `git push --set-upstream origin <NOUVEAU NOM>`. Il vous restera enfin à effacer l'ancienne branche avec `git push origin --delete <ANCIEN NOM>`.
+
+Il est néanmoins conseiller de ne pas renommer la branche principale d'un projet pour des raisons de sécurité et cohérence.
+
+
+
+
+
 
 [^1]: Se reporter au chapitre 1 partie 4
