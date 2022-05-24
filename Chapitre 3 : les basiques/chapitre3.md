@@ -199,6 +199,19 @@ Dernier point la commande git rm supporte les globs patterns.
 	
 Git gérera le déplacement de fichier via la commande `git mv`, mais vous pouvez également déplacer les fichiers manuellement puis les réajouter dans git après, en supprimant l'ancienne référence. 
 	
+# Comprendre l'historique des commits. 
+	
+## Afficher l'historique des commits avec la commande `git log`
+
+Nous allons utiliser un dépôt git déjà disponible. 
+	
+Pour cela créez un nouveau dossier et utilisez la commande suivante : `git clone https://github.com/schacon/simplegit-progit`
+
+Une première approche de `git log` consiste à simplement l'éxécuter sans aucun paramètre.
+	
+Dans notre dépôt de test nous avons le rendu suivant : 
+
+
 
 
 [^1]: Glob patterns are like simplified regular expressions that shells use. An asterisk (*) matches zero or more characters; [abc] matches any character inside the brackets (in this case a, b, or c); a question mark (?) matches a single character; and brackets enclosing characters separated by a hyphen ([0-9]) matches any character between them (in this case 0 through 9). You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on. Source : https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
