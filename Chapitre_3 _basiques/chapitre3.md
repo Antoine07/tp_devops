@@ -87,7 +87,7 @@ Nous allons maintenant effectuer les étapes suivantes :
 
 Après avoir réalisé ces étapes, refaisons un git status, voici la sortie que vous devriez avoir :
 	
-![retour1](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git1.png)
+![retour1](../images/courses_git1.png)
 
 La commande nous indique donc l'état des différents fichiers. 
 	
@@ -102,11 +102,11 @@ La bonne pratique reste de commiter aussi souvent que nécessaire, la nécessit�
 		
 Après l'utilisation de cette commande le retour de `git status` sera le suivant :
 	
-![retour2](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git2.png)
+![retour2](../images/courses_git2.png)
 
 Attention cependant si vous remodifiez le fichier avant de commit, il sera poussé dans le commit avec la dernière version stagée, et non avec les dernières modifications. Il faudra alors rejouer la commande `git add`. Votre git status vous indiquera cependant qu'il est à la fois dans les versions stagées et non stagées comme sur le screenshot suivant : 
 
-![retour3](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git3.png)
+![retour3](../images/courses_git3.png)
 
 Stageons à nouveau le fichier.
 
@@ -130,7 +130,7 @@ Nous allons ensuite ouvrir ce fichier et tapper `helloworldbis.html` à l'intér
 
 Puis ensuite relancer un `git status`.
 
-![retour4](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git4.png)
+![retour4](../images/courses_git4.png)
 
 Ce retour nous montre donc que nous n'avons pas poussé le .gitignore, mais néanmoins le fichier helloworldbis.html est quant à lui bien ignoré par git. Il ne nous reste donc plus qu'a faire `git add .gitignore` puis un `git commit -m "ajout du .gitignore"` .
 
@@ -211,7 +211,7 @@ Une première approche de `git log` consiste à simplement l'éxécuter sans auc
 	
 Dans notre dépôt de test nous avons le rendu suivant : 
 
-![retour5](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git5.png)
+![retour5](../images/courses_git5.png)
 	
 La commande git log par défaut a les caractéristiques suivantes : 
 * Elle liste les commits par ordre chronologique inversé
@@ -224,8 +224,7 @@ La commande git log accepte un grand nombre de specifier et d'options vous perme
 	
 Nous n'allons pas les passer toutes en revue ici en détail, mais nous allons cependant les rappeler avec leurs fonctions dans les deux tableaux suivants[^2] :
 
-![specifier]([https://git-scm.com/book/en/v2/images/lifecycle.png "ceci est un titre"](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git6.png))
-
+![retour5](../images/courses_git5.png)
 
 
 
