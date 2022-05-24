@@ -110,8 +110,6 @@ Attention cependant si vous remodifiez le fichier avant de commit, il sera pouss
 
 Stageons à nouveau le fichier.
 
-Puis revérifions notre statut. Nous voulons simplement nous assurer que tout est désormais ok, nous allons donc faire un check rapide en rajoutant le -s à la commande `git status`, ce qui donnera `git status -s`. Cette commande est une version compressée de git status, nous n'entrerons pas dans les détails qui doivent être transparents pour vous maintenant. 
-
 Nous pouvons maintenant committer nos changements en étant sûrs que nous ne committons que ce que nous souhaitons vraiment ! Utilisons la commande `git commit -m "modification de la css"` .
 
 L'ensemble des commandes vues jusqu'ici peuvent être résumées par le schéma de cycle de vie suivant :
@@ -166,5 +164,33 @@ Voici quelques exemples de fichier .gitignore :
 >ignore all .pdf files in the doc/ directory and any of its subdirectories
 >
 >`doc/**/*.pdf`
+
+Vous pouvez trouver une liste complète de .gitignore configurée pour tous les langages [ici](https://github.com/github/gitignore)
+
+### Git status -s et git diff 
+
+La commande `git status -s`. Cette commande est une version compressée de git status, nous n'entrerons pas dans les détails qui doivent être transparents pour vous maintenant, mais elle permet de faire un check rapide de vos modifications. 
+	
+La commande `git diff` quant à elle permet une exploration en détail des modifications qui n'ont pas encore été stagées. Elle compare donc votre working directory au staging, et vous donne les modifications non encore stagées. Cette commande ne retournera rien si vous avez stagé toutes vos modifications. 
+
+La commande `git diff --staged` permet une comparaison de votre stage par rapport à votre dernier commit. 
+
+### Commiter sans avoir à stager tous les fichiers déjà suivis. 
+	
+La commande `git commit -a` permet de commiter tous les changements de tous les fichiers suivis mais qui n'ont pas été stagés. 
+
+Cela peut être pratique mais attention vous pouvez commiter des fichiers non voulus. Dernier point cette commande ne permet pas d'ajouter des fichiers qui n'ont pas été trackés au moins une fois. Il faudra donc tout de même faire un `git add` pour les nouveaux fichiers. 
+
+### Supprimer un fichier
+
+Pour supprimer un fichier il existe deux méthodes. 
+	
+La première consiste à supprimer physiquement de votre dossier le fichier, puis a ajouter via la commande `git add` la suppression de ce fichier.
+
+La deuxième consiste à utiliser la commande `git rm` avec le nom du fichier afin de ne plus voir le fichier dans votre working directory. Il ne sera plus non plus visible dans vos prochains commits. 
+
+Si vous avez déjà modifié le fichier ou qu'il était déjà dans la zone de staging vous devrez forcer le remove avec le modificateur `-f` . C'est une mesure de sécurité pour éviter les suppressions accidentelles. 
+	
+
 
 [^1]: Glob patterns are like simplified regular expressions that shells use. An asterisk (*) matches zero or more characters; [abc] matches any character inside the brackets (in this case a, b, or c); a question mark (?) matches a single character; and brackets enclosing characters separated by a hyphen ([0-9]) matches any character between them (in this case 0 through 9). You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on. Source : https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
