@@ -224,6 +224,9 @@ La commande git log accepte un grand nombre de specifier et d'options vous perme
 	
 Nous n'allons pas les passer toutes en revue ici en détail, mais nous allons cependant les rappeler avec leurs fonctions dans les deux tableaux suivants[^2] :
 
+![specifier]([https://git-scm.com/book/en/v2/images/lifecycle.png "ceci est un titre"](https://github.com/AurelienSavart/Courses_git_deployment/blob/main/images/courses_git6.png))
+
+
 
 
 
