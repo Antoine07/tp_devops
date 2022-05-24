@@ -143,15 +143,17 @@ Il est à noter que dans notre cas nous avons directement viser un fichier, mais
 - On peut terminer un pattern pour 
 
 Voici quelques exemples de fichier .gitignore : 
->	ignore all .a files
->	`*.a`
+>ignore all .a files
 >
+>`*.a`
+
 >	but do track lib.a, even though you're ignoring .a files above
->	!lib.a
 >
+>`!lib.a`
+
 >	only ignore the TODO file in the current directory, not subdir/TODO
->	/TODO
->
+>	`/TODO` 
+
 >	ignore all files in any directory named build
 >	build/
 >
