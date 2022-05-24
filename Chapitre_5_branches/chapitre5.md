@@ -102,4 +102,22 @@ Etudions donc ce qui se passe dans ce cas.
 >
 >Automatic merge failed; fix conflicts and then commit the result.
 
+Si nous étudions ce retour, nous pouvons mieux nous apercevoir de la problématique. Tout d'abord revenons sur ce que fait concrètement un merge dans git. Il va sauvegarder un nouvel instantané avec le "mix" des deux branches et créer ainsi un nouveau commit. 
+
+Dans ce cas précis le processus a été arrếté avant que le commit n'ait lieu car le "mix" des fichiers n'a pas pu se produire étant donné que deux modifications étaient conflictuelles. 
+
+La commande `git status` liste l'ensemble des fichiers qui comportent un conflit et les marque comme non mergés. 
+
+Git va alors marquer automatiquement dans ces fichiers les passages qui sont problématiques. Ouvrons donc le fichier index.html qui nous pose soucis dans cet exemple voici ce que nous trouverions : 
+
+```
+<<<<<<< HEAD:index.html
+<div id="footer">contact : email.support@github.com</div>
+=======
+<div id="footer">
+ please contact us at support@github.com
+</div>
+>>>>>>> iss53:index.html
+```
+
 [^1]: Se reporter au chapitre 1 partie 4
