@@ -17,6 +17,7 @@ Nous avons également vu dans la partie de la conception de git que git fait des
 Ainsi le schéma suivant explique ce qui se passe lorsque nous créons une branche "testing" différente de notre master : 
 
 ![image](https://git-scm.com/book/en/v2/images/two-branches.png)
+
 *Source https://git-scm.com/book/en/v2/images/two-branches.png*
 
 Cette nouvelle branche pointe donc vers le commit précédent la divergence (f30ab) , les commits suivants seront associés à cette branche alors que le pointeur de la master restera sur le commit f30ab jusqu'au merge. 
