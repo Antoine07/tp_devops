@@ -30,7 +30,9 @@ Source pour le cours de git et déploiement.
 1) Définition et utilité des dépôts "remotes"
 2) Lister les remotes
 3) Ajouter un remote
-4) Récupérer de la data depuis un remote
+4) Récupérer de la data depuis les remotes (fetch et pull) 
+5) Inspecter un remote 
+6) Renommer et supprimer des remotes
 
 ### Chapitre 4 : Le système de branches de git 
 
