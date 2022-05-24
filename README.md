@@ -33,8 +33,9 @@ Source pour le cours de git et déploiement.
 4) Récupérer de la data depuis les remotes (fetch et pull) 
 5) Inspecter un remote 
 6) Renommer et supprimer des remotes
+7) Tagging et Alias
 
-### Chapitre 4 : Le système de branches de git 
+### Chapitre 5 : Le système de branches de git 
 
 1) Définition des branches et de la notion de merging
 2) Commandes de base sur le branching et le merging
