@@ -154,4 +154,6 @@ Si nous souhaitons conserver ce qui est dans le master on remplacera le bloc par
 <div id="footer">contact : email.support@github.com</div>
 ```
 
+Il est également à noter que git fournit un outil visuel pour la résolutiond de conflit appelable par la commande `git mergetool`, enfin il est possible de configurer les outils de résolution de conflits visuels. La liste des outils accessibles est disponible lors de l'appel de la commande. 
+
 [^1]: Se reporter au chapitre 1 partie 4
