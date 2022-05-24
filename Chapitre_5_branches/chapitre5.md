@@ -95,8 +95,11 @@ Il y a de fortes probabilités que notre branche de résolution de bug et la bra
 Etudions donc ce qui se passe dans ce cas. 
 
 >git merge image
+>
 >Auto-merging index.html
+>
 >CONFLICT (content): Merge conflict in index.html
+>
 >Automatic merge failed; fix conflicts and then commit the result.
 
 [^1]: Se reporter au chapitre 1 partie 4
