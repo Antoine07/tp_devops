@@ -70,11 +70,19 @@ Puis vous retournez sur votre branche image `git checkout image`.
 
 Vous retrouvez donc l'état de votre branche avant le hotfix. La problématique étant que cette branche a divergé avant le hotfix, du coup vous êtes sur une branche qui n'intègre pas encore les modifications du hotfix. Si vous la mergez dans la branche principale le bug se reproduira à nouveau !
 
-Il vous faut donc merger votre branche master dans la branche images pour que vous bénéficiez des dernières modifications poussées dans la master !
+Il vous faut donc merger votre branche master dans la branche images pour que vous bénéficiez des dernières modifications poussées dans la branche master.
 
 Pour cela il faut se rendre dans la branche à l'intérieure de laquelle vous souhaitez effectuer ce merge. En l'occurrence nous sommes déjà sur la branche images. 
 
 Pour réaliser ce merge nous allons devoir utiliser la commande `git merge master`, ce qui va intégrer les modifications de la branche master dans votre branche locale. 
+
+Vous continuez ensuite le travail, puis vous finissez cette feature d'image. Lorsque vous êtes satisfait de votre travail sur cette branche vous voulez ensuite l'intégrer dans master. Voici donc la suite de commandes que vous allez effectuer : 
+
+`git commit -a -m "Finalisation de la feature image"`
+
+`git checkout master`
+
+`git merge image`
 
 
 
