@@ -182,7 +182,8 @@ Selon ce principe il peut exister plusieurs branches parallèles chacune allant 
 
 *Source https://git-scm.com/book/en/v2/images/lr-branches-2.png *
 
-
+Dans cet exemple l'organisation est la suivante : 
+  * la branche master est celle qui fait preuve de la plus grande stabilité elle ne contient que des éléments prêts à être déployés ou déjà déployés. 
 
 
 [^1]: Se reporter au chapitre 1 partie 4
