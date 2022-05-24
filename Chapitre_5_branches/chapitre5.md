@@ -174,6 +174,14 @@ Il est néanmoins conseiller de ne pas renommer la branche principale d'un proje
 
 Maintenant que nous avons vu les éléments techniques de gestion des branches nous devons comprendre les logiques qui président à la création, le merge, et l'effacement des branches dans une logique projet. 
 
+Il faut tout d'abord introduire une notion, à savoir celle de branches de stabilité progressive. 
+
+Selon ce principe il peut exister plusieurs branches parallèles chacune allant d'un niveau de stabilité élevé à un niveau moins élevé. Ainsi l'organisation basique de ce principe correspond au schéma suivant : 
+
+![image](https://git-scm.com/book/en/v2/images/lr-branches-2.png)
+
+*Source https://git-scm.com/book/en/v2/images/lr-branches-2.png *
+
 
 
 
