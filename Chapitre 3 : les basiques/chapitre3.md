@@ -147,20 +147,24 @@ Voici quelques exemples de fichier .gitignore :
 >
 >`*.a`
 
->	but do track lib.a, even though you're ignoring .a files above
+>but do track lib.a, even though you're ignoring .a files above
 >
 >`!lib.a`
 
->	only ignore the TODO file in the current directory, not subdir/TODO
->	`/TODO` 
+>only ignore the TODO file in the current directory, not subdir/TODO
+>
+>`/TODO` 
 
->	ignore all files in any directory named build
->	build/
+>ignore all files in any directory named build
 >
->	ignore doc/notes.txt, but not doc/server/arch.txt
->	doc/*.txt
+>`build/`
+
+>ignore doc/notes.txt, but not doc/server/arch.txt
 >
->	ignore all .pdf files in the doc/ directory and any of its subdirectories
->	doc/**/*.pdf
+>`doc/*.txt`
+
+>ignore all .pdf files in the doc/ directory and any of its subdirectories
+>
+>`doc/**/*.pdf`
 
 [^1]: Glob patterns are like simplified regular expressions that shells use. An asterisk (*) matches zero or more characters; [abc] matches any character inside the brackets (in this case a, b, or c); a question mark (?) matches a single character; and brackets enclosing characters separated by a hyphen ([0-9]) matches any character between them (in this case 0 through 9). You can also use two asterisks to match nested directories; a/**/z would match a/z, a/b/z, a/b/c/z, and so on. Source : https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
