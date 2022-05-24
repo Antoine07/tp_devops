@@ -16,7 +16,8 @@ Nous avons également vu dans la partie de la conception de git que git fait des
 
 Ainsi le schéma suivant explique ce qui se passe lorsque nous créons une branche "testing" différente de notre master : 
 
-![image](https://git-scm.com/book/en/v2/images/two-branches.png) [^2]
+![image](https://git-scm.com/book/en/v2/images/two-branches.png)
+*Source https://git-scm.com/book/en/v2/images/two-branches.png*
 
 Cette nouvelle branche pointe donc vers le commit précédent la divergence (f30ab) , les commits suivants seront associés à cette branche alors que le pointeur de la master restera sur le commit f30ab jusqu'au merge. 
 
@@ -34,6 +35,6 @@ La commande `git log --oneline --decorate` vous permettra de voir ou se situe le
 
 Puisque la création d'une branche n'engage pas le changement automatiquement, il vous faut donc une commande qui permette de changer de branche, et ce à tout moment. Cette commande est la commande `git checkout <SHORTNAME>`. 
 
-Si l'on reprend l'exemple de la nouvelle branche la commande `git checkout nouvellebranche` vous fera aller directement sur cette branche. Inversement si l'on se situe sur la branche nouvellebranche et que nous voulons retourner sur la branche master : `git checkout master`  
-[^1] : Se reporter au chapitre 1 partie 4
-[^2] : Source https://git-scm.com/book/en/v2/images/two-branches.png
+Si l'on reprend l'exemple de la nouvelle branche la commande `git checkout nouvellebranche` vous fera aller directement sur cette branche. Inversement si l'on se situe sur la branche nouvellebranche et que nous voulons retourner sur la branche master : `git checkout master`.
+
+[^1]: Se reporter au chapitre 1 partie 4
