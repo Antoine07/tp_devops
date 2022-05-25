@@ -193,6 +193,30 @@ Cette organisation simple voir simpliste peut-être démultipliée sur de multip
 
 Nous ne rentrerons pas dans les détails des multiples scénarios possibles si vous souhaitez avoir une vue plus détaillée de cet aspect vous pouvez vous reporter au lien suivant : https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows
 
+# Interaction des branches locales et distantes
+
+Nous avons déjà aborder rapidement les notions de fetch / push / et de tracking des branches, arrêtons-nous quelque peu sur ces outils. 
+
+Lorsque vous clonez un remote vous le clonez dans son dernier état (son dernier commit). 
+
+Si ce remote évolue, tant que vous ne faites pas une synchronisation de ce remote vous restez dans l'état de ce dernier commit connu. Pour vous synchroniser avec les modifications de ce remote vous devez faire un `git fetch <remote>/<branch>` ou remote est le shortname d'un remote et branch la branche concernée par la récupération de data sur ce dépôt distant. 
+
+Ainsi à chaque fois que vous allez fetcher une branche remote celle ci sera updaté dans votre dépôt local. Il est également possible de fetcher tout un remote, sans préciser de branche avec la commande `git fetch <remote>`.
+
+La commande de type "push" agit exactement de la même manière avec la même syntaxe mais cette fois en poussant vos modifications vers le remote. La prochaine fois que vos collaborateurs feront un fetch ils pourront ainsi bénéficier de vos évolutions. 
+
+Il existe également les raccourcis `git pull` et `git push` sans argument. Pour pouvoir les utiliser nous devons nous attarder sur la notion de tracking des branches. Le tracking va établir un lien direct entre une branche locale et une branche distante. L'établissement de ce lien permettra d'utiliser les commandes push et pull sans préciser la branche à laquelle nous faisons référence ni le dépôt. La branche qui est trackée est appelée "upstream branch". 
+
+Pour établir ce lien de tracking vous pouvez utiliser la commande suivante `git checkout --track <REMOTE>/<BRANCH>`, si vous essayez de checkout une branche qui : 
+ * n'existe pas
+ * ET
+ * qui existe sur seulement un remote
+
+Alors ce checkout va agir comme un raccourci vers la commande vue précédemment. 
+
+Vous pouvez également utiliser la commande `git branch -u <REMOTE>/<BRANCH>` pour setter le tracking d'une branche déjà existante localement ou le modifier. 
+
+Enfin la commande `git branch -vv` vous permet d'identifier toutes les branches locales et les branches distantes suivies. 
 
 
 [^1]: Se reporter au chapitre 1 partie 4
