@@ -256,11 +256,11 @@ Pour simplifier nous pouvons indiquer les éléments suivants :
 
 Pour résumer ces principes nous pouvons utiliser le résumé fournit dans cet article : 
 
->- Quand je fusionne une branche…
->  - Si elle est purement locale et temporaire, je m’assure qu’elle n’apparaît pas dans le graphe final de l’historique en faisant un fast-forward merge, ce qui peut nécessiter un rebase au préalable.
->  - Si elle a une sémantique claire et documentée, je m’assure qu’elle apparaîtra clairement dans le graphe de l’historique, du début à la fin, en garantissant un true merge.
->- Quand je m’apprête à pusher mon travail local, je nettoie mon historique local d’abord pour partager un historique propre, au cordeau.
->- Quand je me vois refuser le push parce qu’un travail complémentaire a été pushé entre-temps, je rebase sur la branche distante à jour pour éviter de polluer le graphe par des tas de micro-merges malvenus.
+> - Quand je fusionne une branche…
+>   - Si elle est purement locale et temporaire, je m’assure qu’elle n’apparaît pas dans le graphe final de l’historique en faisant un fast-forward merge, ce qui peut nécessiter un rebase au préalable.
+>   - Si elle a une sémantique claire et documentée, je m’assure qu’elle apparaîtra clairement dans le graphe de l’historique, du début à la fin, en garantissant un true merge.
+> - Quand je m’apprête à pusher mon travail local, je nettoie mon historique local d’abord pour partager un historique propre, au cordeau.
+> - Quand je me vois refuser le push parce qu’un travail complémentaire a été pushé entre-temps, je rebase sur la branche distante à jour pour éviter de polluer le graphe par des tas de micro-merges malvenus.
 
 
 [^1]: Se reporter au chapitre 1 partie 4
