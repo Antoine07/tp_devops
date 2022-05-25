@@ -218,5 +218,8 @@ Vous pouvez également utiliser la commande `git branch -u <REMOTE>/<BRANCH>` po
 
 Enfin la commande `git branch -vv` vous permet d'identifier toutes les branches locales et les branches distantes suivies. 
 
+Nous avons précédemment défini la commande `git pull` comme un raccourci, mais elle a une différence majeure avec un `git fetch` : le fetch ne modifie pas votre working directory, il se contente de récupérer tous les changements sur le serveur distant. La commande `git pull` réalise un fetch mais merge également le contenu du remote. Ainsi que nous utilisions fetch puis merge ou git pull nous réalisons essentiellement la même chose.  
+
+Dernier point de ces interactions lorsqu'une branche distante n'a plus d'utilité il est possible de la supprimer en utilisant la commande `git push <REMOTE> --delete <NOM BRANCHE>`
 
 [^1]: Se reporter au chapitre 1 partie 4
