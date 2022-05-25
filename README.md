@@ -41,6 +41,8 @@ Source pour le cours de git et déploiement.
 2) Conception de git et impact sur les branches dans git
 3) Commandes de base sur le branching, le merging et leur gestion
 4) Logiques de gestion des branches
+5) Interaction des branches locales et distantes
+6) Merge VS Rebasing
 
 ### Chapitre 5 : La notion de git distribué (collaboration sur git) et relation avec github
 
