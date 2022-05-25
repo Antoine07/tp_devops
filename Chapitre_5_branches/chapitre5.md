@@ -240,6 +240,27 @@ D'un point de vue commande voici comment cela opère, pour les besoins de la dé
 > 
 > Applying: added staged command
 
+Comment cela fonctionne concrètement : le rebase va rechercher l'ancètre commun aux deux branches, puis à partir de cet ancètre commun réappliquer séquentiellement les modifications sur la cible, en reprenant chaque commit et appliquant les modifications à des fichiers temporaires jusqu'à revenir au niveau de la branche source. 
+
+Le rebase va donc permettre de créer une histoire linéaire dans laquelle la cible a subit exactement les mêmes modifications que la source. Cela signifie que l'output est exactement le même qu'un merge mais rend l'historique plus consistant et linéaire, ce qui se traduit par une histoire linéaire également dans la commande `git log` au niveau de la cible.
+
+## Avantages et cas d'utilisation du rebasing et du merge
+
+La définition de l'utilisation de l'une ou l'autre méthode dépendra essentiellement de son rapport à l'historique du projet. 
+
+Pour simplifier nous pouvons indiquer les éléments suivants : 
+
+* Une branche locale temporaire (par exemple résolution d'un bug) sans intérêt pour la connaissance de l'historique du projet n'a pas intérêt à être identifié dans le futur comme une divergence avec une existence propre, on utilisera donc rebase. D'autant plus si la branche cible des modifications a évolué entre temps et n'est plus un ancêtre direct. Si aucune évolution de la branche d'origine n'a été enregistré entre temps on utilisera plutôt merge. 
+* Si la branche que l'on veut fusionner à une utilité dans la connaissance du développement du projet (par exemple l'ajout d'une feature) alors on utilisera. On vous donnera conserver l'ampleur de cette divergence et donc on utilisera un merge, qui évitera de linéariser l'ensemble.  
+* On utilise rebase lorsque un travail local part d'une base considérée comme obsolète. Si donc la base a évolué on utilisera rebase en local afin de repartir sur ses évolutions et "actualiser" notre base de travail. Dans ce cas un git merge ajouterait du bruit à l'historique ce qui ne serait pas idéal. 
+
+Pour résumer ces principes nous pouvons utiliser le résumé fournit dans cet article : 
+
+- Quand je fusionne une branche…
+  - Si elle est purement locale et temporaire, je m’assure qu’elle n’apparaît pas dans le graphe final de l’historique en faisant un fast-forward merge, ce qui peut nécessiter un rebase au préalable.
+  - Si elle a une sémantique claire et documentée, je m’assure qu’elle apparaîtra clairement dans le graphe de l’historique, du début à la fin, en garantissant un true merge.
+- Quand je m’apprête à pusher mon travail local, je nettoie mon historique local d’abord pour partager un historique propre, au cordeau.
+- Quand je me vois refuser le push parce qu’un travail complémentaire a été pushé entre-temps, je rebase sur la branche distante à jour pour éviter de polluer le graphe par des tas de micro-merges malvenus.
 
 
 [^1]: Se reporter au chapitre 1 partie 4
