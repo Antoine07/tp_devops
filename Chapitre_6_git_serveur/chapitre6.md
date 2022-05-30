@@ -37,3 +37,17 @@ Il a également quelques défauts majeurs :
 - L'accès rapide à la data n'est un avantage que si le système de gestion de fichiers est lui-même rapide, il peut parfois être beaucoup plus lent suivant la configuration. 
 - La sécurité et l'intégrité sont moindres. Chaque utilisateur peut accéder au remote directory de manière directe et corrompre les fichiers.  
 
+### Les protocoles HTTP
+
+Il existe deux protocoles http, qualifiés de "dumb HTTP" et "smart HTTP". Le protocol smart http a été introduit dans git 1.6.6.
+
+#### Smart HTTP 
+
+Il agit de manière très similaire à un protocole de type SSH ou Git, mais utilise les ports HTTPS et supportent une multitude d'authentification des protocoles http (username et password par exemple). 
+
+Il introduit la possibilité de lire la data lors des pulls de manière libre puis de demander une authentification pour les pushs. Tout cela est fait sur la même url. C'est l'un des services les plus populaires pour sa facilité d'utilisation, et sur github par exemple l'url du dépôt est la même que celle utilisée pour les clones et les pushs si les droits sont accordés. (Récemment des restrictions de sécurité ont été mises en place et demandent maintenant une authentification SSH pour l'utilisation de github). 
+
+#### Dumb HTTP 
+
+Nous passerons rapidement sur ce protocole maintenant ancien et peu utilisé. Il faut juste savoir que cette possibilité existe et est très facile : il permet de délivrer par http les fichiers "raws" de git et réclame une hook post update.
+
