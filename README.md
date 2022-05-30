@@ -51,7 +51,7 @@ Source pour le cours de git et déploiement.
 
 ### Chapitre 7 : Collaboration dans git
 
-1) Décomposition d'un système collaboratif 
+1) Workflows distribués VS centralisés 
 2) Etude d'un système collaboratif réel
 3) Contribution (fork, pull requests)
 4) Maintien d'un projet (notion d'administration)
