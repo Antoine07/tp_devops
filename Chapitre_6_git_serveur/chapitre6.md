@@ -1,4 +1,4 @@
-# Particularitès de git côté serveur 
+# Particularités de git côté serveur 
 
 ## Particularité et utilité d'un répertoire git sur un serveur. 
 
