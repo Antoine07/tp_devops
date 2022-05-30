@@ -47,5 +47,29 @@ Il inclue un triple niveau avec 3 rôles : les développeurs, les lieutenants et
 Un guide existe en anglais qui vous permet de voir les workflows de manière exhaustive, ainsi que de savoir quand les utiliser. Vous pouvez vous y référer pour de plus amples détails : https://martinfowler.com/articles/branching-patterns.html
 
 
+# Comprendre la contribution dans git
 
+Plusieurs variables vont impacter votre façon de collaborer : 
 
+- Le nombre de développeurs actifs sur le projet
+- Le workflow sélectionné pour le projet
+- Les accès en écriture (si vous pouvez écrire directement sur le master ou non)
+
+Néanmoins nous allons voir comment créer une cohérence malgré l'ensemble de ces variables au travers de bonnes pratiques. 
+
+## Les bonnes pratiques du commit. 
+
+La première bonne pratique et la plus importante est de commiter à chaque entité logique. Si vous travaillez sur deux features distinctes par exemple n'essayez pas de committer conjointement les changements mais découpez votre commit en fonction de chaque entité logique. Cela simplifiera grandement les reverts en permettant de n'agir que sur une partie problématique si tous les autres élements sont quant à eux corrects. Ainsi si votre feature 2 est correcte mais que la 1 pose problème il sera beaucoup plus simple d'agir en cas de commits séparés. 
+
+L'autre point à prendre compte est le message de commit qui doit décrire l'entité logique et les modifications qui lui ont été apportées de manière claire et concise. 
+
+Le message se découpera en deux parties :
+- Une description extrêmement brève (- de 50 caractères) qui détruit l'entité logique de manière globale.
+- Une ligne blanche de séparation
+- Une description plus en détail (si nécessaire) des changements effectués et de leur raison. 
+
+Dernier point des bonnes pratiques avant d'effectuer le commit lancez la commande `git diff --check` qui vous permettra de vérifier qu'il n'y a pas d'erreur d'espacement. 
+
+## Chronologie des workflows, un exemple de collaboration dans une petite équipe : 
+
+![image](https://git-scm.com/book/en/v2/images/small-team-flow.png)
