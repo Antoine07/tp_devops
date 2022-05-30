@@ -101,8 +101,14 @@ Les inconvénients :
 
 # Implémentation d'un bare repository sur un serveur.
 
+## Création d'un bare repository.
+
 Comme nous l'avons vu dans la partie précédente, pour qu'un git soit exporté vers un serveur il faut d'abord faire de notre repository un "bare repository". 
 
 Pour cela l'option --bare d'un git clone va permettre de créer un bare repository. Une convention consiste à nommer le bare repository avec le suffixe .git. La commande git clone va alors opérer avec les modificateurs suivants
 
 - `git clone --bare <NOM DU PROJET> <NOM DU PROJET .git>`
+
+Cette commande va créer un nouveau git repository de type bare dans le directory <NOM DU PROJET .git> par exemple myproject.git en tant que répertoire. 
+  
+## Placer le bare repository sur un serveur. 
