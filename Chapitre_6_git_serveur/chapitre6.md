@@ -133,3 +133,4 @@ Pour plus de détails vous pouvez vous reporter aux chapitres suivants :
   * https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server
   
 > Note nous ne couvrirons pas dans ce cours les autres protocoles en détails, en cas d'utilisation des autres protocoles vous disposez de chapitre dédié dans le livre référence. 
+
