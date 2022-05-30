@@ -1,4 +1,4 @@
-# Git Serveur
+# Particularitès de git côté serveur 
 
 ## Particularité et utilité d'un répertoire git sur un serveur. 
 
@@ -100,3 +100,9 @@ Les inconvénients :
 - Il requiert également l'accès au port 9418 qui peut être problématique pour certains firewalls. .
 
 # Implémentation d'un bare repository sur un serveur.
+
+Comme nous l'avons vu dans la partie précédente, pour qu'un git soit exporté vers un serveur il faut d'abord faire de notre repository un "bare repository". 
+
+Pour cela l'option --bare d'un git clone va permettre de créer un bare repository. Une convention consiste à nommer le bare repository avec le suffixe .git. La commande git clone va alors opérer avec les modificateurs suivants
+
+- `git clone --bare <NOM DU PROJET> <NOM DU PROJET .git>`
