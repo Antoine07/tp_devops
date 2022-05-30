@@ -239,7 +239,7 @@ Enfin vous pouvez également limiter l'output de votre commande `git log` grâce
 Vous pouvez avoir commis une erreur dans votre commit, et voulez le modifier avant de le pousser. 
 	
 Il existe deux types de modification possibles d'un commit :
-* Ajout de modifications et / ou de fichiers
+* Ajout de modifications et / ou suppression de fichiers
 * Modification du message de commit
 	
 Dans les deux cas le workflow est le suivant : 
