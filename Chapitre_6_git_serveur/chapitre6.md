@@ -121,5 +121,9 @@ Les impacts sont les suivants :
 * Toute personne disposant d'un accès ssh en write disposera également automatiquement des fonctionnalités de push. 
 * Dernier point à noter, si à ce stade vous effectuez la commande suivante : `git init --shared` sur le serveur, vous créerez les droits d'écriture de groupe dans ce repository. Cela ne détruira pas toute action antérieure comme les commits etc.
   
-Nous avons vu un setup complet d'un remote repository, si vous souhaitez ajouter de nouveaux utilisateurs, il ne restera alors qu'à rajouter des comptes SSH. Il nous reste maintenant à voir comment interagir avec les différents protocoles. 
+Nous avons vu un setup complet d'un remote repository, si vous souhaitez ajouter de nouveaux utilisateurs, il ne restera alors qu'à rajouter des comptes SSH.
+  
 
+## Clés SSH et git 
+
+Dans le cadre d'une gestion d'un nombre restreint de collaborateurs la gestion de git se fera donc par l'ajout de clés SSH. On ne rentrera pas dans le détail dans ce cours. https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
