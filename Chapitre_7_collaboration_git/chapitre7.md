@@ -37,7 +37,15 @@ Ce workflow constitue une variante du workflow précédent. Il est particulière
 Il inclue un triple niveau avec 3 rôles : les développeurs, les lieutenants et le dictateur. 
 
 - Les développeurs poussent vers leur dépôt publique, ils travaillent chacun sur un sujet précis. 
-- - deada
-- Les lieutenants  
+  - Les développeurs poussent leurs modifications en utilisant un rebase du master (on verra que le master est géré par le dictateur). 
+- Les lieutenants quant à eux sont responsables de l'intégration du travail des développeurs, ils ont une responsabilité au niveau d'une certaine partie du repository. Ils vont donc merger le travail des développeurs au niveau de leur propre master.
+- Le dictateur va quant à lui merger le master de chaque lieutenant dans son propre master.
+- Le dictateur va ensuite pousser depuis son propre master vers le master général, les développeurs vont pouvoir ensuite rebaser a partir du master général et relancer un cycle. 
+
+## Notions avancées de workflow
+
+Un guide existe en anglais qui vous permet de voir les workflows de manière exhaustive, ainsi que de savoir quand les utiliser. 
+
+
 
 
