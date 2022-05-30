@@ -112,3 +112,11 @@ Pour cela l'option --bare d'un git clone va permettre de créer un bare reposito
 Cette commande va créer un nouveau git repository de type bare dans le directory <NOM DU PROJET .git> par exemple myproject.git en tant que répertoire. 
   
 ## Placer le bare repository sur un serveur. 
+
+Le dépôt d'un bare repository peut être effectuer de manière classique sur un serveur (scp etc.)
+  
+Les impacts sont les suivants : 
+  
+* Toute personne ayant accès à la localisation du bare repository en read only peut désormais utiliser les fonctionnalités de cloning et de pull du bare repository. 
+* Toute personne disposant d'un accès ssh en write disposera également automatiquement des fonctionnalités de push. 
+* Dernier point à noter, si à ce stade vous effectuez la commande suivante : `git init --shared` sur le serveur, vous créerez les droits d'écriture de groupe à un 
