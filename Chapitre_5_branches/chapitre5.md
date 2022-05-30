@@ -2,7 +2,7 @@
 
 Pour comprendre la notion de branches il faut voir un projet composé d'une ligne directrice et de multiples divergences possibles. 
 
-Prenons un exemple comcret : vous produisez un content management system (CMS). Ce système global est décomposé entre des éléments faisant déjà parti du "canon" de ce CMS : par exemple le système de gestion des articles, celui des utilisateurs etc. Imaginons que vous vouliez maintenant intégrer dans ce système complexe un système de gestion des images. Vous allez avoir besoin de ce "canon" ou en tout cas de l'intégralité du code déjà présent et validé par tous comme point de départ. Néanmoins vous allez créer une divergence, à savoir l'intégration dans ce CMS d'un système de gestion d'images. 
+Prenons un exemple concret : vous produisez un content management system (CMS). Ce système global est décomposé entre des éléments faisant déjà parti du "canon" de ce CMS : par exemple le système de gestion des articles, celui des utilisateurs etc. Imaginons que vous vouliez maintenant intégrer dans ce système complexe un système de gestion des images. Vous allez avoir besoin de ce "canon" ou en tout cas de l'intégralité du code déjà présent et validé par tous comme point de départ. Néanmoins vous allez créer une divergence, à savoir l'intégration dans ce CMS d'un système de gestion d'images. 
 
 La création d'une branche va vous permettre de créer une copie spécifique, à jour avec la copie canonique vous laissant explorer toutes les modifications nécessaires sans pour autant devoir pousser vers la copie canonique ces modifications.
 
