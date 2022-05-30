@@ -44,15 +44,13 @@ Source pour le cours de git et déploiement.
 5) Interaction des branches locales et distantes
 6) Merge VS Rebasing
 
-### Chapitre 5 : La notion de git distribué (collaboration sur git) et relation avec github
+### Chapitre 6 : La notion de git distribué (collaboration sur git) et relation avec github
 
 #### Git côté serveur
 
-1) Avoir git sur un serveur
-2) Notions de clés et génération des clés
-3) Configuration côté serveur
-
-(ici possible ajout de plus de notions comme le git daemon etc)
+1) Particularités de git côté serveur
+2) Implémentation d'un bare repository
+3) 
 
 #### Collaboration dans git
 
