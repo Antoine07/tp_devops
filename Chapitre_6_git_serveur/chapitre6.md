@@ -97,4 +97,6 @@ Les inconvénients :
 
 - Ce protocole est utilisé pour la diffusion large en read only, mais généralement il doit être pairé avec un protocole de type SSH pour les quelques développeurs qui vont pusher vers ce repository du fait du manque d'authentification.
 - Le protocole est plus dur à setuper du fait de l'utilisation de son propre daemon et requiert xinetd ou ssytemd configuration ...
-- Il requiert également l'accès au port 9418 qui peut être problématique pour certains firewalls. 
+- Il requiert également l'accès au port 9418 qui peut être problématique pour certains firewalls. .
+
+# Implémentation d'un bare repository sur un serveur.
