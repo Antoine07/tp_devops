@@ -47,7 +47,25 @@ Il agit de manière très similaire à un protocole de type SSH ou Git, mais uti
 
 Il introduit la possibilité de lire la data lors des pulls de manière libre puis de demander une authentification pour les pushs. Tout cela est fait sur la même url. C'est l'un des services les plus populaires pour sa facilité d'utilisation, et sur github par exemple l'url du dépôt est la même que celle utilisée pour les clones et les pushs si les droits sont accordés. (Récemment des restrictions de sécurité ont été mises en place et demandent maintenant une authentification SSH pour l'utilisation de github). 
 
-#### Dumb HTTP 
+#### Dumb HTTP 
 
 Nous passerons rapidement sur ce protocole maintenant ancien et peu utilisé. Il faut juste savoir que cette possibilité existe et est très facile : il permet de délivrer par http les fichiers "raws" de git et réclame une hook post update.
+
+Les protocoles http, surtout le smart http dispose des avantages suivants : 
+
+- Le protocole est simple (ne comporte qu'une seul url pour toutes les actions) et autorise des authentifications plus simples que des clés SSH.
+- Il est rapide.
+- Le protocole HTTPS est utilisable permettant l'encryption des données transférées et également une communication facile malgré les firewalls qui acceptent la plupart des requêtes https.
+
+Mais ils ont également les défauts suivants : 
+
+- La gestion des authentifications peuvent être ennuyeuses puisque les credentials sont redemandés à chaque connection les nécessitant. 
+
+### Le protocole SSH
+
+Le protocole SSH est largement employé pour différentes actions techniques dans la plupart des entreprises, et si il n'est pas employé il est facilement déployable. 
+
+L'accès à un ssh via git peut se faire de deux façons : 
+- `git clone ssh://[user@]server/project.git`
+- `git clone [user@]server:project.git`
 
