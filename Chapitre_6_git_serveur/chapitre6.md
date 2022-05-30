@@ -21,5 +21,19 @@ Ce protocole comme son nom l'indique consiste à disposer d'un remote repository
 
 Les actions relatives à ce protocole peuvent être effectuées de deux façons, les deux utilisant le chemin "path" vers le local repository : 
 
-- git clone /srv/git/project.git
-- git clone file:///srv/git/project.git
+- `git clone /srv/git/project.git`
+- `git clone file:///srv/git/project.git`
+
+La différence entre ces deux syntaxes réside dans le fait que lorsque `file://` est utlisé git utilise le système de gestion de transfert de data via un network. Utiliser un path classique est toujours plus rapide, mais vous pourrez avoir à utiliser `file://` notamment lors de migration d'anciens systèmes de VCS vers git. Vous pouvez utiliser de manière classique toutes les fonctionnalités de git faisant appel à un URL. 
+
+Ce protocole a plusieurs avantages :
+
+- Si l'on dispose déjà d'un système de gestions de fichiers partagés le set up est simple rapide, et réutilise la gestion des droits READ/WRITE de ce système. 
+- Il permet une collaboration extrêmement rapide en pushant / pullant sur un élément local et en se dispensant de certaines étapes d'un remote repository.
+
+Il a également quelques défauts majeurs : 
+
+- Un système de gestion de fichiers est généralement plus difficilement accessible depuis n'importe quel réseau, il requiert une gestion des utilisateurs et de leur authentification. 
+- L'accès rapide à la data n'est un avantage que si le système de gestion de fichiers est lui-même rapide, il peut parfois être beaucoup plus lent suivant la configuration. 
+- La sécurité et l'intégrité sont moindres. Chaque utilisateur peut accéder au remote directory de manière directe et corrompre les fichiers.  
+
