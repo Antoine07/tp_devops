@@ -49,7 +49,7 @@ Source pour le cours de git et déploiement.
 1) Particularités de git côté serveur
 2) Implémentation d'un bare repository sur un serveur
 
-#### Collaboration dans git
+#### Chapitre 7 : Collaboration dans git
 
 1) Décomposition d'un système collaboratif 
 2) Etude d'un système collaboratif réel
