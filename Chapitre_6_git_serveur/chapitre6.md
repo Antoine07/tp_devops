@@ -126,4 +126,10 @@ Nous avons vu un setup complet d'un remote repository, si vous souhaitez ajouter
 
 ## Clés SSH et git 
 
-Dans le cadre d'une gestion d'un nombre restreint de collaborateurs la gestion de git se fera donc par l'ajout de clés SSH. On ne rentrera pas dans le détail dans ce cours. https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
+Dans le cadre d'une gestion d'un nombre restreint de collaborateurs la gestion de git se fera donc par l'ajout de clés SSH. On ne rentrera pas dans le détail dans ce cours. 
+Pour plus de détails vous pouvez vous reporter aux chapitres suivants :  
+
+  * https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
+  * https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server
+  
+ 
