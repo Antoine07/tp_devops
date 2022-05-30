@@ -66,6 +66,20 @@ Mais ils ont également les défauts suivants :
 Le protocole SSH est largement employé pour différentes actions techniques dans la plupart des entreprises, et si il n'est pas employé il est facilement déployable. 
 
 L'accès à un ssh via git peut se faire de deux façons : 
+
 - `git clone ssh://[user@]server/project.git`
 - `git clone [user@]server:project.git`
+
+Dans les deux cas en cas d'absence de précision du username git va supposer qu'il s'agit du username préréglé dans ses propres paramètres.
+
+Les avantages du SSH sont liés à l'utilité même de ce protocole : 
+
+- Large utilisation dans les entreprises et configurations déjà réalisées dans la plupart des cas
+- Sécurité (encryption et authentification)
+- Compactage de la data avant son transfert
+
+Les contres : 
+
+- Même pour un accès en lecture le protocole SSH requiert une authentification, ce qui rend votre git moins largement diffusable notamment pour les projets open sources.
+- Ceci n'est un inconvénient que si vous comptez utiliser git en dehors d'un cadre strictement corporate. 
 
