@@ -72,4 +72,11 @@ Dernier point des bonnes pratiques avant d'effectuer le commit lancez la command
 
 ## Chronologie des workflows, un exemple de collaboration dans une petite équipe : 
 
+Nous allons commenter le schéma suivant et comprendre la gestion chronologique dans le cadre d'une petite équipe avec un serveur centralisé :
+
 ![image](https://git-scm.com/book/en/v2/images/small-team-flow.png)
+*Source : https://git-scm.com/book/en/v2/images/small-team-flow.png
+
+## Collaboration dans le cadre d'un projet publique (fork)
+
+
