@@ -44,7 +44,7 @@ Il inclue un triple niveau avec 3 rôles : les développeurs, les lieutenants et
 
 ## Notions avancées de workflow
 
-Un guide existe en anglais qui vous permet de voir les workflows de manière exhaustive, ainsi que de savoir quand les utiliser. 
+Un guide existe en anglais qui vous permet de voir les workflows de manière exhaustive, ainsi que de savoir quand les utiliser. Vous pouvez vous y référer pour de plus amples détails : https://martinfowler.com/articles/branching-patterns.html
 
 
 
