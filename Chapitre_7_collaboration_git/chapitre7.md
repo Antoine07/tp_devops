@@ -2,4 +2,5 @@
 
 ## Worflows centralisés
 
-!(image) [https://git-scm.com/book/en/v2/images/centralized_workflow.png]
+![image](https://git-scm.com/book/en/v2/images/distributed.png)
+![image](https://git-scm.com/book/en/v2/images/centralized_workflow.png)
