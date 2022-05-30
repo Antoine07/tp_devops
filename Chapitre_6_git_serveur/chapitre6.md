@@ -119,4 +119,7 @@ Les impacts sont les suivants :
   
 * Toute personne ayant accès à la localisation du bare repository en read only peut désormais utiliser les fonctionnalités de cloning et de pull du bare repository. 
 * Toute personne disposant d'un accès ssh en write disposera également automatiquement des fonctionnalités de push. 
-* Dernier point à noter, si à ce stade vous effectuez la commande suivante : `git init --shared` sur le serveur, vous créerez les droits d'écriture de groupe à un 
+* Dernier point à noter, si à ce stade vous effectuez la commande suivante : `git init --shared` sur le serveur, vous créerez les droits d'écriture de groupe dans ce repository. Cela ne détruira pas toute action antérieure comme les commits etc.
+  
+Nous avons vu un setup complet d'un remote repository, si vous souhaitez ajouter de nouveaux utilisateurs, il ne restera alors qu'à rajouter des comptes SSH. Il nous reste maintenant à voir comment interagir avec les différents protocoles. 
+
