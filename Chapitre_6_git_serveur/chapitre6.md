@@ -83,3 +83,18 @@ Les contres :
 - Même pour un accès en lecture le protocole SSH requiert une authentification, ce qui rend votre git moins largement diffusable notamment pour les projets open sources.
 - Ceci n'est un inconvénient que si vous comptez utiliser git en dehors d'un cadre strictement corporate. 
 
+### Le protocole git 
+
+Le protocole git est un daemon qui tourne sur le port 9418 par défaut. Il est très similaire au protocole SSH, mais fonctionne sans aucune authentification. Il s'agit donc généralement de repository mis en place en lecture seule, dans lequel le push n'est pas autorisé (en raison de l'absence d'authentification). 
+
+Pour permettre l'accès en read only vous devez créer un fichier `git-daemon-export-ok` le daemon ne servira le repository que si ce fichier est présent. 
+
+Les avantages : 
+
+- Souvent le protocole qui sert de la manière la plus rapide par un network, en utilisant les mêmes protocoles que le SSH pour le transfert de données mais sans l'encryption. 
+
+Les inconvénients : 
+
+- Ce protocole est utilisé pour la diffusion large en read only, mais généralement il doit être pairé avec un protocole de type SSH pour les quelques développeurs qui vont pusher vers ce repository du fait du manque d'authentification.
+- Le protocole est plus dur à setuper du fait de l'utilisation de son propre daemon et requiert xinetd ou ssytemd configuration ...
+- Il requiert également l'accès au port 9418 qui peut être problématique pour certains firewalls. 
