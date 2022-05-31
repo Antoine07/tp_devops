@@ -55,7 +55,7 @@ Source pour le cours de git et déploiement.
 2) Etude d'un système collaboratif réel
 3) Contribution (fork, pull requests)
 
-### Chapitre 8 : Panorama des autres outils de github
+### Chapitre 8 : Panorama des autres outils de git
 
 Révision, staging ...
 (cette partie sera adaptée en fonction du temps jusqu'ici). 
