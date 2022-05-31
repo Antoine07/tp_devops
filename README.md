@@ -55,14 +55,7 @@ Source pour le cours de git et déploiement.
 2) Etude d'un système collaboratif réel
 3) Contribution (fork, pull requests)
 
-#### Collaboration avec github
-
-1) Contribution à un projet
-2) Maintien d'un projet 
-3) Gérer un projet
-4) Introduction au scripting de github (optionnel)
-
-### Chapitre 7 : Panorama des autres outils de github
+#### Chapitre 7 : Panorama des autres outils de github
 
 Révision, staging ...
 (cette partie sera adaptée en fonction du temps jusqu'ici). 
