@@ -94,5 +94,7 @@ La collaboration dans le cadre d'un projet publique, notamment via des fork suit
    - La pull request peut avoir deux formes :
      - Utilisation de la commande git request-pull, et envoi du retour de cette commande par mail
      - Utilisation des fonctions built in sur github par exemple.
-- 
+8) Merge de la part du maintainer dans le dossier canonique si requête acceptée sinon rejet.
+
+## Maintien d'un projet 
 
