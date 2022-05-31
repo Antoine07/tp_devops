@@ -83,5 +83,12 @@ Bien que git clean ait des aspects similaires au stash, il permet quant à lui d
 
 Attention cette commande va supprimer du contenu de fichiers non trackés et ne sera pas reversible on préférera généralement un `git stash --all` cette dernière n'etant pas destructrice contrairement à `git clean`.
 
+Vous pouvez ajouter l'option `-x` qui va supprimer tous les fichiers trackés ou non.
+
+Avant de vous lancer dans une opération trop destructrice deux options s'offrent à vous : ajouter l'option `-n` qui va vous indiquer ce qui sera supprimé par la comande sans pour autant le supprimer ou jouer la commande en mode interactif en ajoutant le `-i`.
+
+Pour forcer l'exécution de la commande il faudra rajouter l'option `-f`
+
+
 
 
