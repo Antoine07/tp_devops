@@ -21,3 +21,7 @@ On peut également sélectionner des commits par "range" :
 > Si on utilise la syntaxe `git log master..experiment` on obtiendra D C comme retour, a savoir les logs sont non accessibles par master mais accessibles par experiment. 
 >
 > Cela vous permet de mapper vos commits et de savoir ce qui a été mergé ou non de manière plus facile.
+
+- Des syntaxes tripartites existent également : `git log refA refB ^refC` va considérer tous les commits accessibles par refA ou refB mais pas par refC (une autre syntaxe est possible pour ce cas : `git log refA refB --not refC`)
+
+- La syntaxe en `...` donne tous les commits accessibles par l'une ou l'autre des références mais non accessibles aux deux simultanément. On peut rajouter également `--left-right` pour rendre plus explicite le retour, cela permettra de savoir de quel cote est accessible le commit. Exemple 1 : `git log master...experiment` Exemple 2 : `git log --left-right master...experiment`
