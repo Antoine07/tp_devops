@@ -96,5 +96,3 @@ La collaboration dans le cadre d'un projet publique, notamment via des fork suit
      - Utilisation des fonctions built in sur github par exemple.
 8) Merge de la part du maintainer dans le dossier canonique si requête acceptée sinon rejet.
 
-# Maintien d'un projet 
-
