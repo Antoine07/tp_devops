@@ -96,3 +96,14 @@ La collaboration dans le cadre d'un projet publique, notamment via des fork suit
      - Utilisation des fonctions built in sur github par exemple.
 8) Merge de la part du maintainer dans le dossier canonique si requête acceptée sinon rejet.
 
+# TP : Structuration d'un git pour une nouvelle société. 
+
+Enoncé : 
+
+> En tant que lead dev on vous demande d'intégrer Git comme système de versioning. Vous devrez faire une présentation incluant les éléments suivants :
+> 
+> - Choix techniques et raisons de ces choix (hébergement de git sur un serveur ? Choix d'un protocole ...)
+> - Définition du workflow, explication du fonctionnement, du modèle et pourquoi est-ce adapté à votre entreprise ?
+> - Définition des guidelines et normes adoptées au niveau de git (création de branches, commits ...)
+> 
+> Vous présenterez les résultats finaux au directeur technique et au directeur général de la société. La société embauche 50 développeurs et a pour ambition de développer son propre cms sans aucun recours à des cms type prestashop. 
