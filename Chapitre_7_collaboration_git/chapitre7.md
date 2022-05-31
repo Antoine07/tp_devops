@@ -89,7 +89,7 @@ La collaboration dans le cadre d'un projet publique, notamment via des fork suit
 3) Réalisation du travail sur cette branche avec emission de X commits
 4) Création d'un fork écrivable (writeable) 
 5) Ajout de ce fork comme remote au niveau de votre branche de travail
-6) Push de cette branche de travail vers une branche acceuillant votre travail (et non sur le master pour permettre une sélection précise par le maintainer). 
+6) Push de cette branche de travail vers une branche acceuillant votre travail sur le fork (et non sur le master pour permettre une sélection précise par le maintainer). 
 7) Envoi d'une pull request vers le maintainer
    - La pull request peut avoir deux formes :
      - Utilisation de la commande git request-pull, et envoi du retour de cette commande par mail
