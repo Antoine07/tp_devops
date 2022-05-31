@@ -89,6 +89,16 @@ Avant de vous lancer dans une opération trop destructrice deux options s'offren
 
 Pour forcer l'exécution de la commande il faudra rajouter l'option `-f`
 
+# Git grep
+
+Outil de recherche par excellence, git fournit un grep proche des greps que vous pouvez déjà connaître dans les systèmes unix. Il permettra notamment avec l'option -n de connaître les numéros de ligne ou se trouve l'occurrence que vous recherchez. On ne rentrera pas dans le détail dans cet outil dans le cadre de la formation, son fonctionnement devant vous être famillier.
+
+# Recherche dans les logs 
+
+L'option `-S` de la commande `git log` vous permet de chercher à l'intérieur des logs une expression afin de localiser le moment ou une expression est apparue dans les logs. Il est également possible de fournir une expression régulière avec l'option `-G` 
+
+L'option `-L` permet d'étudier l'évolution d'une fonction ou d'une ligne de code dans la database de git. 
+
 
 
 
