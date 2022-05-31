@@ -251,7 +251,7 @@ La définition de l'utilisation de l'une ou l'autre méthode dépendra essentiel
 Pour simplifier nous pouvons indiquer les éléments suivants : 
 
 * Une branche locale temporaire (par exemple résolution d'un bug) sans intérêt pour la connaissance de l'historique du projet n'a pas intérêt à être identifié dans le futur comme une divergence avec une existence propre, on utilisera donc rebase. D'autant plus si la branche cible des modifications a évolué entre temps et n'est plus un ancêtre direct. Si aucune évolution de la branche d'origine n'a été enregistré entre temps on utilisera plutôt merge. 
-* Si la branche que l'on veut fusionner à une utilité dans la connaissance du développement du projet (par exemple l'ajout d'une feature) alors on utilisera. On vous donnera conserver l'ampleur de cette divergence et donc on utilisera un merge, qui évitera de linéariser l'ensemble.  
+* Si la branche que l'on veut fusionner à une utilité dans la connaissance du développement du projet (par exemple l'ajout d'une feature) alors on utilisera rebase. On voudra conserver l'ampleur de cette divergence et donc on utilisera un merge, qui évitera de linéariser l'ensemble.  
 * On utilise rebase lorsque un travail local part d'une base considérée comme obsolète. Si donc la base a évolué on utilisera rebase en local afin de repartir sur ses évolutions et "actualiser" notre base de travail. Dans ce cas un git merge ajouterait du bruit à l'historique ce qui ne serait pas idéal. 
 
 Pour résumer ces principes nous pouvons utiliser le résumé fournit dans cet article : 
