@@ -49,23 +49,17 @@ Source pour le cours de git et déploiement.
 1) Particularités de git côté serveur
 2) Implémentation d'un bare repository sur un serveur
 
-### Chapitre 7 : Collaboration dans git
+### Chapitre 7 : Collaboration dans git (et github)
 
 1) Workflows distribués VS centralisés 
 2) Etude d'un système collaboratif réel
 3) Contribution (fork, pull requests)
 
-#### Chapitre 7 : Panorama des autres outils de github
+### Chapitre 8 : Panorama des autres outils de github
 
 Révision, staging ...
 (cette partie sera adaptée en fonction du temps jusqu'ici). 
 
-### Chapitre 8 : Personnalisation de git 
-
-1) Configuration
-2) Attribus de git
-3) La notion de hooks
-4) Intégration de git dans les outils de développement (notamment visual studio code)
 
 # Section 2 : Déploiement (avec jenkins)
 
