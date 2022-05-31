@@ -32,7 +32,7 @@ Cette nouvelle branche pointe donc vers le commit précédent la divergence (f30
 
 La commande `git branch <SHORTNAME >` permet la création d'une nouvelle branche dans le projet. Ainsi si nous voulons créer une nouvelle branche dans le projet git que nous avons pris en exemple, nous pouvons tapper `git branch nouvellebranche`.
 
-Attention la commange `git branch` ne vous fait pas vous déplacer dans la nouvelle branche, elle la crée simplement. Pour que git se souvienne de la branche sur laquelle vous êtes actuellement il crée un nouveau pointeur appelé "head". Cette notion de head permet simplement de savoir sur quelle branche vous vous situez. 
+Attention la commande `git branch` ne vous fait pas vous déplacer dans la nouvelle branche, elle la crée simplement. Pour que git se souvienne de la branche sur laquelle vous êtes actuellement il crée un nouveau pointeur appelé "head". Cette notion de head permet simplement de savoir sur quelle branche vous vous situez. 
 
 La commande `git log --oneline --decorate` vous permettra de voir ou se situe les pointeurs des différentes branches dont le head. 
 
