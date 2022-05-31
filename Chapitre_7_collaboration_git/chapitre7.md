@@ -77,8 +77,22 @@ Dernier point des bonnes pratiques avant d'effectuer le commit lancez la command
 Nous allons commenter le schéma suivant et comprendre la gestion chronologique dans le cadre d'une petite équipe avec un serveur centralisé :
 
 ![image](https://git-scm.com/book/en/v2/images/small-team-flow.png)
-*Source : https://git-scm.com/book/en/v2/images/small-team-flow.png
+
+*Source : https://git-scm.com/book/en/v2/images/small-team-flow.png*
 
 ## Collaboration dans le cadre d'un projet publique (fork)
 
+La collaboration dans le cadre d'un projet publique, notamment via des fork suit la logique suivante :
+
+1) Création d'un clone du projet original
+2) Creation d'une branche pour votre travail
+3) Réalisation du travail sur cette branche avec emission de X commits
+4) Création d'un fork écrivable (writeable) 
+5) Ajout de ce fork comme remote au niveau de votre branche de travail
+6) Push de cette branche de travail vers une branche acceuillant votre travail (et non sur le master pour permettre une sélection précise par le maintainer). 
+7) Envoi d'une pull request vers le maintainer
+   - La pull request peut avoir deux formes :
+     - Utilisation de la commande git request-pull, et envoi du retour de cette commande par mail
+     - Utilisation des fonctions built in sur github par exemple.
+- 
 
