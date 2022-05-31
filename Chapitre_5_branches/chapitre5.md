@@ -228,7 +228,7 @@ Dernier point de ces interactions lorsqu'une branche distante n'a plus d'utilit�
 
 Pour comprendre la notion de rebasing nous devons nous arrêter quelque peu sur le merge. Nous avons défini le merge comme un mix des fichiers. En réalité il s'agit d'assembler le contenu de chacun et de le fusionner en un seul. Un peu comme si l'on faisait un collage de toutes les différences pour reconstituer un patchwork. 
 
-La notion de rebase approche les choses différents. Elle va prendre le dernier état connu de la branche dans laquelle nous souhaitons appliquer les modifications puis "rejouer" l'ensemble des modifications apportées sur la branche que l'on veut fusionner. C'est donc un processus itératif. 
+La notion de rebase approche la fusion différemment. Elle va prendre le dernier état connu de la branche dans laquelle nous souhaitons appliquer les modifications puis "rejouer" l'ensemble des modifications apportées sur la branche que l'on veut fusionner. C'est donc un processus itératif. 
 
 D'un point de vue commande voici comment cela opère, pour les besoins de la démonstration source sera la branche la plus avancée, cible la branche dans laquelle nous voulons appliquer les modifications de source :
 
