@@ -36,6 +36,8 @@ Ce workflow constitue une variante du workflow précédent. Il est particulière
 
 Il inclue un triple niveau avec 3 rôles : les développeurs, les lieutenants et le dictateur. 
 
+![image](https://git-scm.com/book/en/v2/images/benevolent-dictator.png)
+
 - Les développeurs poussent vers leur dépôt publique, ils travaillent chacun sur un sujet précis. 
   - Les développeurs poussent leurs modifications en utilisant un rebase du master (on verra que le master est géré par le dictateur). 
 - Les lieutenants quant à eux sont responsables de l'intégration du travail des développeurs, ils ont une responsabilité au niveau d'une certaine partie du repository. Ils vont donc merger le travail des développeurs au niveau de leur propre master.
