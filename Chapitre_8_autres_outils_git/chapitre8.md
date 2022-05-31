@@ -63,4 +63,15 @@ Lorsque vous voudrez retrouver l'état de votre working directory avant le stash
 
 Si vous aviez des fichiers stagés au moment du commit vous pouvez ajouter l'option `--index` qui reprendra l'état d'indexation précédent le stash. Une option permet de conserver l'index au niveau du stash il faut alors effectuer `git stash --keep-index`.
 
+Le stash ne va prendre en compte que les fichiers trackés si on ne précise pas un comportement différent. L'ajout de l'option `-u` va permettre de prendre en compte les fichiers non trackés. L'ajout de l'option `--all` prendra non seulement l'état des fichiers non trackés mais aussi celui des fichiers explicitement exclus par le gitignore. 
+
+Enfin l'option `--patch` vous permet de sélectionner interactivement ce que vous voulez stasher ou non. 
+
+Vous avez également la possibilité de créer une nouvelle branche à partir du stash avec la commande suivante `git stash branch <NOM BRANCHE A CREER>`
+
+# Git clean
+
+Bien que git clean ait des aspects similaires au stash, il permet quant à lui de se défaire totalement des modifications et non pas de les réutiliser pour une utilisation future. 
+
+Attention cette commande va supprimer du contenu de fichiers non trackés et ne sera pas reversible on préférera généralement un `git stash --all` cette dernière n'etant pas destructrive contrairement à `git clean`.
 
