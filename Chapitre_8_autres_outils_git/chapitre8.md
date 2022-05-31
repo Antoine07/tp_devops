@@ -25,3 +25,42 @@ On peut également sélectionner des commits par "range" :
 - Des syntaxes tripartites existent également : `git log refA refB ^refC` va considérer tous les commits accessibles par refA ou refB mais pas par refC (une autre syntaxe est possible pour ce cas : `git log refA refB --not refC`)
 
 - La syntaxe en `...` donne tous les commits accessibles par l'une ou l'autre des références mais non accessibles aux deux simultanément. On peut rajouter également `--left-right` pour rendre plus explicite le retour, cela permettra de savoir de quel cote est accessible le commit. Exemple 1 : `git log master...experiment` Exemple 2 : `git log --left-right master...experiment`
+
+# Staging interactif
+
+Le staging interactif va vous permettre de rentrer dans un mode interactif et donc d'affiner ce que vous allez passer en stage
+
+Pour renter en mode interactif il vous faudra utiliser la commande suivante : `git add -i` ou `git add --interactive` 
+
+![image](https://git-scm.com/images/bg/body.jpg)
+
+L'image montre un staging interactif, vous pourrez choisir un certain nombre de commandes que nous allons détailler maintenant. 
+
+## Update 
+
+En tappant u ou 2 au prompt vous pourrez updater le statut, il vous suffira de sélectionner les fichiers à stager (avec une étoile). 
+
+## Revert
+
+Fonction inverse de l'update permet de sortir des fichiers stagés de la staging area (`r` ou 3)
+
+## Diff
+
+Vous permet de sélectionner les fichiers stagés, et de voir les diffs à l'intérieur de ces fichiers (`d` ou 4)
+
+## Staging partiel de fichiers
+
+Vous permet de ne passer que certaines parties du fichier en staging area, si vous avez effectuer deux modifications du même fichier vous pouvez en sélectionner que l'une des deux à stager (`p` ou 5)
+
+
+# Stashing
+
+Le stashing permet de ne pas commit un état non finalisé de votre working repository. L'exemple typique est que vous devez changer de branche pour résoudre un bug, dans ce cas vous allez donc stasher vos modifications plutôt que les commits. 
+
+Le git stash va s'utiliser via la commande suivante : `git stash`. Il va concrètement stocker l'état de votre working directory et ensuite le faire revenir à l'état de la création initiale de la branche. Ainsi vous pouvez changer de branche sans craindre de pertes de données. 
+
+Lorsque vous voudrez retrouver l'état de votre working directory avant le stash vous utiliserez la commande : `"git stash list`. Cette dernière va vous permettre de localiser les stashs sauvegardés. Pour revenir à l'état d'avant stash il ne vous restera qu'à appliquer la commande `git stash apply` pour le dernier stash ou `git stash apply <NOM DU STASH>` pour un stash plus ancien. 
+
+Si vous aviez des fichiers stagés au moment du commit vous pouvez ajouter l'option `--index` qui reprendra l'état d'indexation précédent le stash. Une option permet de conserver l'index au niveau du stash il faut alors effectuer `git stash --keep-index`.
+
+
