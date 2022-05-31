@@ -80,12 +80,12 @@ Nous allons commenter le schéma suivant et comprendre la gestion chronologique 
 
 *Source : https://git-scm.com/book/en/v2/images/small-team-flow.png*
 
-## Collaboration dans le cadre d'un projet publique (fork)
+# Collaboration dans le cadre d'un projet publique (fork)
 
 La collaboration dans le cadre d'un projet publique, notamment via des fork suit la logique suivante :
 
 1) Création d'un clone du projet original
-2) Creation d'une branche pour votre travail
+2) Creation d'une branche pour votre travail et sélection de celle ci.
 3) Réalisation du travail sur cette branche avec emission de X commits
 4) Création d'un fork écrivable (writeable) 
 5) Ajout de ce fork comme remote au niveau de votre branche de travail
@@ -96,5 +96,5 @@ La collaboration dans le cadre d'un projet publique, notamment via des fork suit
      - Utilisation des fonctions built in sur github par exemple.
 8) Merge de la part du maintainer dans le dossier canonique si requête acceptée sinon rejet.
 
-## Maintien d'un projet 
+# Maintien d'un projet 
 
