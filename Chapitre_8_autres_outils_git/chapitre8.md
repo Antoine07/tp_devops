@@ -31,8 +31,16 @@ On peut également sélectionner des commits par "range" :
 Le staging interactif va vous permettre de rentrer dans un mode interactif et donc d'affiner ce que vous allez passer en stage
 
 Pour renter en mode interactif il vous faudra utiliser la commande suivante : `git add -i` ou `git add --interactive` 
-
-![image](https://git-scm.com/images/bg/body.jpg)
+>$ git add -i
+>           staged     unstaged path
+>  1:    unchanged        +0/-1 TODO
+>  2:    unchanged        +1/-1 index.html
+>  3:    unchanged        +5/-1 lib/simplegit.rb
+>
+>*** Commands ***
+>  1: [s]tatus     2: [u]pdate      3: [r]evert     4: [a]dd untracked
+>  5: [p]atch      6: [d]iff        7: [q]uit       8: [h]elp
+>What now>
 
 L'image montre un staging interactif, vous pourrez choisir un certain nombre de commandes que nous allons détailler maintenant. 
 
@@ -73,5 +81,7 @@ Vous avez également la possibilité de créer une nouvelle branche à partir du
 
 Bien que git clean ait des aspects similaires au stash, il permet quant à lui de se défaire totalement des modifications et non pas de les réutiliser pour une utilisation future. 
 
-Attention cette commande va supprimer du contenu de fichiers non trackés et ne sera pas reversible on préférera généralement un `git stash --all` cette dernière n'etant pas destructrive contrairement à `git clean`.
+Attention cette commande va supprimer du contenu de fichiers non trackés et ne sera pas reversible on préférera généralement un `git stash --all` cette dernière n'etant pas destructrice contrairement à `git clean`.
+
+
 
