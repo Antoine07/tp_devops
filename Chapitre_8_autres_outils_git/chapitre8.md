@@ -15,9 +15,9 @@ On peut également sélectionner des commits par "range" :
 - la syntaxe en double points : elle permet de sélectionner une range de commits qui sont atteignables depuis une branche mais pas depuis un autre. 
 
 > Considérons l'image suivante : 
-
+>
 > ![image](https://git-scm.com/book/en/v2/images/double-dot.png) 
-
+>
 > Si on utilise la syntaxe `git log master..experiment` on obtiendra D C comme retour, a savoir les logs sont non accessibles par master mais accessibles par experiment. 
-
+>
 > Cela vous permet de mapper vos commits et de savoir ce qui a été mergé ou non de manière plus facile.
