@@ -39,4 +39,9 @@ La confirmation de l'installation devrait produire cet écran :
 
 ![Capture d’écran de 2022-06-01 23-16-21](https://user-images.githubusercontent.com/98811386/171503433-8dd37b8d-f51c-45a4-8f98-a384189ac030.png)
 
+En bas de la page d'installation nous allons choisir "Redémarrer Jenkins quand l'installation est terminée et qu'aucun job n'est en cours".
+
+Si l'on se rend maintenant sur la page "Nouveau Item", on peut se rendre compte qu'un nouveau job Maven est disponible : 
+
+![Capture d’écran de 2022-06-01 23-19-44](https://user-images.githubusercontent.com/98811386/171503819-199a3b1c-2633-4ab9-a1b8-6a0f666ef08d.png)
 
