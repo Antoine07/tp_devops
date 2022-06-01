@@ -45,3 +45,6 @@ Si l'on se rend maintenant sur la page "Nouveau Item", on peut se rendre compte 
 
 ![Capture d’écran de 2022-06-01 23-19-44](https://user-images.githubusercontent.com/98811386/171503819-199a3b1c-2633-4ab9-a1b8-6a0f666ef08d.png)
 
+# Construction du premier projet Maven. 
+
+Nous allons maintenant créer un projet maven ayant pour nom test Maven. 
