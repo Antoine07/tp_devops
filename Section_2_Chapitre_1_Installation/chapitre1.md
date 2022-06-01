@@ -4,6 +4,8 @@ Il existe différentes méthodes d'installation pour jenkins, nous listerons ces
 
 Vous trouverez ci-joint le lien vers la doc d'installation officielle pour chaque élément :
 
+* Fichier War 
+  * [WAR](https://www.jenkins.io/doc/book/installing/war-file/)
 * Gestionnaires d'images :
   * [DOCKER](https://www.jenkins.io/doc/book/installing/docker/)
   * [KUBERNETES](https://www.jenkins.io/doc/book/installing/kubernetes/)
