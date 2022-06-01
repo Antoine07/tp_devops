@@ -39,3 +39,20 @@ Un autre paramètre à noter est ce lui du répertoire de jenkins, ce dernier va
 
 ### La section configuration globale des outils
 
+Cette section permet de spécifier les installations des différents outils nécessaires à l'exécution des jobs jenkins, les éléments comme git les jdk et autres éléments nécessaires. 
+
+### La section gestion des plugins
+
+Comme son nom l'indique elle permet d'ajouter, modifier et updater des plugins. 
+
+### Configurer la sécurité globale 
+
+Dans cette section vous pourrez configurer la sécurité de jenkins et notamment les méthodes d'authentification. Généralement dans les entreprises vous utiliserez des méthodes de type LDAP, dans le cadre de cette démonstration nous allons utiliser la propre database de jenkins pour gérer notre user. 
+
+Il est également possible de gérer les autorisations des différents users à ce niveau. 
+
+### Manage credentials
+
+Permet de gérer un trousseau d'accès pour les différents outils qui seront en communication avec jenkins, dans notre exemple il s'agira des outils de type github. 
+
+Par exemple jenkins va avoir besoin d'une clé ssh pour cloner les éléments de la database de code si le dépôt est privé. Elle sera stockée ici. 
