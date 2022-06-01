@@ -61,4 +61,8 @@ Ensuite rendez vous dans la section Gestion de code source puis copiez l'url de 
 
 ![Capture d’écran de 2022-06-02 00-13-53](https://user-images.githubusercontent.com/98811386/171510780-bd9cd186-8d13-43dd-87c5-dc3f854a951c.png)
 
+Nous allons maintenant nous diriger vers la section Ce qui déclenche le build puis choisir l'option github hook trigger, analysons la section d'aide relative : 
+
+![Capture d’écran de 2022-06-02 00-16-29](https://user-images.githubusercontent.com/98811386/171510942-36f5c14a-320a-4df3-90b4-7e2711535985.png)
+
 
