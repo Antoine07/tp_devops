@@ -1,4 +1,4 @@
-# Pourquoi intégrer Github dans Jenkins ?
+# Pourquoi intégrer Github dans Jenkins ?
 
 Les avantages sont les suivants : 
 
