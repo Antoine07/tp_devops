@@ -99,6 +99,66 @@ L'option `-S` de la commande `git log` vous permet de chercher à l'intérieur d
 
 L'option `-L` permet d'étudier l'évolution d'une fonction ou d'une ligne de code dans la database de git. 
 
+# Travail de l'historique des commits 
 
+Il est possible de réviser l'historique des commits notamment en faisant les actions suivantes : 
 
+- Changer l'ordre des commits
+- Changer les messages de commit
+- Modifier les fichiers présents dans un commit
+- Regrouper ou splitter des commits
+- Supprimer des commits
 
+Ceci est possible avant que vous partagiez votre travail avec les autres. 
+
+## Modifications dans le dernier commit 
+
+Nous avons déjà vu que pour modifier le dernier commit il suffit de restager les modifications puis d'utiliser la commande `git commit --amend`, il en va de même pour modifier le message du dernier commit. 
+
+Attention amender le commit modifie le SHA1 du commit, si vous avez déjà poussé le commit n'utilisez pas cette commande. 
+
+## Changements sur plusieurs commits 
+
+Pour cela nous utiliserons la commande rebase avec l'option `-i` pour interactif tout en précisant le nombre de commit jusqu'auquel nous voulons remonter, en ajoutant `HEAD~X` ou X est le nombre de commits auxquels nous voulons accéder -1, puisque le dernier commit est déjà compris dans le head simple. 
+
+Cette commande va ouvrir un éditeur de texte avec la liste de vos commits, pour chaque commit que vous souhaitez retravailler il vous suffira de modifier `pick` par `edit`.
+
+Pour chaque commit à éditer le script s'arrêtera et vous demandera de faire les modifications nécessaires puis faire un `git commit --amend` puis un `git rebase continue`.
+
+Attention a ne pas utiliser cette commande si vous avez déjà poussé les commits, cela serait perturbant pour vos collègues. 
+
+## Fusionner des commits
+
+L'outil de rebase interactif vous laisse également fusionner des commits. Vous lancerez l'outil de la manière ou nous l'avons vu précédemment puis vous remplacerez `edit` par `squash`, ce qui aura pour effet de fusionner tous les commits ensemble, les messages de chacun des commits seront alors également fusionnés.
+
+## Splitter un commit
+
+On utilisera toujorus la commande `git rebase -i` puis on passera en `edit` le commit que nous souhaitons splitter. Une fois arrivé à la ligne de commande du commit à splitter nous utiliserons `git reset` pour défaire le commit, puis nous restagerons et recommiterons les fichiers jusqu'à satisfaction, avant de réutiliser `git rebase --continue`.
+
+## Supprimer un commit
+
+Pour cela il faut également utiliser la commande `git rebase -i` puis ensuite remplacer `pick` par `drop`.
+
+Attention cependant la suppression d'un commit entrainera la recréation de tous les commits survenus après ce commit supprimé, ce qui aura pour impact de créer potentiellement beaucoup de conflits de merge. 
+
+Il est possible de retourner à l'état initial du dépôt en entrant la commande `git rebase --abort`, il est également possible d'utiliser reflog si vous souhaitez revenir à un état antérieur du dépôt après avoir finalisé votre commande. 
+
+# Filter-branch
+
+Cette option permet de très larges réécriture de votre histoire. Cependant attention à ne pas l'utiliser si vous avez rendu vos changements publiques cela pourrait créer des conflits importants, néanmoins lorsque vous préparez la publication d'un repository cet outil peut être très puissant. 
+
+## Supprimer un fichier de tous les commits
+
+Il est possible de supprimer un fichier de tous les commits avec la commande suivante : 
+
+> `git filter-branch --tree-filter 'rm -f <NOM DU FICHIER>' HEAD`
+
+L'option tree filter va supprimer chaque occurrence du fichier puis réeffectuer les commits nécessaires à sa suppression. 
+
+Une bonne option consiste généralement à faire ce genre de changements dans une nouvelle branche puis ensuite à merger cette branche avec le master. 
+
+## Modifier le sous répertoire racine
+
+La commande `git filter-branch --subdirectory-filter <NOM DU SOUS REPERTOIRE> HEAD` vous permet de recréer tout le projet dans un sous-répertoire donné, il sera donc la racine de tous vos fichiers. 
+
+# Git Reset
