@@ -182,7 +182,8 @@ Partons du principe que nous disposons de cet état du git :
 
 ![image](https://git-scm.com/book/en/v2/images/reset-start.png)
 
-1) Git reset change de position le pointeur head
-2) 
+> Premier point de ce que fait git reset : il va toujours modifier la position du pointeur head vers le commit cible : 
+
+![image](https://user-images.githubusercontent.com/98811386/171349990-53b37a34-5f89-49da-a6d8-6ef65d5936de.png)
 
 
