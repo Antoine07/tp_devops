@@ -196,3 +196,9 @@ Si l'option --soft est présente il va s'arrêter là. La commande illustrée es
 
 ![image](https://user-images.githubusercontent.com/98811386/171350853-8bae94a8-669b-4136-9429-201321561e6f.png)
 
+Récapitulatif des 3 étapes d'un reset : 
+- Déplace le head sur la branche (s'arrête ici si l'option `--soft` est présente)
+- Copie dans l'index l'instantané pointé par le head (s'arrête ici normalement sauf si on rajoute l'option `--hard`)
+- Fait en sorte que le working directory soit une représentation physique de l'index. 
+
+
