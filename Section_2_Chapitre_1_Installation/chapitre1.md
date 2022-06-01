@@ -29,11 +29,12 @@ Vous trouverez ci-joint le lien vers la doc d'installation officielle pour chaqu
 
 ![Capture d’écran de 2022-06-01 22-03-12](https://user-images.githubusercontent.com/98811386/171491740-e8b32f27-3e24-425b-a45c-40e24554c8e3.png)
 
-* Après l'installation générer votre premier utilisateur : 
+* Après l'installation générez votre premier utilisateur : 
 
 ![Capture d’écran de 2022-06-01 22-07-18](https://user-images.githubusercontent.com/98811386/171492365-6ca8c11a-e5a1-42ba-b71d-90b27b0a4481.png)
 
 * Puis personnalisez si vous le souhaitez l'url (dans le cadre de ce tutorial nous allons la laisser par défaut)
+
 ![Capture d’écran de 2022-06-01 22-07-39](https://user-images.githubusercontent.com/98811386/171492360-6b2ae609-159d-4280-a738-8997576581cb.png)
 
 * Enfin vous êtes prêts à utiliser jenkins !
