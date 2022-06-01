@@ -53,5 +53,12 @@ On va ensuite configurer comme suit en ajoutant notre private key :
 ![Capture d’écran de 2022-06-02 00-05-29](https://user-images.githubusercontent.com/98811386/171509710-5fef0541-08cf-4293-aeab-b22960283fc1.png)
 
 
+# Création d'un job test 
+
+Nous allons maintenant créer un job de test pour voir si tout a bien fonctionner. Munissez vous de l'url d'un repo publique que vous possédez dans github, vous pouvez en créer un avec simplement un readme.md pour le test. Dans la section "Nouveau item" dans jenkins sélectionnez "projet freestyle".
+
+Ensuite rendez vous dans la section Gestion de code source puis copiez l'url de votre répo git comme suit, n'oubliez pas de sélectionner votre credential : 
+
+![Capture d’écran de 2022-06-02 00-13-53](https://user-images.githubusercontent.com/98811386/171510780-bd9cd186-8d13-43dd-87c5-dc3f854a951c.png)
 
 
