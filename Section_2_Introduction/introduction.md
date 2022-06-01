@@ -4,4 +4,4 @@
 >
 >[...]
 >
->Dans cet exemple, l’environnement de développement est votre machine locale, l’environnement de test votre serveur, et l’environnement de production >l’hébergement du client.
+>Dans cet exemple, l’environnement de développement est votre machine locale, l’environnement de test votre serveur, et l’environnement de production l’hébergement du client.
