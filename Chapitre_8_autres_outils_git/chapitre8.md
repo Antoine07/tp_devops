@@ -190,3 +190,4 @@ Si l'option --soft est présente il va s'arrêter là. La commande illustrée es
 
 ### Deuxième point par défaut il va copier l'état du commit cible dans l'index, cet état par défaut peut être aussi ciblé avec l'option ̀--mixed`
 
+![image](https://user-images.githubusercontent.com/98811386/171350617-af183481-cca2-4bab-b99c-8a336b559ad9.png)
