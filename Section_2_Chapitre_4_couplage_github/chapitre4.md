@@ -46,5 +46,12 @@ On va maintenant cat la private key et l'intégrer dans jenkins. Administrer jen
 
 ![Capture d’écran de 2022-06-02 00-02-35](https://user-images.githubusercontent.com/98811386/171509335-c36bba59-56b5-4007-8815-f4f55d24e07b.png)
 
+On va sélectionner jenkins > identifiaux globaux > ajouter un identifiant. 
+
+On va ensuite configurer comme suit en ajoutant notre private key : 
+
+![Capture d’écran de 2022-06-02 00-05-29](https://user-images.githubusercontent.com/98811386/171509710-5fef0541-08cf-4293-aeab-b22960283fc1.png)
+
+
 
 
