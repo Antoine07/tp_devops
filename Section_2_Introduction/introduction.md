@@ -5,3 +5,4 @@
 >[...]
 >
 >Dans cet exemple, l’environnement de développement est votre machine locale, l’environnement de test votre serveur, et l’environnement de production l’hébergement du client.
+*Source : https://www.blogduwebdesign.com/deployer-son-application-en-production-les-bonnes-methodes-a-connaitre/*
