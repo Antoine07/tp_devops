@@ -85,7 +85,7 @@ Source pour le cours de git et déploiement.
 
 1) Aperçu de l'interface
 
-### Chapitre 3 : Installation du plugin Maven
+### Chapitre 3 : Installation du plugin Maven
 
 1) Pourquoi le plugin Maven ? 
 
