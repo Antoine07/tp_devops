@@ -21,3 +21,7 @@ Rendez-vous ensuite dans jenkins Administrer jenkins > Configurer le système.
 Scrollez ensuite jusqu'à la section github puis sélectionnez "add github server" :
 
 ![Capture d’écran de 2022-06-01 23-43-35](https://user-images.githubusercontent.com/98811386/171507121-5bab45c8-ad9b-4b9b-ba03-10890196887b.png)
+
+Choisissez un nom puis cliquer sur credentials et add credentials : 
+
+![Capture d’écran de 2022-06-01 23-46-14](https://user-images.githubusercontent.com/98811386/171507363-5d42a44d-858f-4aa2-823f-78ddf97d6016.png)
