@@ -65,4 +65,7 @@ Nous allons maintenant nous diriger vers la section Ce qui déclenche le build p
 
 ![Capture d’écran de 2022-06-02 00-16-29](https://user-images.githubusercontent.com/98811386/171510942-36f5c14a-320a-4df3-90b4-7e2711535985.png)
 
+Dernier point de cette configuration de job de test nous allons ajouter une action après le build et sélectionner "Set github status universal". Ensuite nous allons simplement choisir dans status result "One of default messages and statuses"
+
+![Capture d’écran de 2022-06-02 00-20-11](https://user-images.githubusercontent.com/98811386/171511523-b0d9bdc8-97b0-4f5e-bd9e-f3298618d384.png)
 
