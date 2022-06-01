@@ -75,5 +75,18 @@ Cette section fait référence à l'intégration de jenkins dans les stacks d'in
 
 Les architectures techniques modernes sont plus complexes que les anciennes, elles incluent du cloud ou de multiples machines et un outil de déploiement doit donc prendre en compte ces différents contextes. 
 
+Jenkins répond à deux besoins primordiaux des developpeurs : 
+ - Les développeurs veulent que leurs changements de code soient surs, ils développent en parallèle et veulent être surs que leur développement n'entraîne pas d'erreurs. L'intégration manuelle ne se fait pas selon une fréquence et prend du temps, jenkins automatise cela.
+ - Les développeurs ont besoin que leurs changements soient testés dans un environnement standardisé. Jenkins fournit un environnement standardisé qui permet de linéariser ces problématiques. 
+
+Jenkins agit sur deux étapes cruciales du software développement : le testing et le déploiement.
+
+Voici un schéma type du fonctionnement de jenkins : 
+
+![Capture d’écran de 2022-06-01 21-45-51](https://user-images.githubusercontent.com/98811386/171489022-42083ea4-10b5-482d-a5b2-26e7fc652fd2.png)
+*Source : https://www.youtube.com/watch?v=nCKxl7Q_20I*
+
+
+
 [^1]: Source : https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue
 [^2]: Source : https://www.lemagit.fr/definition/Continuous-Delivery
