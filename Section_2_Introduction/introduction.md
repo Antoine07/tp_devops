@@ -14,7 +14,7 @@ Que nous apprend cette définition ?
 
 Tout d'abord que le déploiement est un procédé, ou process en anglais. Il va donc comprendre un certain nombre de règles et de comportements automatisés. Autre élément important le déploiement est lié à un environnement. On déploie vers un environnement de test ou de production. 
 
-# Jenkins, rôles buts et fonctionnement théorique. 
+# Jenkins, rôles buts et fonctionnement théorique
 
 Intéressons-nous maintenant à l'outil que nous allons étudier à savoir jenkins et sa définition tirée du site officiel : 
 
