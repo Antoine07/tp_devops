@@ -162,3 +162,27 @@ Une bonne option consiste généralement à faire ce genre de changements dans u
 La commande `git filter-branch --subdirectory-filter <NOM DU SOUS REPERTOIRE> HEAD` vous permet de recréer tout le projet dans un sous-répertoire donné, il sera donc la racine de tous vos fichiers. 
 
 # Git Reset
+
+## Comprendre la notion des trois "arbres", ou collection de fichiers.
+
+### Le head
+
+Le head est le pointeur de la référence de la branche actuelle. C'est un instantanné du dernier commit sur cette branche, ou du moins un pointeur vers ce dernier instantané. 
+
+### L'index 
+
+L'index correspond à la staging area, il prend en compte tous les fichiers présents dans le working directory et vérifie l'état depuis le dernier commit, si ils ont été ajoutés au tracking ou non et si ils ont été modifiés ou encore supprimés. 
+
+### Le working directory
+
+Contrairement aux deux éléments précédents qui stockent l'information dans des dossiers git, le working directory lui décompresse les fichiers et donc recrée le contenu exact des fichiers. Il constitue donc une sandbox avec les fichiers réels à disposition pour tester les modifications. 
+
+## Comprendre ce que fait git reset
+Partons du principe que nous disposons de cet état du git : 
+
+![image](https://git-scm.com/book/en/v2/images/reset-start.png)
+
+1) Git reset change de position le pointeur head
+2) 
+
+
