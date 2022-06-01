@@ -17,4 +17,6 @@ Ce plugin fournit une série d'avantage concernant l'utilisation de Maven :
 
 ## Installation du plugin Maven 
 
-da
+Pour installer et configurer le plugin maven nous allons nous rendre dans Administrer Jenkins > Configuration globale des outils. 
+
+![Capture d’écran de 2022-06-01 23-09-04](https://user-images.githubusercontent.com/98811386/171502329-36357386-62d0-482c-a824-575cf43118f2.png)
