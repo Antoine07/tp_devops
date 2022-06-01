@@ -161,7 +161,7 @@ Une bonne option consiste généralement à faire ce genre de changements dans u
 
 La commande `git filter-branch --subdirectory-filter <NOM DU SOUS REPERTOIRE> HEAD` vous permet de recréer tout le projet dans un sous-répertoire donné, il sera donc la racine de tous vos fichiers. 
 
-# Git Reset
+# Git Reset et Checkout
 
 ## Comprendre la notion des trois "arbres", ou collection de fichiers.
 
