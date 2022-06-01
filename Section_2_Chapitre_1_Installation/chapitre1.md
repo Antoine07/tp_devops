@@ -17,11 +17,9 @@ Vous trouverez ci-joint le lien vers la doc d'installation officielle pour chaqu
 * Installation offline : 
   * [OFFLINE](https://www.jenkins.io/doc/book/installing/offline/)
 
-# Configuration initiale
+# Procédure d'installation initiale
 
-Lors de la configuration initiale jenkins vous demandera deux choses : 
-
-1) Sélectionner les plugins a installer, un set par défaut vous étant proposé, c'est ce que nous allons utiliser. 
-2) Créer un utilisateur admin.
-
-Si vous avez suivi ces deux étapes et que l'installation s'est déroulée correctement alors vous êtes prêts à utiliser Jenkins. 
+* Une fois le fichier war téléchargé vérifiez que vous avez java installé sur votre pc via la commande `java --version`
+* Rendez-vous dans le dossier ou vous avez déposé le fichier jenkins.war, puis utilisez la commande `java -jar jenkins.war`
+* Recopiez la clé qui vous est donné dans le script puis rendez vous sur http://localhost:8080 et entrez celle-ci à l'invite. Comme dans le screen suivant.
+![Capture d’écran de 2022-06-01 22-01-50](https://user-images.githubusercontent.com/98811386/171491460-06f4b9b3-b91c-4f3d-b72e-8ea89f75b247.png)
