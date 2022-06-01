@@ -88,4 +88,7 @@ Source pour le cours de git et déploiement.
 ### Chapitre 3 : Installation du plugin Maven
 
 1) Pourquoi le plugin Maven ? 
+2) Installation du plugin Maven. 
+
+### Chapitre 4 : couplage avec github
 
