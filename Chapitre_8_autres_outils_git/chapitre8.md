@@ -201,4 +201,20 @@ Récapitulatif des 3 étapes d'un reset :
 - Copie dans l'index l'instantané pointé par le head (s'arrête ici normalement sauf si on rajoute l'option `--hard`)
 - Fait en sorte que le working directory soit une représentation physique de l'index. 
 
+## Git reset avec un fichier ou chemin comme argument. 
 
+Dans le cadre ou un fichier ou un chemin est passé à git reset en argument, git reset ne va pas déplacer le head sur la branche mais en revanche reprendre les étapes 2 et 3 pour ce fichier ou ce chemin spécifique. 
+
+On peut utiliser la commande sans précision de commit ou ajouter le raccourci d'un commit spécifique pour obtenir l'état souhaité : `git reset eb43bf file.txt.` par exemple. 
+
+## Fusionner des commits facilement avec ̀git reset`
+
+Etant donné que l'option `--soft` permet de déplacer le head sans pour autant toucher à l'état du working directory ou de l'index, vous pouvez tout à fait vous déplacer vers un ancien commit, puis refaire un commit de l'état actuel de l'index. Ainsi si vous aviez des commits intermédiaires permettant un work in progress, ils seront fusionnés dans le nouveau commit que vous allez réaliser, suivant l'illustration suivante : 
+
+Step 1 : 
+
+![image](https://user-images.githubusercontent.com/98811386/171352718-26ae57e1-319a-435e-bc44-3ce83f1658c2.png)
+
+Step 2 : 
+
+![image](https://user-images.githubusercontent.com/98811386/171352753-7367ee9b-8ac7-46fb-a1ec-1026bcf5e226.png)
