@@ -69,3 +69,8 @@ Dernier point de cette configuration de job de test nous allons ajouter une acti
 
 ![Capture d’écran de 2022-06-02 00-20-11](https://user-images.githubusercontent.com/98811386/171511523-b0d9bdc8-97b0-4f5e-bd9e-f3298618d384.png)
 
+Dernier point nous allons nous rendre dans github et configurer un webhook qui va permettre le lancement du job a chaque push : 
+
+![Capture d’écran de 2022-06-02 00-33-06](https://user-images.githubusercontent.com/98811386/171512762-d9a771ae-072a-4a14-97c7-8d15e8d2c14e.png)
+
+Note : Etant donné que notre jenkins est installé localement nous ne disposons pas d'une adresse publique, si vous disposez d'un serveur installez jenkins dessus et vous pourrez tester les hooks provenant de github ou allant vers github. 
