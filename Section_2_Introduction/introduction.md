@@ -37,6 +37,23 @@ Dans les avantages de Jenkins sur le site officiel toujours nous retrouvons les 
 >
 >As an extensible automation server, Jenkins can be used as a simple CI server or turned into the continuous delivery hub for any project.
 
+Cet élément nous donne deux possibilités de jenkins, soit il agit comme un simple serveur d'intégration continue, soit comme une suite de livraison continue. 
+
+Arrêtons-nous sur ces éléments pour mieux comprendre la distinction.
+
+> L'intégration continue est un ensemble de pratiques utilisées en génie logiciel consistant à vérifier à chaque modification de code source que le résultat des modifications ne produit pas de régression dans l'application développée. [..]Le principal but de cette pratique est de détecter les problèmes d'intégration au plus tôt lors du développement. De plus, elle permet d'automatiser l'exécution des suites de tests et de voir l'évolution du développement du logiciel.
+>
+>L'intégration continue est de plus en plus utilisée en entreprise afin d'améliorer la qualité du code et du produit final2.[^1] 
+
+Voici en contraste une définition de la livraison continue
+
+> La livraison continue (CD, Continuous Delivery) est une approche de la publication de logiciels dans laquelle les équipes de développement produisent et testent le code dans des cycles courts, en s'appuyant généralement sur une plus grande automatisation.
+>
+> Ce processus permet de créer, tester et déployer des logiciels rapidement en privilégiant des mises à jour incrémentielles, au lieu de refontes complètes.
+>
+> La livraison continue vise à raccourcir au maximum les boucles de rétroaction, afin d'améliorer la qualité des logiciels. Le code est livré à intervalles réguliers pour être soumis à des tests d'acceptation (UAT, User Acceptance Testing, aussi appelés Bêta tests), ou essayé dans l'environnement de test, afin de mettre en évidence les causes et les effets.[^2]
+
+
 Easy installation
 
 Jenkins is a self-contained Java-based program, ready to run out-of-the-box, with packages for Windows, Linux, macOS and other Unix-like operating systems.
@@ -52,3 +69,6 @@ Jenkins can be extended via its plugin architecture, providing nearly infinite p
 Distributed
 
 Jenkins can easily distribute work across multiple machines, helping drive builds, tests and deployments across multiple platforms faster.
+
+[^1]: Source : https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue
+[^2]: Source : https://www.lemagit.fr/definition/Continuous-Delivery
