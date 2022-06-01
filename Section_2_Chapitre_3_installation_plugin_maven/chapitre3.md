@@ -32,3 +32,11 @@ Nous allons maintenant nous rendre dans Administrer Jenkins > Gestion des plugin
 Nous cliquerons alors sur "disponibles" puis tapperons Maven Integration. 
 
 ![Capture d’écran de 2022-06-01 23-14-38](https://user-images.githubusercontent.com/98811386/171503151-11c9de64-c425-40d5-8937-ec083a05d492.png)
+
+Nous allons ensuite cliquer pour sélectionner le plugin, puis sur "Install without restart"
+
+La confirmation de l'installation devrait produire cet écran :
+
+![Capture d’écran de 2022-06-01 23-16-21](https://user-images.githubusercontent.com/98811386/171503433-8dd37b8d-f51c-45a4-8f98-a384189ac030.png)
+
+
