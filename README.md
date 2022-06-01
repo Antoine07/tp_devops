@@ -52,14 +52,22 @@ Source pour le cours de git et déploiement.
 ### Chapitre 7 : Collaboration dans git (et github)
 
 1) Workflows distribués VS centralisés 
-2) Etude d'un système collaboratif réel
-3) Contribution (fork, pull requests)
+2) Comprendre la contribution dans git
+3) Collaboration dans le cadre d'un projet publique (fork)
+4) TP : Structuration d'un git pour une nouvelle société.
 
 ### Chapitre 8 : Panorama des autres outils de git
 
-Révision, staging ...
-(cette partie sera adaptée en fonction du temps jusqu'ici). 
-
+1) Sélection de commits dans git
+2) Staging interactif
+3) Stashing
+4) Git clean
+5) Git grep
+6) Recherche dans les logs
+7) Travail de l'historique des commits
+8) Filter-branch
+9) Git Reset et Git Checkout
+10) La fonctionnalité `git rerere`
 
 # Section 2 : Déploiement (avec jenkins)
 
