@@ -14,6 +14,8 @@ Que nous apprend cette définition ?
 
 Tout d'abord que le déploiement est un procédé, ou process en anglais. Il va donc comprendre un certain nombre de règles et de comportements automatisés. Autre élément important le déploiement est lié à un environnement. On déploie vers un environnement de test ou de production. 
 
+# Jenkins, rôles buts et fonctionnement théorique. 
+
 Intéressons-nous maintenant à l'outil que nous allons étudier à savoir jenkins et sa définition tirée du site officiel : 
 
 > The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.
@@ -53,22 +55,23 @@ Voici en contraste une définition de la livraison continue
 >
 > La livraison continue vise à raccourcir au maximum les boucles de rétroaction, afin d'améliorer la qualité des logiciels. Le code est livré à intervalles réguliers pour être soumis à des tests d'acceptation (UAT, User Acceptance Testing, aussi appelés Bêta tests), ou essayé dans l'environnement de test, afin de mettre en évidence les causes et les effets.[^2]
 
+> Easy configuration
+>
+>Jenkins can be easily set up and configured via its web interface, which includes on-the-fly error checks and built-in help.
 
-Easy installation
+On voit donc que jenkins permet également l'automatisation de tests, notamment lors des builds, l'ensemble est géré par une interface web, ce qui rentre dans une logique dev-ops. 
 
-Jenkins is a self-contained Java-based program, ready to run out-of-the-box, with packages for Windows, Linux, macOS and other Unix-like operating systems.
-Easy configuration
+>Plugins
+>
+>With hundreds of plugins in the Update Center, Jenkins integrates with practically every tool in the continuous integration and continuous delivery toolchain.
 
-Jenkins can be easily set up and configured via its web interface, which includes on-the-fly error checks and built-in help.
-Plugins
+Cette section fait référence à l'intégration de jenkins dans les stacks d'intégration et livraison continues. En clair avec jenkins et ses plugins vous pouvez aller plus loin qu'un déploiement simple pour intégrer les logiques de testing que nous avons précédemment vu dans l'organisation de git. 
 
-With hundreds of plugins in the Update Center, Jenkins integrates with practically every tool in the continuous integration and continuous delivery toolchain.
-Extensible
+> Distributed
+>
+> Jenkins can easily distribute work across multiple machines, helping drive builds, tests and deployments across multiple platforms faster.
 
-Jenkins can be extended via its plugin architecture, providing nearly infinite possibilities for what Jenkins can do.
-Distributed
-
-Jenkins can easily distribute work across multiple machines, helping drive builds, tests and deployments across multiple platforms faster.
+Les architectures techniques modernes sont plus complexes que les anciennes, elles incluent du cloud ou de multiples machines et un outil de déploiement doit donc prendre en compte ces différents contextes. 
 
 [^1]: Source : https://fr.wikipedia.org/wiki/Int%C3%A9gration_continue
 [^2]: Source : https://www.lemagit.fr/definition/Continuous-Delivery
