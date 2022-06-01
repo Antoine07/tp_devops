@@ -83,7 +83,8 @@ Jenkins agit sur deux étapes cruciales du software développement : le testing 
 
 Voici un schéma type du fonctionnement de jenkins : 
 
-![Capture d’écran de 2022-06-01 21-45-51](https://user-images.githubusercontent.com/98811386/171489022-42083ea4-10b5-482d-a5b2-26e7fc652fd2.png)
+![Capture d’écran de 2022-06-01 21-47-46](https://user-images.githubusercontent.com/98811386/171489238-4487de2c-02b1-4d04-acc9-678ce96fd359.png)
+
 *Source : https://www.youtube.com/watch?v=nCKxl7Q_20I*
 
 
