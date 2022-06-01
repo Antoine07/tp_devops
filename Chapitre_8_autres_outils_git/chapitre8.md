@@ -225,3 +225,16 @@ Vous trouverez un récapitulatif des actions de chacune des commandes sur les 3 
 
 ![Capture d’écran de 2022-06-01 09-43-06](https://user-images.githubusercontent.com/98811386/171353551-a3daf266-65c7-4b80-8e87-a755d3310541.png)
 
+## La fonctionnalité `git rerere`
+
+Rerere signifie "reuse recorded resolution". Elle permet de réutiliser une résolution de conflit qui a déjà été précédemment faite, afin d'automatiser la résolution de conflit. 
+
+Si par exemple dans une branche de long termes vous ne voulez pas avoir de merge commits qui vont entacher votre historique, vous pouvez utiliser cette fonction, pour que le merge final soit correct tout en réutilisant les résolutions que vous avez proposées tout au long de l'utilisation de cette branche.
+
+Afin que rerere soit actif on doit tout d'abord le rendre disponible au niveau de la configuration :
+
+`git config --global rerere.enabled true`
+
+Une fois cette configuration établie, lors du prochain merge conflict rerere va enregistrer la méthode de résolution et l'appliquera à tout conflit future concernant le même élément. 
+
+Pour plus de précisions sur l'utilisation de rerere : https://git-scm.com/book/en/v2/Git-Tools-Rerere
