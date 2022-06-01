@@ -1,6 +1,6 @@
 # Méthodes d'installation
 
-Il existe différentes méthodes d'installation pour jenkins, nous listerons ces méthodes avec la référence directe. Dans le cadre de ce cours nous allons utiliser docker, nous procédérons ensemble à l'installation de docker.
+Il existe différentes méthodes d'installation pour jenkins, nous listerons ces méthodes avec la référence directe. Dans le cadre de ce cours nous allons utiliser docker, nous procédérons ensemble à l'installation d'un fichier war dont les prérequis sont les moins lourds. 
 
 Vous trouverez ci-joint le lien vers la doc d'installation officielle pour chaque élément :
 
