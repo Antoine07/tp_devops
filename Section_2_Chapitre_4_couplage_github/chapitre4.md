@@ -34,4 +34,17 @@ Finalement n'oubliez pas de sélectionner le nouveau credentials dans la page de
 
 ![Capture d’écran de 2022-06-01 23-48-30](https://user-images.githubusercontent.com/98811386/171507776-dc6a5a42-e068-4bbb-a5f5-64d9c3426b22.png)
 
+Vous pouvez maintenant tester votre connection. 
+
+Il nous reste néanmoins de la configuration côté Jenkins et github. 
+
+Il vous faudra maintenant créer une paire clé publique / privé pour vous connecter avec github afin que jenkins puissent pull les différents builds. Utiliser pour cela la commande `ssh-keygen -t rsa`.
+
+Maintenant que nous disposons de cette paire de clé nous allons placer la clé publique dans github. On va se rendre à nouveau dans settings puis dans "SSH and GPG Keys" > new ssh key et on va copier le contenu de la clé publique puis enregistrer. 
+
+On va maintenant cat la private key et l'intégrer dans jenkins. Administrer jenkins > Manage credentials
+
+![Capture d’écran de 2022-06-02 00-02-35](https://user-images.githubusercontent.com/98811386/171509335-c36bba59-56b5-4007-8815-f4f55d24e07b.png)
+
+
 
