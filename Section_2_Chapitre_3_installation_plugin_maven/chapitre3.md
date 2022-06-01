@@ -24,3 +24,11 @@ Pour installer et configurer le plugin maven nous allons nous rendre dans Admini
 Nous allons ensuite scroller dans cette section jusqu'à maven puis le configurer comme suit : 
 
 ![Capture d’écran de 2022-06-01 23-12-02](https://user-images.githubusercontent.com/98811386/171502781-ce8da568-377b-45a4-aa8d-333a877a5481.png)
+
+Rien ne se passe à ce moment mais maven sera installé lors du premier build sur cette instance de jenkins. 
+
+Nous allons maintenant nous rendre dans Administrer Jenkins > Gestion des plugins. 
+
+Nous cliquerons alors sur "disponibles" puis tapperons Maven Integration. 
+
+![Capture d’écran de 2022-06-01 23-14-38](https://user-images.githubusercontent.com/98811386/171503151-11c9de64-c425-40d5-8937-ec083a05d492.png)
