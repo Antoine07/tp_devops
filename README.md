@@ -73,8 +73,8 @@ Source pour le cours de git et déploiement.
 
 ### Introduction
 
-1) Notion de déploiement utilité et contexte
-2) Notion de développement continu
+1) Définition du déploiement (d'applications / sites)
+2) Jenkins, rôles buts et fonctionnement théorique
 
 ### Chapitre 1 : Installation de jenkins 
 
