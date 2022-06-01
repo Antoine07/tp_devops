@@ -225,7 +225,7 @@ Vous trouverez un récapitulatif des actions de chacune des commandes sur les 3 
 
 ![Capture d’écran de 2022-06-01 09-43-06](https://user-images.githubusercontent.com/98811386/171353551-a3daf266-65c7-4b80-8e87-a755d3310541.png)
 
-## La fonctionnalité `git rerere`
+# La fonctionnalité `git rerere`
 
 Rerere signifie "reuse recorded resolution". Elle permet de réutiliser une résolution de conflit qui a déjà été précédemment faite, afin d'automatiser la résolution de conflit. 
 
