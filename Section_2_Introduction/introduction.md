@@ -55,6 +55,8 @@ Voici en contraste une définition de la livraison continue
 >
 > La livraison continue vise à raccourcir au maximum les boucles de rétroaction, afin d'améliorer la qualité des logiciels. Le code est livré à intervalles réguliers pour être soumis à des tests d'acceptation (UAT, User Acceptance Testing, aussi appelés Bêta tests), ou essayé dans l'environnement de test, afin de mettre en évidence les causes et les effets.[^2]
 
+On voit donc que jenkins intervient sur ces deux pans en permettant des process d'automatisation qui visent à réduire l'erreur humaine au maximum. 
+
 > Easy configuration
 >
 >Jenkins can be easily set up and configured via its web interface, which includes on-the-fly error checks and built-in help.
