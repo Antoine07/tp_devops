@@ -78,15 +78,10 @@ Source pour le cours de git et déploiement.
 
 ### Chapitre 1 : Installation de jenkins 
 
-1) Review des différentes possibilités d'installation
-2) Sélection d'une méthode d'installation
+1) Méthodes d'installation
+2) Configuration initiale
 
-### Chapitre 2 : Utilisation de jenkins
-
-1) Définition des builds
-2) Actions sur les builds (creation, arrêt etc.)
-
-### Chapitre 3 : Les pipelines Jenkins
+### Chapitre 2 : Les pipelines Jenkins
 
 1) Définition des pipelines
 2) Définition et utilisation du jenkinsfile
