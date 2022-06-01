@@ -22,4 +22,9 @@ Vous trouverez ci-joint le lien vers la doc d'installation officielle pour chaqu
 * Une fois le fichier war téléchargé vérifiez que vous avez java installé sur votre pc via la commande `java --version`
 * Rendez-vous dans le dossier ou vous avez déposé le fichier jenkins.war, puis utilisez la commande `java -jar jenkins.war`
 * Recopiez la clé qui vous est donné dans le script puis rendez vous sur http://localhost:8080 et entrez celle-ci à l'invite. Comme dans le screen suivant.
+
 ![Capture d’écran de 2022-06-01 22-01-50](https://user-images.githubusercontent.com/98811386/171491460-06f4b9b3-b91c-4f3d-b72e-8ea89f75b247.png)
+
+* Cliquez ensuite sur installer les plugins suggérés :
+
+![Capture d’écran de 2022-06-01 22-03-12](https://user-images.githubusercontent.com/98811386/171491740-e8b32f27-3e24-425b-a45c-40e24554c8e3.png)
