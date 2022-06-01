@@ -48,3 +48,7 @@ Si l'on se rend maintenant sur la page "Nouveau Item", on peut se rendre compte 
 # Construction du premier projet Maven. 
 
 Nous allons maintenant créer un projet maven ayant pour nom test Maven. 
+
+![Capture d’écran de 2022-06-01 23-19-44](https://user-images.githubusercontent.com/98811386/171504223-ce027b95-1b9b-4b5a-8edf-878fd632a91c.png)
+
+On peut voir que la page de configuration comporte un grand nombre d'éléments, pas de panique nous allons les étudier ensemble !
