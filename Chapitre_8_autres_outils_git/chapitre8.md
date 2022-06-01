@@ -207,7 +207,7 @@ Dans le cadre ou un fichier ou un chemin est passé à git reset en argument, gi
 
 On peut utiliser la commande sans précision de commit ou ajouter le raccourci d'un commit spécifique pour obtenir l'état souhaité : `git reset eb43bf file.txt.` par exemple. 
 
-## Fusionner des commits facilement avec ̀git reset`
+## Fusionner des commits facilement avec  ̀git reset`
 
 Etant donné que l'option `--soft` permet de déplacer le head sans pour autant toucher à l'état du working directory ou de l'index, vous pouvez tout à fait vous déplacer vers un ancien commit, puis refaire un commit de l'état actuel de l'index. Ainsi si vous aviez des commits intermédiaires permettant un work in progress, ils seront fusionnés dans le nouveau commit que vous allez réaliser, suivant l'illustration suivante : 
 
