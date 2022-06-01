@@ -52,3 +52,8 @@ Nous allons maintenant créer un projet maven ayant pour nom test Maven.
 ![Capture d’écran de 2022-06-01 23-19-44](https://user-images.githubusercontent.com/98811386/171504223-ce027b95-1b9b-4b5a-8edf-878fd632a91c.png)
 
 On peut voir que la page de configuration comporte un grand nombre d'éléments, pas de panique nous allons les étudier ensemble !
+
+Le premier point notable est celui du chaining de dépendance qui est automatiquement proposé, l'aide étant explicite nous repostons ici un screenshot pour comprendre cette option : 
+
+![Capture d’écran de 2022-06-01 23-24-46](https://user-images.githubusercontent.com/98811386/171504580-6196c1c7-1809-4eeb-bf5e-1c51764ed256.png)
+
