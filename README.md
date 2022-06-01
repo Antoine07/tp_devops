@@ -81,28 +81,11 @@ Source pour le cours de git et déploiement.
 1) Méthodes d'installation
 2) Configuration initiale
 
-### Chapitre 2 : Les pipelines Jenkins
+### Chapitre 2 : Interface de jenkins
 
-1) Définition des pipelines
-2) Définition et utilisation du jenkinsfile
-3) Syntaxe et meilleurs pratiques
+1) Aperçu de l'interface
 
-### Chapitre 4 : Gestion de jenkins
+### Chapitre 3 : Installation du plugin Maven
 
-Configuration et gestion de jenkins
-
-### Chapitre 5 : Sécurisation de jenkins
-
-1) Contrôle des accès 
-2) Gestion de la sécurité aspects généraux
-
-### Chapitre 6 : Administration système de jenkins
-
-1) Back up 
-2) Monitoring
-
-### Jenkins et architectures nécessitant du scaling
-
-1) Architecture pour le scaling
-2) Architecture pour le management
+1) Pourquoi le plugin Maven ? 
 
