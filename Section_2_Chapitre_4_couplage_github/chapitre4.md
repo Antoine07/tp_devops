@@ -22,6 +22,16 @@ Scrollez ensuite jusqu'à la section github puis sélectionnez "add github serve
 
 ![Capture d’écran de 2022-06-01 23-43-35](https://user-images.githubusercontent.com/98811386/171507121-5bab45c8-ad9b-4b9b-ba03-10890196887b.png)
 
-Choisissez un nom puis cliquer sur credentials et add credentials : 
+Choisissez un nom puis cliquez sur ajouter dans credentials 
 
 ![Capture d’écran de 2022-06-01 23-46-14](https://user-images.githubusercontent.com/98811386/171507363-5d42a44d-858f-4aa2-823f-78ddf97d6016.png)
+
+Remplissez le credentials en choisissant secret text dans le menu déroulant puis dans secret copiez le contenu de votre token, donnez un nom et enregistrez :
+
+![Capture d’écran de 2022-06-01 23-48-06](https://user-images.githubusercontent.com/98811386/171507696-a2b4accd-983f-4059-b1c8-619231b67efe.png)
+
+Finalement n'oubliez pas de sélectionner le nouveau credentials dans la page de configuration : 
+
+![Capture d’écran de 2022-06-01 23-48-30](https://user-images.githubusercontent.com/98811386/171507776-dc6a5a42-e068-4bbb-a5f5-64d9c3426b22.png)
+
+
