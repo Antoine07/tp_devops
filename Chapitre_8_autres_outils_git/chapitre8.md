@@ -219,7 +219,7 @@ Step 2 :
 
 ![image](https://user-images.githubusercontent.com/98811386/171352753-7367ee9b-8ac7-46fb-a1ec-1026bcf5e226.png)
 
-## Git checkout vs Git reset
+## Git checkout vs Git reset
 
 Vous trouverez un récapitulatif des actions de chacune des commandes sur les 3 arbres dans le tableau suivant :
 
