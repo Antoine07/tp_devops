@@ -54,3 +54,7 @@ Les méthodes de lancement sont également importantes. Comme nous avons configu
 La disponibilité permet de définir la méthode de mise a disposition de l'agent que vous souhaitez. Particulièrement utile si vous êtes sur une infrastructure cloud et souhaitez réduire vos coûts. 
 
 Une fois cette configuration accomplie vous disposez d'un agent !
+
+# Attribution des tâches
+
+Pour exécuter une tâche spécifiquement sur cet agent vous aurez accès à une nouvelle configuration dans les jobs vous permettant de restreindre l'accessibilité de la tâche à certains labels. Cela vous permettra par exemple de distribuer les tâches entre un environnement linux ou windows. 
