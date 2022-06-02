@@ -22,4 +22,8 @@ Définitions liées aux pipelines[^1] :
 
 > Stage : A logical grouping of steps that typically align with the build, test and release portions of the software development lifecycle.
 
+> Steps : Individual tasks completed within a stage of a pipeline (such as invoking a node's shell and executing a command such as `ls` or `mkdir` on it).
+
+> Declarative pipelines : Newer feature of Jenkins Pipeline. They have richer syntactical features. Declarative pipelines make reading and writing pipelines easier. 
+
 [^1]: Source : https://www.youtube.com/watch?v=nCKxl7Q_20I
