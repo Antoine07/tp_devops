@@ -52,5 +52,7 @@ Si maintenant nous souhaitons générer un pipeline plus complet nous allons cli
 
 Si vous regardez la structure de cette page elle est semblable à la précédente, on sélectionne une directive puis on la configure et on génère le code. 
 
+Dans notre cas nous souhaitons définir plusieurs stages (cf définition précédente) successifs, nous choisissons donc l'option Stage:Stages puis nous ajoutons notre premier stage.  
 
+![Capture d’écran de 2022-06-02 21-38-04](https://user-images.githubusercontent.com/98811386/171724597-ce483fcc-0a5e-4e77-9f12-43294b923051.png)
 
