@@ -88,3 +88,13 @@ stages {
 
 }
 ```
+
+Ce squelette va nous aider à développer notre premier jenkins pipeline
+
+Ouvrons maintenant un éditeur de code puis tappons le code suivant : 
+
+```groovy
+pipeline {
+  agent any
+}
+```
