@@ -33,3 +33,8 @@ Définitions liées aux pipelines[^1] :
 Toujours dans l'optique de simplifier notre rapport aux notions de jenkins nous allons installer le plugin 
 
 Une fois le plugin installé nous allons nous rendre dans Nouveau item puis créer un job de type pipeline que l'on nommera Maven pipeline test. 
+
+Nous allons nous rendre dans la section pipeline, nous verrons plus tard que pour tirer pleine partie de la puissance des pipelines nous devons les commiter dans un système de versioning. Pour l'instant on sélectionne l'option "pipeline script" afin de nous familiariser avec les pipelines avant de  les inclure dans un contrôle de version. 
+
+![Capture d’écran de 2022-06-02 21-29-57](https://user-images.githubusercontent.com/98811386/171723256-e838b3ae-0aeb-4cc6-8030-50b2992b7e03.png)
+
