@@ -198,9 +198,10 @@ A ce stade votre repository doit avoir cette structure :
 
 ## Création du Jenkinsfile
 
-Intéressons-nous maintenant au fichier Jenkinsfile en ajoutant la déclaration de pipeline. 
+Intéressons-nous maintenant au fichier Jenkinsfile en ajoutant la déclaration de pipeline et l'option agent any
 
 ```java
 pipeline {
+  agent any
 }
 ```
