@@ -54,5 +54,5 @@ Si vous regardez la structure de cette page elle est semblable à la précédent
 
 Dans notre cas nous souhaitons définir plusieurs stages (cf définition précédente) successifs, nous choisissons donc l'option Stage:Stages puis nous ajoutons notre premier stage.  
 
-![Capture d’écran de 2022-06-02 21-38-04](https://user-images.githubusercontent.com/98811386/171724597-ce483fcc-0a5e-4e77-9f12-43294b923051.png)
+![Capture d’écran de 2022-06-02 21-40-49](https://user-images.githubusercontent.com/98811386/171724749-550e4f90-55f2-4781-a5c7-dba6f7174d65.png)
 
