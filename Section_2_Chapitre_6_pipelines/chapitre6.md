@@ -162,3 +162,8 @@ pipeline {
  }
 }
 ```
+
+Nous allons maintenant intégrer ce script dans notre pipeline job de la façon suivante : 
+
+![Capture d’écran de 2022-06-02 21-57-07](https://user-images.githubusercontent.com/98811386/171727398-1e8b5390-23dd-4505-ba9b-f89938fe4f87.png)
+
