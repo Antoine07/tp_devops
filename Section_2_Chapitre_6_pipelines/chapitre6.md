@@ -255,3 +255,17 @@ pipeline {
 
 Dernière étape nous allons utiliser l'instruction sh qui va ouvrir le shell et réaliser l'instruction `mvn clean install`
 
+```javascript
+pipeline {
+    agent any
+    stages {
+        stage('maven install') {
+            steps {
+                withMaven(globalMavenSettingsConfig: 'null', jdk: 'null', maven: 'null', mavenSettingsConfig: 'null') {
+                sh 'mvn clean install'
+                }
+            }
+        }
+    }
+}
+```
