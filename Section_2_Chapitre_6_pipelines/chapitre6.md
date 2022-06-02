@@ -98,3 +98,35 @@ pipeline {
   agent any
 }
 ```
+
+Agent any va nous permettre de définir que n'importe quel agent dans jenkins peut gérer ce pipeline. 
+
+Nous allons ensuite intégrer notre squelette à cette base de la façon suivante : 
+
+
+```groovy
+pipeline {
+
+  agent any
+
+  stages {
+  stage('build') {
+    steps {
+      // One or more steps need to be included within the steps block.
+    }
+  }
+
+  stage('test') {
+    steps {
+      // One or more steps need to be included within the steps block.
+    }
+  }
+
+  stage('deploy') {
+    steps {
+      // One or more steps need to be included within the steps block.
+    }
+  }
+ }
+}
+```
