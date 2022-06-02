@@ -62,4 +62,27 @@ Le stage peut contenir plusieurs type d'éléments dont des stages en parallèle
 
 Nous pouvons également ajouter des élements particuliers à la gestion de ces steps comme un Agent ou encore un environnement ou des conditions ou options. Toujours pour une raison de simplicité, nous n'allons pas ajouter d'options particulières. 
 
-Une fois ce stage créé nous allons en ajouter deux autres sur le même model "test" et "deploy".
+Une fois ce stage créé nous allons en ajouter deux autres sur le même model "test" et "deploy". La logique sera que le build se déroule puis si les tests sont réussis alors on déploiera la mise à jour. 
+
+```groovy
+stages {
+  stage('build') {
+    steps {
+      // One or more steps need to be included within the steps block.
+    }
+  }
+
+  stage('test') {
+    steps {
+      // One or more steps need to be included within the steps block.
+    }
+  }
+
+  stage('deploy') {
+    steps {
+      // One or more steps need to be included within the steps block.
+    }
+  }
+
+}
+```
