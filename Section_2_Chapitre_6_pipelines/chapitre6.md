@@ -228,3 +228,11 @@ pipeline {
     }
 }
 ```
+
+Nous allons désormais faire appel au plugin de maven pipeline, nous allons ajouter un nouveau step dans le snippet generator et choisir l'option "With maven: Provide Maven environment". 
+
+Ce qui devrait vous conduire à l'écran suivant : 
+
+![Capture d’écran de 2022-06-02 22-24-22](https://user-images.githubusercontent.com/98811386/171731753-068d121f-53a9-496f-bf30-c1a339b64d9d.png)
+
+
