@@ -1,4 +1,4 @@
-# Premier aperçu de l'interface. 
+# Aperçu de l'interface. 
 
 ## La home
 
