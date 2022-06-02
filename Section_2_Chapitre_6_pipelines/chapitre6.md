@@ -57,3 +57,9 @@ Dans notre cas nous souhaitons définir plusieurs stages (cf définition précé
 ![Capture d’écran de 2022-06-02 21-40-49](https://user-images.githubusercontent.com/98811386/171724749-550e4f90-55f2-4781-a5c7-dba6f7174d65.png)
 
 Le premier stage que nous allons définir est le stage de "build" qui aura la responsabilité de build le code depuis notre codebase. 
+
+Le stage peut contenir plusieurs type d'éléments dont des stages en parallèle, pour l'instant nous allons rester simple et faire contenir des steps à notre stage. 
+
+Nous pouvons également ajouter des élements particuliers à la gestion de ces steps comme un Agent ou encore un environnement ou des conditions ou options. Toujours pour une raison de simplicité, nous n'allons pas ajouter d'options particulières. 
+
+Une fois ce stage créé nous allons en ajouter deux autres sur le même model "test" et "deploy".
