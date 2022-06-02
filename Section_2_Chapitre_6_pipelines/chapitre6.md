@@ -253,4 +253,5 @@ pipeline {
 }
 ```
 
+Dernière étape nous allons utiliser l'instruction sh qui va ouvrir le shell et réaliser l'instruction `mvn clean install`
 
