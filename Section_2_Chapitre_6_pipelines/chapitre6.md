@@ -244,7 +244,7 @@ pipeline {
     stages {
         stage('maven install') {
             steps {
-                withMaven(globalMavenSettingsConfig: 'null', jdk: 'null', maven: 'null', mavenSettingsConfig: 'null') {
+                withMaven {
             
                 }
             }
@@ -261,7 +261,7 @@ pipeline {
     stages {
         stage('maven install') {
             steps {
-                withMaven(globalMavenSettingsConfig: 'null', jdk: 'null', maven: 'null', mavenSettingsConfig: 'null') {
+                withMaven{
                 sh 'mvn clean install'
                 }
             }
