@@ -130,3 +130,35 @@ pipeline {
  }
 }
 ```
+
+Ce squelette est pour l'instant vide aucun step n'est contenu dans les stages, nous allons donc utiliser le snippet generator pour générer des steps. 
+
+Nous allons donc ajouter des steps factices dans un premier temps qui vont juste afficher ce que l'on souhaite pour chaque étape en intégrant le code suivant : 
+
+```javascript
+pipeline {
+
+  agent any
+
+  stages {
+  stage('build') {
+    steps {
+      echo 'Building'
+    }
+  }
+
+  stage('test') {
+    steps {
+        echo 'Testing ...'
+    }
+  }
+
+  stage('deploy') {
+    steps {
+        echo 'Deploying ...'
+        echo 'Done'
+    }
+  }
+ }
+}
+```
