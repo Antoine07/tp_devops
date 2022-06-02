@@ -23,3 +23,10 @@ Configurez ensuite les triggers, comme nous l'avons déjà vu en raison de l'uti
 Il reste maintenant à définir la localisation du fichier pom.xml ainsi que l'objectif à suivre : 
 
 ![Capture d’écran de 2022-06-02 08-29-36](https://user-images.githubusercontent.com/98811386/171567341-b5a81a34-e897-44f9-ba44-206696f97587.png)
+
+# Lecture du build et de la logique sous-jacente. 
+
+Nous allons maintenant procéder à un build, et faire sa lecture : 
+
+![Capture d’écran de 2022-06-02 13-08-44](https://user-images.githubusercontent.com/98811386/171616697-4c5967cd-df33-429c-b813-9f517bda0e2b.png)
+
