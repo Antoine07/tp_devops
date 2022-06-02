@@ -8,8 +8,14 @@ Installez Maven sur votre machine locale, puis lancez la commande suivante : `mv
 
 Committez ensuite ce projet. 
 
+# Configuration du projet dans Jenkins
+
 Rendez vous ensuite dans Jenkins, puis créez un projet test-maven-projet de type maven bien sûr. 
 
 Nous allons maintenant procéder à la configuration, tout d'abord en renseignant la partie gestion de code source. Rappellez vous d'utiliser également vos crédentials qui ont été setup précédemment. 
 
 ![Capture d’écran de 2022-06-02 08-18-25](https://user-images.githubusercontent.com/98811386/171565568-fd874c39-49d3-4e46-9690-962256bc3694.png)
+
+Configurez ensuite les triggers, comme nous l'avons déjà vu en raison de l'utilisation de jenkins en local nous utilisons une scrutation périodique, mais cette pratique est à éviter et on préférera les hooks poussées par github : 
+
+![Capture d’écran de 2022-06-02 08-25-36](https://user-images.githubusercontent.com/98811386/171566783-38ba080b-0b6b-4c5b-92bf-a59c7a3db99d.png)
