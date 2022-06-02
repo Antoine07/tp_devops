@@ -62,6 +62,10 @@ Zoomons maintenant sur la partie test :
 
 ![Capture d’écran de 2022-06-02 13-19-51](https://user-images.githubusercontent.com/98811386/171618361-a350faed-b78f-4f3b-9ab3-475706e08263.png)
 
+Nous pouvons voir en détail où le test à échouer et quelle est la stack trace. 
 
+Une autre vue est également disponible sur les tests spécifiquement : 
+
+![Capture d’écran de 2022-06-02 13-22-46](https://user-images.githubusercontent.com/98811386/171618852-5875bb10-2b16-4bab-88d1-80c35e957277.png)
 
 
