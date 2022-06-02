@@ -93,7 +93,7 @@ Ce squelette va nous aider à développer notre premier jenkins pipeline
 
 Ouvrons maintenant un éditeur de code puis tappons le code suivant : 
 
-```groovy
+```javascript
 pipeline {
   agent any
 }
@@ -104,7 +104,7 @@ Agent any va nous permettre de définir que n'importe quel agent dans jenkins pe
 Nous allons ensuite intégrer notre squelette à cette base de la façon suivante : 
 
 
-```groovy
+```javascript
 pipeline {
 
   agent any
