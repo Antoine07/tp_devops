@@ -29,5 +29,23 @@ Vous devrez donc vous retrouver en face de l'écran suivant :
 
 ![Capture d’écran de 2022-06-02 22-57-49](https://user-images.githubusercontent.com/98811386/171737074-b56d2411-8abd-4d86-8827-bc7421e3a7f3.png)
 
+La machine maître étant la ou l'instance jenkins est configurée. 
 
+Nous allons maintenant ajouter un node. 
+
+Le premier step de la configuration d'un nouveau noeud est le suivant : 
+
+![Capture d’écran de 2022-06-02 23-00-04](https://user-images.githubusercontent.com/98811386/171737475-c2391aab-242c-438f-b1f2-f4c8bc5ad099.png)
+
+Nous allons choisir un nom explicite puis également cocher l'aspect permanent de l'agent (dans ce cas nous considérons que la machine est dédiée à être un agent). 
+
+![Capture d’écran de 2022-06-02 23-01-30](https://user-images.githubusercontent.com/98811386/171737629-d9274ace-2c24-470f-bc03-e54ad7a942f5.png)
+
+Nous sommes désormais au deuxième step de la configuration et nous allons avoir à faire plus de choix. 
+
+Premier point nous remarquons que nous pouvons choisir un nombre d'executeurs exactement comme nous le pouvons pour notre instance principale. Les exécuteurs sont le nombre d'instance simultanée qui peuvent chacune gérer un job en parallèle. 
+
+Le remote root directory sera le répertoire dans lequel jenkins va stocker tous les éléments nécessaires à son caching et aux builds.
+
+Les labels sont des éléments de définition de l'agent. Ils permettent de définir les labels relatifs aux agents qui eux-mêmes définissent ce que peut faire l'agent. Dans notre cas par exemple nous pourrions déterminer le label "linux" pour l'opposer à "windows" ou "macos". La partie utilisation vient compléter ce label, on peut demander au noeud d'être utilisé autant que possible ou seulement pour les labels qui lui correspondent. 
 
