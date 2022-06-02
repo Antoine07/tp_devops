@@ -56,3 +56,4 @@ Dans notre cas nous souhaitons définir plusieurs stages (cf définition précé
 
 ![Capture d’écran de 2022-06-02 21-40-49](https://user-images.githubusercontent.com/98811386/171724749-550e4f90-55f2-4781-a5c7-dba6f7174d65.png)
 
+Le premier stage que nous allons définir est le stage de "build" qui aura la responsabilité de build le code depuis notre codebase. 
