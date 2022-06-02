@@ -64,6 +64,8 @@ Nous pouvons également ajouter des élements particuliers à la gestion de ces 
 
 Une fois ce stage créé nous allons en ajouter deux autres sur le même model "test" et "deploy". La logique sera que le build se déroule puis si les tests sont réussis alors on déploiera la mise à jour. 
 
+Si nous générons maintenant le code nous obtenons le squelette suivant : 
+
 ```groovy
 stages {
   stage('build') {
