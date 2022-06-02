@@ -30,3 +30,21 @@ Nous allons maintenant procéder à un build, et faire sa lecture :
 
 ![Capture d’écran de 2022-06-02 13-08-44](https://user-images.githubusercontent.com/98811386/171616697-4c5967cd-df33-429c-b813-9f517bda0e2b.png)
 
+A ce niveau nous avons plusieurs niveaux d'informations, tout d'abord le build s'est déroulé sans problème et on a un retour du check, on peut aussi voir que les tests ont été passés sans soucis. 
+
+Nous allons maintenant modifier la classe test qui se trouve dans src/test/java/App/Apptest.java:
+
+```java
+public class AppTest 
+{
+    /**
+     * Rigorous Test :-)
+     */
+    @Test
+    public void shouldAnswerWithTrue()
+    {
+        assertTrue( false );
+    }
+}
+```
+
