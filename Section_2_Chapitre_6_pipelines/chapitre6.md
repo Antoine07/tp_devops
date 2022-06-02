@@ -269,3 +269,5 @@ pipeline {
     }
 }
 ```
+
+Nous allons maintenant commiter notre fichier Jenkinsfile et tester notre job. 
