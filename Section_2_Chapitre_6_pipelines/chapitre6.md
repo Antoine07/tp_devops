@@ -38,3 +38,11 @@ Nous allons nous rendre dans la section pipeline, nous verrons plus tard que pou
 
 ![Capture d’écran de 2022-06-02 21-29-57](https://user-images.githubusercontent.com/98811386/171723256-e838b3ae-0aeb-4cc6-8030-50b2992b7e03.png)
 
+Nous allons ensuite cliquer sur le lien Pipeline syntax afin de générer automatiquement notre premier code pipeline. 
+
+Lorsque vous arrivez sur le pipeline generator vous allez dans un premier temps entre dans le snippet generator. Ce snippet generator vous permet de générer facilement des steps particuliers (cf définition du step plus haut). 
+
+![Capture d’écran de 2022-06-02 21-35-26](https://user-images.githubusercontent.com/98811386/171723863-746bcbe0-b945-4606-b184-923065a35900.png)
+
+Le menu déroulant fourni la liste des steps disponibles, puis il faut ensuite configurer selon le step ce que l'on veut. La en l'occurrence je veux archiver un artefact nommé build, il suffit de cliquer sur "Generate pipeline script" et voilà vous disposez d'un morceau de code pipeline !
+
