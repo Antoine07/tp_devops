@@ -76,3 +76,14 @@ Dernier point nous allons nous rendre dans github et configurer un webhook qui v
 Note : Etant donné que notre jenkins est installé localement nous ne disposons pas d'une adresse publique, si vous disposez d'un serveur installez jenkins dessus et vous pourrez tester les hooks provenant de github ou allant vers github. 
 
 Félicitations vous venez de créer votre première boucle complète qui déploie un logiciel puis retourne dans github les résultats du test !
+
+> TP :
+> 
+> 1) Créez un nouveau dépôt public git avec un readme.file sur une branche main
+> 2) Créez ensuite une branche dev.
+> 3) Faites une modification du readme sur la branche dev.
+> 4) Déclenchez un job jenkins à partir des modifications de main
+> 5) Mergez cette branche (avec merge ou rebase au choix) dans la branche main 
+> 6) Vérifiez que vous avez bien un retour dans github directement de votre test. 
+
+
