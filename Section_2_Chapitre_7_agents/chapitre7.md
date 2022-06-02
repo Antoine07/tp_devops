@@ -49,3 +49,8 @@ Le remote root directory sera le répertoire dans lequel jenkins va stocker tous
 
 Les labels sont des éléments de définition de l'agent. Ils permettent de définir les labels relatifs aux agents qui eux-mêmes définissent ce que peut faire l'agent. Dans notre cas par exemple nous pourrions déterminer le label "linux" pour l'opposer à "windows" ou "macos". La partie utilisation vient compléter ce label, on peut demander au noeud d'être utilisé autant que possible ou seulement pour les labels qui lui correspondent. 
 
+Les méthodes de lancement sont également importantes. Comme nous avons configuré jenkins pour fonctionner par ssh nous allons utiliser cette option. La première option requiert que le jar d'agent jenkins soit installé sur le système de l'agent. 
+
+La disponibilité permet de définir la méthode de mise a disposition de l'agent que vous souhaitez. Particulièrement utile si vous êtes sur une infrastructure cloud et souhaitez réduire vos coûts. 
+
+Une fois cette configuration accomplie vous disposez d'un agent !
