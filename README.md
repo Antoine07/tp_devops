@@ -85,10 +85,18 @@ Source pour le cours de git et déploiement.
 
 1) Aperçu de l'interface
 
-### Chapitre 3 : Installation du plugin Maven
+### Chapitre 3 : Couplage avec github
 
-1) Pourquoi le plugin Maven ? 
-2) Installation du plugin Maven. 
+1) Pourquoi intégrer github dans jenkins ? 
+2) Configuration
+3) Création d'un job test
 
-### Chapitre 4 : couplage avec github
+### Chapitre 4 : Installation du plugin Maven
+
+1) Pourquoi Maven ? 
+2) Installation du plugin Maven
+3) Construction du premier projet Maven
+
+1) Installation de Maven
+2) Configuration du projet dans Jenkins
 
