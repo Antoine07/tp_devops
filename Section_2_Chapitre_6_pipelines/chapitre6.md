@@ -212,4 +212,20 @@ Nous allons le configurer comme suit :
 
 ![Capture d’écran de 2022-06-02 22-17-59](https://user-images.githubusercontent.com/98811386/171730707-2576c065-a632-4206-af3f-3c35e16cbc92.png)
 
+Une fois cette configuration réalisée (avec laquelle vous devez être familiers maintenant) nous allons réutiliser le tool de création de syntaxe afin de réaliser notre premier pipeline complet et fonctionnel !
 
+Nous allons dans le declarative directive generator généré un seul stage nommé maven install qui contiendra des steps, puis l'intégrer à notre jenkinsfile qui doit désormer ressembler à ceci : 
+
+```javascript
+pipeline {
+    agent any
+    stages {
+        stage('maven install') {
+            steps {
+                // One or more steps need to be included within the steps block.
+            }
+        }
+
+    }
+}
+```
