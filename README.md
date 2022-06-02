@@ -97,6 +97,20 @@ Source pour le cours de git et déploiement.
 2) Installation du plugin Maven
 3) Construction du premier projet Maven
 
+### Chapitre 5 : Projet Maven
+
 1) Installation de Maven
 2) Configuration du projet dans Jenkins
+3) Lecture du build et de la logique sous-jacente
 
+### Chapitre 6 : Pipelines
+
+1) Définition et utilité des pipelines
+2) Création de notre premier pipeline
+3) Création d'un pipeline plus avancé
+
+### Chapitre 7 : Agents
+
+1) Jenkins controller et jenkins agent node
+2) Configuration
+3) Attribution des tâches
