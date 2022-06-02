@@ -46,3 +46,11 @@ Lorsque vous arrivez sur le pipeline generator vous allez dans un premier temps 
 
 Le menu déroulant fourni la liste des steps disponibles, puis il faut ensuite configurer selon le step ce que l'on veut. La en l'occurrence je veux archiver un artefact nommé build, il suffit de cliquer sur "Generate pipeline script" et voilà vous disposez d'un morceau de code pipeline !
 
+Si maintenant nous souhaitons générer un pipeline plus complet nous allons cliquer sur "Declarative directive generator". Cela va nous permettre de générer notre premier pipeline complet. 
+
+![Capture d’écran de 2022-06-02 21-38-04](https://user-images.githubusercontent.com/98811386/171724262-308c195a-185d-404f-9b57-10d2c3113428.png)
+
+Si vous regardez la structure de cette page elle est semblable à la précédente, on sélectionne une directive puis on la configure et on génère le code. 
+
+
+
