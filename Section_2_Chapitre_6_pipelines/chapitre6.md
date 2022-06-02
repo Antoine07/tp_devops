@@ -16,6 +16,10 @@ Les avantages apportés par la gestion des pipelines sont les suivants :
 
 Définitions liées aux pipelines[^1] : 
 
-> Pipeline : User-defined model of a build, test, and release process for a software product 
+> Pipeline : User-defined model of a build, test, and release process for a software product.
+
+> Node : A machine that the jenkins controller can execute pipeline on.
+
+> Stage : A logical grouping of steps that typically align with the build, test and release portions of the software development lifecycle.
 
 [^1]: Source : https://www.youtube.com/watch?v=nCKxl7Q_20I
