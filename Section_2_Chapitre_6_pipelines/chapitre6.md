@@ -27,3 +27,9 @@ Définitions liées aux pipelines[^1] :
 > Declarative pipelines : Newer feature of Jenkins Pipeline. They have richer syntactical features. Declarative pipelines make reading and writing pipelines easier. 
 
 [^1]: Source : https://www.youtube.com/watch?v=nCKxl7Q_20I
+
+# Création de notre premier pipeline
+
+Toujours dans l'optique de simplifier notre rapport aux notions de jenkins nous allons installer le plugin 
+
+Une fois le plugin installé nous allons nous rendre dans Nouveau item puis créer un job de type pipeline que l'on nommera Maven pipeline test. 
