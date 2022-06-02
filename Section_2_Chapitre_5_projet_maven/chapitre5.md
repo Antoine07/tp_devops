@@ -48,3 +48,6 @@ public class AppTest
 }
 ```
 
+Première constatation au niveau de la page globale des builds nous avons maintenant un graph indiquant que des erreurs se sont produites au niveau des tests :![Capture d’écran de 2022-06-02 13-16-38](https://user-images.githubusercontent.com/98811386/171617921-9bf3c2e6-165e-4d64-a87f-666715ad3b9a.png)
+
+
