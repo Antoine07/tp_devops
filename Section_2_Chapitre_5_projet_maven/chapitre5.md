@@ -19,3 +19,7 @@ Nous allons maintenant procéder à la configuration, tout d'abord en renseignan
 Configurez ensuite les triggers, comme nous l'avons déjà vu en raison de l'utilisation de jenkins en local nous utilisons une scrutation périodique, mais cette pratique est à éviter et on préférera les hooks poussées par github : 
 
 ![Capture d’écran de 2022-06-02 08-25-36](https://user-images.githubusercontent.com/98811386/171566783-38ba080b-0b6b-4c5b-92bf-a59c7a3db99d.png)
+
+Il reste maintenant à définir la localisation du fichier pom.xml ainsi que l'objectif à suivre : 
+
+![Capture d’écran de 2022-06-02 08-29-36](https://user-images.githubusercontent.com/98811386/171567341-b5a81a34-e897-44f9-ba44-206696f97587.png)
