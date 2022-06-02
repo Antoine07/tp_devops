@@ -205,3 +205,11 @@ pipeline {
   agent any
 }
 ```
+
+Il est maintenant temps de nous intéresser au pipeline final que nous allons créer. Pour cela nous allons créer un nouveau job de type pipeline et demander un pull depuis le SCM au lieu de choisir pipeline script dans le menu déroulant. 
+
+Nous allons le configurer comme suit : 
+
+![Capture d’écran de 2022-06-02 22-17-59](https://user-images.githubusercontent.com/98811386/171730707-2576c065-a632-4206-af3f-3c35e16cbc92.png)
+
+
