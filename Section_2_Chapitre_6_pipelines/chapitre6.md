@@ -172,3 +172,9 @@ Puis apply et sauvegarder.
 Nous allons maintenant lancer ce nouveau job, et on verra qu'à l'exécution le diagramme à complétement changé : 
 
 ![Capture d’écran de 2022-06-02 21-58-40](https://user-images.githubusercontent.com/98811386/171727675-14048603-9d44-4ffd-9b54-fc802c04d083.png)
+
+Le stage view est apparu et nous donne un aperçu de ce qui s'est passé à chaque stage ainsi que le temps d'exécution de chaque stage. 
+
+Enfin on peut accéder à chaque log de chaque build. 
+
+![Capture d’écran de 2022-06-02 22-01-49](https://user-images.githubusercontent.com/98811386/171728118-5f41d138-6073-4dcd-a44d-d66687b476af.png)
