@@ -235,4 +235,22 @@ Ce qui devrait vous conduire à l'écran suivant :
 
 ![Capture d’écran de 2022-06-02 22-24-22](https://user-images.githubusercontent.com/98811386/171731753-068d121f-53a9-496f-bf30-c1a339b64d9d.png)
 
+Nous allons laisser l'ensemble des choix par défaut puis générer ce step et intégrer le code au niveau adéquat de notre Jenkinsfile qui devrait être maintenant le suivant : 
+
+```javascript
+
+pipeline {
+    agent any
+    stages {
+        stage('maven install') {
+            steps {
+                withMaven(globalMavenSettingsConfig: 'null', jdk: 'null', maven: 'null', mavenSettingsConfig: 'null') {
+            
+                }
+            }
+        }
+    }
+}
+```
+
 
