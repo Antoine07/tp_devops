@@ -48,6 +48,20 @@ public class AppTest
 }
 ```
 
-Première constatation au niveau de la page globale des builds nous avons maintenant un graph indiquant que des erreurs se sont produites au niveau des tests :![Capture d’écran de 2022-06-02 13-16-38](https://user-images.githubusercontent.com/98811386/171617921-9bf3c2e6-165e-4d64-a87f-666715ad3b9a.png)
+Première constatation au niveau de la page globale des builds nous avons maintenant un graph indiquant que des erreurs se sont produites au niveau des tests :
+
+![Capture d’écran de 2022-06-02 13-16-38](https://user-images.githubusercontent.com/98811386/171617921-9bf3c2e6-165e-4d64-a87f-666715ad3b9a.png)
+
+On voit également que le build numéro 8 nous indique qu'il est en erreur avec une couleur warning : 
+
+Si l'on s'intéresse plus en détail à ce build nous pouvons voir ce qu'il s'est passé : 
+
+![Capture d’écran de 2022-06-02 13-18-50](https://user-images.githubusercontent.com/98811386/171618210-7baa0ca9-f76e-4c51-bdca-b671da17b88c.png)
+
+Zoomons maintenant sur la partie test : 
+
+![Capture d’écran de 2022-06-02 13-19-51](https://user-images.githubusercontent.com/98811386/171618361-a350faed-b78f-4f3b-9ab3-475706e08263.png)
+
+
 
 
