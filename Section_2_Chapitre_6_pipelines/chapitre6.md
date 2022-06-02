@@ -178,3 +178,27 @@ Le stage view est apparu et nous donne un aperçu de ce qui s'est passé à chaq
 Enfin on peut accéder à chaque log de chaque build. 
 
 ![Capture d’écran de 2022-06-02 22-01-49](https://user-images.githubusercontent.com/98811386/171728118-5f41d138-6073-4dcd-a44d-d66687b476af.png)
+
+# Création d'un pipeline plus avancé
+
+## Préparation
+
+Nous avons vu que la force des pipelines réside dans la possibilité de les stocker au niveau du système de versioning. 
+
+Nous allons reprendre notre dépôt sur l'application maven puis faire les actions suivantes : 
+
+1) remonter le pom file et le dossier src à la racine du projet 
+2) Commit cette modification
+3) Relancer un test job en rereglant notre premier job maven (pas le pipeline), pour le pom.file qui sera maintenant à la racine
+4) Créer un fichier Jenkinsfile (sans extension) puis le commit pour qu'il soit présent également à la racine. 
+
+A ce stade votre repository doit avoir cette structure : 
+
+![Capture d’écran de 2022-06-02 22-11-39](https://user-images.githubusercontent.com/98811386/171729696-4b32eb3b-05da-40eb-8dc9-937dcd52b575.png)
+
+## Création du Jenkinsfile
+
+Intéressons-nous maintenant au fichier Jenkinsfile en ajoutant la déclaration de pipeline. 
+
+
+
