@@ -200,5 +200,7 @@ A ce stade votre repository doit avoir cette structure :
 
 Intéressons-nous maintenant au fichier Jenkinsfile en ajoutant la déclaration de pipeline. 
 
-
-
+```java
+pipeline {
+}
+```
