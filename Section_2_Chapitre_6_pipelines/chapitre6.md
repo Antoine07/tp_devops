@@ -30,7 +30,7 @@ Définitions liées aux pipelines[^1] :
 
 # Création de notre premier pipeline
 
-Toujours dans l'optique de simplifier notre rapport aux notions de jenkins nous allons installer le plugin 
+Toujours dans l'optique de simplifier notre rapport aux notions de jenkins nous allons installer le plugin Maven Pipeline.
 
 Une fois le plugin installé nous allons nous rendre dans Nouveau item puis créer un job de type pipeline que l'on nommera Maven pipeline test. 
 
