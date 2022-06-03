@@ -12,7 +12,7 @@ Les avantages apportés par la gestion des pipelines sont les suivants :
 * Cette traçabilité entraîne un contrôle plus important. 
 * Les pipelines existent indépendamment de la sessions jenkins. Si par accident la session jenkins est détruite vous pouvez toujours la reconstruire facilement et garder les pipelines existants.
 * Les pipelines sont également par définition facilement extensibles par le biais de plugin ou de librairies partagées. 
-* Du fait d'être issu d'un langage de programmation les jenkinsfile supporte des éléments logiques comme les conditions, les boules et les exécutions parallèles.
+* Du fait d'être issu d'un langage de programmation les jenkinsfile supporte des éléments logiques comme les conditions, les boucles et les exécutions parallèles.
 
 Définitions liées aux pipelines[^1] : 
 
