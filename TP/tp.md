@@ -159,7 +159,7 @@ export default function Board() {
 ## Dernière étape :
 
 * Reprenez le tutoriel de tictactoe react. 
-* Construisez maintenant toutes les étapes qui vont vous permettre d'ajouter progressivement toutes les fonctionnalités jusqu'au jeu final.
+* Construisez et documentez maintenant toutes les étapes qui vont vous permettre d'ajouter progressivement toutes les fonctionnalités jusqu'au jeu final.
 * Documentez les étapes de validation pour chaque stakeholder (developer, integration manager) sur git
 * Documentez l'ensemble des builds produits vers la production
 
